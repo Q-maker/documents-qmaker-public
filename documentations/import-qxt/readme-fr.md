@@ -15,7 +15,7 @@ Svp,rendez vous sur le [lien suivant][Documentations] pour savoir comment struct
 ### Aussi
 Si avec le temps, vous avez eu une bonne expérience avec l'application QcmMaker, Svp, n'hésitez pas à encourager et à soutenir notre initiative en nous donnant **5 🌟  étoiles**  sur le [GooglePlay].
 
-**5 🌟 étoiles** ne coûte peut être rien, mais pour nous chaque  5 étoiles est un **GRAND** [encouragement][GooglePlay] et le **MEILLEUR** [support][GooglePlay] qui nous pousse à travailler d'avantage sur cette solution totalement **GRATUITE** et sans **PUBLICITE**.
+**5 🌟 étoiles** ne coûte peut être rien, mais pour nous chaque  5 étoiles est un **GRAND** [encouragement][GooglePlay] et le **MEILLEUR** [support][GooglePlay] qui nous pousse à travailler d'avantage sur cette app tout en la maintenant accessible pour tous.
 https://play.google.com/store/apps/details?id=com.devup.qcm.maker
 
 ---
