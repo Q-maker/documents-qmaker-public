@@ -57,6 +57,6 @@ Start, feel free to [try it][call_to_action] and discover the <span style="color
 [picture2]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture2.png
 [picture3]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture3.png
 [picture4]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture4.png
-[call_to_action]: qcmmaker://activities/MySpaceActivity
+[call_to_action]: qcmmaker://activities/HomeActivity
 [challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/en/challenge_mode.md
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker
