@@ -9,4 +9,9 @@ Once the first 50 ones will have entered it, the above activation code will no l
 🏃🏽🏃🏃🏼‍🏁
 
 ---
+Take a look to this short [video][youtube] to have an idea of how to proceed to type your activation code into the app: [https://youtube.com/shorts/oQa_VnKcMO4][youtube].
+
+---
 NB: First ensure to use teh **latest** version of the **QuizMaker-Beta** before trying to use this activation code
+
+[youtube]: https://youtube.com/shorts/oQa_VnKcMO4

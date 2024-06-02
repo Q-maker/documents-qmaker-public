@@ -9,4 +9,9 @@ Una vez que los primeros 50 lo hayan ingresado, el código de activación anteri
 🏃🏽🏃🏃🏼‍🏁
 
 ---
+Mira este breve [video][youtube] para tener una idea de cómo ingresar tu código de activación en la aplicación: [https://youtube.com/shorts/oQa_VnKcMO4][youtube].
+
+---
 NB: Primero asegúrate de usar la **última** versión de **QuizMaker-Beta** antes de intentar usar este código de activación.
+
+[youtube]: https://youtube.com/shorts/oQa_VnKcMO4

@@ -9,4 +9,9 @@ Sobald die ersten 50 Benutzer ihn eingegeben haben, funktioniert der obige Aktiv
 🏃🏽🏃🏃🏼‍🏁
 
 ---
+Sehen Sie sich dieses kurze [Video][youtube] an, um eine Vorstellung davon zu bekommen, wie Sie Ihren Aktivierungscode in die App eingeben: [https://youtube.com/shorts/oQa_VnKcMO4][youtube].
+
+---
 NB: Stellen Sie zuerst sicher, dass Sie die **neueste** Version von **QuizMaker-Beta** verwenden, bevor Sie versuchen, diesen Aktivierungscode zu verwenden.
+
+[youtube]: https://youtube.com/shorts/oQa_VnKcMO4
