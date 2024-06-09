@@ -12,6 +12,23 @@ Una volta che i primi 50 lo avranno inserito, il codice di attivazione sopra non
 Guarda questo breve [video][youtube] per avere un'idea di come inserire il tuo codice di attivazione nell'app: [https://youtube.com/shorts/oQa_VnKcMO4][youtube].  
 Puoi anche cliccare [qui][app_activation] per navigare direttamente alla [pagina del codice di attivazione][app_activation]!
 
+---
+<style type="text/css">
+html, body{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  margin:0px;   
+}
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+function autoResize(iframe) {
+    $(iframe).height($(iframe).contents().find('html').height());
+}
+</script>
+<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" width="100%" height="100%" marginheight="0" frameborder="0" border="0" scrolling="auto" onload="autoResize(this);"/>
+
 [google_play]: https://play.google.com/store/apps/details?id=com.qmaker.qcm.maker.plus
-[app_activation]: qcmmakerstd://activities/ActivationCodeActivity?activation_code=BMT4I06O
+[app_activation]: qcmmaker://activities/ActivationCodeActivity?activation_code=BMT4I06O
 [youtube]: https://youtube.com/shorts/oQa_VnKcMO4
