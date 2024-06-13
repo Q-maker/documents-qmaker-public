@@ -1,0 +1,52 @@
+Quiz Maker ist eine mobile Anwendung, die es Ihnen ermöglicht, Quizze auf einfache und intuitive Weise zu spielen, zu erstellen und zu teilen.
+
+Die mit der QuizMaker-App erstellten Fragebögen haben die Form von interaktiven Test-Quizzen, die Bilder und Geräusche mit automatischer Bewertung enthalten können.
+So können Sie Ihr eigenes Quiz erstellen, es spielen und zum Selbsttest oder sogar zu Unterhaltungszwecken teilen.
+
+Die Quiz Maker-Anwendung bietet folgende Möglichkeiten:
+<b>1-Erstellen</b> Sie Ihr eigenes Quiz, indem Sie erstellen:
+       • Multiple-Choice-Fragen
+       • Fragen mit einer einzigen Antwort
+       • offene Fragen
+       • offene Fragen mit mehreren Antworten
+       • Aufzählungen
+       • Lückentexte
+       • Ordnen
+       • Spalten zuordnen
+
+<b>2-Teilen</b> Sie Ihre Kreationen einfach als (*.qcm-Datei)
+<b>3-Spielen</b> Sie Quizze, die Sie von Ihren Kontakten <b>erhalten</b> haben, als einfache <b>(*.qcm)</b> Datei oder die Sie selbst erstellt haben! Sie haben die Wahl zwischen den beiden bestehenden <b>Spielmodi</b>: dem <b>Prüfungsmodus</b> (als Prüfungssimulator) oder dem <b>Herausforderungsmodus</b> (als Spiel gegen die Uhr).
+
+<b>Gehen Sie mit Ihren Quizzen weiter</b>
+Je nach Ihren Bedürfnissen können Sie für Ihre Quizze oder für jede Frage und Antwort individuell konfigurieren:
+- Groß- und Kleinschreibung beachten
+- Hilfe bei der Antworteneingabe (um Tipps anzuzeigen, die dem Benutzer beim Antworten helfen)
+- Die Zufallsstrategie für Ihre Fragen und Antworten
+- Ihre benutzerdefinierte Bewertungsrichtlinie
+- Bilder und Geräusche für Fragen, Antwortvorschläge, Kommentare
+- Ausreichende Konfigurationen, um Ihre erstellten Quizze und Ihre Spielerfahrung zu personalisieren.
+- Fast alles, was Sie suchen, ist da (und Sie sind frei, uns per E-Mail Vorschläge zu senden, um weiter zu gehen)
+
+<b>>Was ist eine *.qcm-Datei?</b>
+•Qcm-Datei ist ein Dateiformat, das interaktive Quizze unterstützt, einschließlich Bilder und Geräusche mit automatischer Bewertung.
+•Eine *.qcm-Datei ist eine komprimierte Datei, die einen Satz von Fragen, Vorschlägen und Antworten enthält.
+•Die Struktur der *.qcm-Dateien ermöglicht es unter anderem, Multimedia-Inhalte wie Bilder und Geräusche einzubinden.
+•Jede *.qcm-Datei ist so strukturiert, dass sie automatisch von jeder kompatiblen Anwendung interpretiert wird.
+
+<b>Dateien verwalten (Quiz-Dateien mit QCM-Erweiterung)</b>
+Quiz Maker ist ein Quiz-Dateimanager, der als Leser und Editor für Dateien mit der Erweiterung *.qcm fungiert. Es ermöglicht so das <b>Lesen</b> und Ausführen von Quiz-Dateien, die sich auf Ihrer Speicherplatte befinden, sowie das <b>Umbenennen, Kopieren, Verschieben oder Löschen</b>.
+Darüber hinaus können Sie mit der Bearbeitungsfunktion Quiz-Dateien über eine einfache und intuitive Schnittstelle bearbeiten, sodass Sie Ihre eigene Quiz-Datei von Grund auf neu erstellen oder eine vorhandene ändern können.
+Alle Quizze, die Sie mit dieser App erstellen, werden als teilbare *.qcm-Dateien auf Ihrem Laufwerk gespeichert, sodass jeder mit Quiz Maker oder einem kompatiblen *.qcm-Reader sie einfach lesen und ausführen kann.
+
+<b>Bitte beachten Sie:</b>
+Die QuizMaker-App, als einfacher Leser und Editor für Dateien mit der Erweiterung *.qcm, wenn Sie ein Quiz als einfache, tragbare und teilbare *.qcm-Datei freigeben, muss der Empfänger die QuizMaker-App (oder einen anderen kompatiblen *.qcm-Datei-Reader) installiert haben, um Ihre freigegebene Quiz-Datei (*.qcm) abspielen zu können
+
+<b>NB:</b>
+Die Anwendung wird mit einer einzigen eingebetteten Fragebogendatei "demo.qcm" geliefert, die es Ihnen ermöglicht, die Möglichkeiten der Anwendung zu entdecken und zu erleben. Dann können Sie Ihr eigenes erstellen oder neue Quiz-Dateien (*.qcm) von Ihren Kontakten erhalten, um sie zu spielen oder erneut zu bearbeiten.
+
+<b>> Extras</b>
+-Es ist möglich, Fragen und Antworten aus einer Textdatei zu importieren, die auf Ihrem Computer bearbeitet wurde und die wie hier definiert strukturiert sein muss: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
+-Sie können Fragen und Antworten aus jeder anderen erhaltenen, bearbeiteten oder heruntergeladenen *.qcm-Datei importieren.
+-Sie können zwischen zwei Spielmodi wählen: Prüfungsmodus oder Herausforderungsmodus (Quiz-Game/Flashcard)
+
+Mit Quiz Maker können Sie MCQs, Quizze und Tests ganz einfach spielen, erstellen und teilen. 😉

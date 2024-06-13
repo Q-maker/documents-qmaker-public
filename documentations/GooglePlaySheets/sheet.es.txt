@@ -1,38 +1,52 @@
-Quiz Maker es una aplicación móvil que te permite jugar, crear y compartir cuestionarios de una manera simple e intuitiva.
-La aplicación Quiz Maker ofrece las posibilidades de:
--Haga su propio cuestionario creando:
-       • preguntas de respuestas múltiples
-       • preguntas de opción única
-       • Preguntas de final abierto
--Comparte tus creaciones fácilmente como un (*.qcm file)
--Reciba y juegue concursos compartidos o recibidos de sus contactos como un simple archivo portátil y compartible con extensión*.qcm.
+Quiz Maker es una aplicación móvil que te permite jugar, crear y compartir cuestionarios de manera simple e intuitiva.
 
->Que es un *.qcm file?
-•El archivo Qcm es un formato de archivo que tiene como objetivo admitir cuestionarios interactivos que incluyen imágenes y sonidos con puntuación automática.
-•Un archivo * .qcm es un archivo comprimido que contiene un conjunto de preguntas, propuestas y respuestas.
-•La estructura de los archivos * .qcm permite embarcar entre otros contenidos multimedia como imágenes y sonidos.
-•Cada archivo * .qcm está estructurado para que cualquier aplicación compatible lo interprete automáticamente.
+Los cuestionarios creados con la aplicación QuizMaker tienen la forma de pruebas interactivas que pueden contener imágenes y sonidos con puntuación automática.
+Así, puedes crear tu propio cuestionario, jugarlo y compartirlo para autoevaluación o incluso con fines de entretenimiento.
 
-> Como funciona?
-Quiz Maker es un lector y editor de un archivo con extensión * .qcm. Esto permite leer y ejecutar archivos de cuestionarios / cuestionarios que están en su disco de almacenamiento.
-Además, desde su función de edición; permite editar archivos de cuestionarios a través de una interfaz simple e intuitiva para que pueda crear fácilmente su propio archivo de cuestionario desde cero o modificar uno existente.
-Cuando edita una prueba, puede optar por exportarla como un archivo * .qcm que se puede compartir para que cualquier persona con Quiz Maker o un lector * .qcm compatible pueda leerlo y ejecutarlo fácilmente.
+La aplicación Quiz Maker ofrece las siguientes posibilidades:
+<b>1-Crear</b> tu propio cuestionario creando:
+       • preguntas de opción múltiple
+       • preguntas de respuesta única
+       • preguntas abiertas
+       • preguntas abiertas con respuestas múltiples
+       • enumeración
+       • llenar los espacios en blanco
+       • poner en orden
+       • asociar columnas
 
-Tenga en cuenta que:
-La aplicación QuizMaker como un simple lector y editor para archivos con extensión * .qcm, cuando comparte un cuestionario como un archivo simple * compartible y portátil * .qcm, el receptor debe tener instalada la aplicación QuizMaker (o cualquier otro archivo * .qcm compatible) lector) para reproducir su archivo de prueba compartido (archivo * .qcm)
+<b>2-Compartir</b> fácilmente tus creaciones en forma de archivo (*.qcm)
+<b>3-Jugar</b> los cuestionarios que has <b>recibido</b> de tus contactos en forma de archivo simple <b>(*.qcm)</b> o que has creado tú mismo! Tendrás la opción de elegir entre los dos <b>modos de juego</b> existentes: El modo <b>examen</b> (como simulador de examen) o el modo <b>desafío</b> (como un juego contra el reloj).
 
-Si busca más funciones, puede usar la versión profesional de este software que le dará más opciones de configuración con hasta 8 tipos de preguntas y respuestas.
-La versión profesional está disponible aquí : https://play.google.com/store/apps/details?id=com.qmaker.qcm.maker
+<b>Ve más allá con tus cuestionarios</b>
+Dependiendo de tus necesidades, puedes configurar para tus cuestionarios o para cada pregunta y respuesta individualmente:
+- Sensibilidad a mayúsculas y minúsculas
+- Ayuda para ingresar respuestas (para mostrar consejos que ayuden al usuario a responder)
+- Estrategia de aleatorización para tus preguntas y respuestas
+- Tu política de puntuación personalizada
+- Imágenes y sonidos para preguntas, propuestas de respuestas, comentarios
+- Configuraciones suficientes para personalizar tus cuestionarios creados y tu experiencia de juego de cuestionarios.
+- Casi todo lo que buscas está ahí (y eres libre de enviarnos un correo electrónico para sugerencias para ir más allá)
 
-nótese bien:
-La aplicación viene con un único archivo de cuestionario integrado "demo.qcm" que le permitirá descubrir y experimentar las posibilidades que ofrece la aplicación. Luego podrá crear sus propios archivos o recibir nuevos archivos de cuestionarios (* .qcm) de sus contactos para reproducirlos o volver a editarlos.
+<b>>¿Qué es un archivo *.qcm?</b>
+•Un archivo Qcm es un formato de archivo que pretende soportar cuestionarios interactivos que incluyen imágenes y sonidos con puntuación automática.
+•Un archivo *.qcm es un archivo comprimido que contiene un conjunto de preguntas, propuestas y respuestas.
+•La estructura de los archivos *.qcm permite incorporar, entre otros, contenidos multimedia como imágenes y sonidos.
+•Cada archivo *.qcm está estructurado de manera que sea interpretado automáticamente por cualquier aplicación compatible.
 
-> Extras
--Es posible importar preguntas y respuestas desde un archivo de texto editado desde su computadora y que debe estructurarse como se define aquí: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
+<b>Gestionar archivos (archivos de cuestionarios con extensión QCM)</b>
+Quiz Maker es un gestor de archivos de cuestionarios que actúa como un lector y editor de archivos con extensión *.qcm. Permite así <b>leer</b> y ejecutar archivos de cuestionarios que se encuentran en tu disco de almacenamiento, <b>renombrar, copiar, mover o eliminar</b>.
+Además, a través de su función de edición, te permite editar archivos de cuestionarios a través de una interfaz simple e intuitiva para que puedas crear fácilmente tu propio archivo de cuestionario desde cero o modificar uno existente.
+Todos los cuestionarios que crees a través de esta aplicación se almacenan en tu disco como archivos *.qcm compartibles para que cualquier persona con Quiz Maker o un lector *.qcm compatible pueda leerlos y ejecutarlos fácilmente.
 
--Puede importar preguntas y respuestas desde cualquier otro archivo * .qcm recibido, editado o descargado.
+<b>Ten en cuenta que:</b>
+La aplicación QuizMaker, como lector y editor simple de archivos con extensión *.qcm, cuando compartes un cuestionario como un archivo *.qcm simple, portátil y compartible, el receptor necesita tener la aplicación QuizMaker instalada (o cualquier otro lector de archivos *.qcm compatible) para poder jugar el archivo de cuestionario compartido (*.qcm)
 
--Puedes elegir entre dos modos de juego: modo examen o modo desafío (Quiz-Game / Flashcard)
+<b>NB:</b>
+La aplicación viene con un solo archivo de cuestionario integrado "demo.qcm" que te permitirá descubrir y experimentar las posibilidades que ofrece la aplicación. Luego podrás crear el tuyo propio o recibir nuevos archivos de cuestionarios (*.qcm) de tus contactos para jugarlos o volver a editarlos.
 
+<b>> Extras</b>
+-Es posible importar preguntas y respuestas desde un archivo de texto editado desde tu computadora que debe estar estructurado como se define aquí: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
+-Puedes importar preguntas y respuestas desde cualquier otro archivo *.qcm recibido, editado o descargado.
+-Puedes elegir entre dos modos de juego: Modo examen o Modo desafío (Quiz-Game/Flashcard)
 
-Con Quiz Maker, juega, crea y comparte MCQ, cuestionarios y prueba fácilmente. 😉
+Con Quiz Maker, juega, crea y comparte MCQ, cuestionarios y pruebas fácilmente. 😉

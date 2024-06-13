@@ -1,0 +1,52 @@
+Quiz Maker è un'applicazione mobile che ti consente di giocare, creare e condividere quiz in modo semplice e intuitivo.
+
+I questionari creati utilizzando l'app QuizMaker sono sotto forma di quiz interattivi che possono contenere immagini e suoni con punteggio automatico.
+Così, puoi creare il tuo quiz, giocarlo e condividerlo per l'autovalutazione o anche per scopi di intrattenimento.
+
+L'applicazione Quiz Maker offre le seguenti possibilità:
+<b>1-Creare</b> il tuo quiz creando:
+       • domande a scelta multipla
+       • domande a risposta singola
+       • domande aperte
+       • domande aperte con risposte multiple
+       • enumerazione
+       • completare gli spazi vuoti
+       • mettere in ordine
+       • associare colonne
+
+<b>2-Condividere</b> facilmente le tue creazioni come un file (*.qcm)
+<b>3-Giocare</b> ai quiz che hai <b>ricevuto</b> dai tuoi contatti come un semplice file <b>(*.qcm)</b> o che hai creato da solo! Avrai la possibilità di scegliere tra i due <b>modi di gioco</b> esistenti: La modalità <b>esame</b> (come un simulatore di esame) o la modalità <b>sfida</b> (come un gioco contro il tempo).
+
+<b>Vai oltre con i tuoi quiz</b>
+A seconda delle tue esigenze puoi configurare per i tuoi quiz o per ogni domanda e risposta individualmente:
+- Sensibilità alle maiuscole e minuscole
+- Aiuto nell'inserimento delle risposte (per mostrare suggerimenti che aiutano l'utente a rispondere)
+- La strategia di randomizzazione per le tue domande e risposte
+- La tua politica di punteggio personalizzata
+- Immagini e suoni per domande, proposte di risposta, commenti
+- Configurazioni sufficienti per personalizzare i tuoi quiz creati e la tua esperienza di gioco del quiz.
+- Quasi tutto ciò che stai cercando è lì (e sei libero di inviarci un'email per suggerimenti per andare oltre)
+
+<b>>Cos'è un file *.qcm?</b>
+•Il file Qcm è un formato di file che mira a supportare quiz interattivi che includono immagini e suoni con punteggio automatico.
+•Un file *.qcm è un file compresso che contiene un insieme di domande, proposte e risposte.
+•La struttura dei file *.qcm consente di incorporare, tra l'altro, contenuti multimediali come immagini e suoni.
+•Ogni file *.qcm è strutturato in modo tale da essere interpretato automaticamente da qualsiasi applicazione compatibile.
+
+<b>Gestisci i file (file di quiz con estensione QCM)</b>
+Quiz Maker è un gestore di file di quiz che funge da lettore ed editor per file con estensione *.qcm. Consente così di <b>leggere</b> ed eseguire file di quiz che si trovano sul tuo disco di archiviazione, di <b>rinominare, copiare, spostare o eliminare</b>.
+Inoltre, dalla sua funzione di modifica; ti permette di modificare i file di quiz tramite un'interfaccia semplice e intuitiva in modo da poter creare facilmente il tuo file di quiz da zero o modificare uno esistente.
+Tutti i quiz che crei tramite questa app vengono memorizzati sul tuo disco come file *.qcm condivisibili in modo che chiunque con Quiz Maker o un lettore *.qcm compatibile possa leggerli ed eseguirli facilmente.
+
+<b>Nota che:</b>
+L'app QuizMaker, come semplice lettore ed editor per file con estensione *.qcm, quando condividi un quiz come un semplice file *.qcm portatile e condivisibile, il destinatario deve avere l'app QuizMaker installata (o qualsiasi altro lettore di file *.qcm compatibile) per poter riprodurre il file del quiz condiviso (*.qcm)
+
+<b>NB:</b>
+L'applicazione viene fornita con un unico file di questionario incorporato "demo.qcm" che ti permetterà di scoprire e sperimentare le possibilità offerte dall'applicazione. Successivamente, potrai creare il tuo o ricevere nuovi file di quiz (*.qcm) dai tuoi contatti per giocarli o rieditarli.
+
+<b>> Extras</b>
+-È possibile importare domande e risposte da un file di testo modificato dal tuo computer che deve essere strutturato come definito qui: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
+-Puoi importare domande e risposte da qualsiasi altro file *.qcm ricevuto, modificato o scaricato.
+-Puoi scegliere tra due modalità di gioco: Modalità esame o Modalità sfida (Quiz-Game/Flashcard)
+
+Con Quiz Maker, gioca, crea e condividi MCQ, quiz e test facilmente. 😉
