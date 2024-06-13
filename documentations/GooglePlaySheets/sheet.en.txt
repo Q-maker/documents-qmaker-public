@@ -1,22 +1,33 @@
 Quiz Maker is a Mobile Application that allows you to play, create and share quizzes in a simple and intuitive way.
 
-The questionnaires created using QuizMaker app are in the form of interactive tests quizzes that may contain pictures and sounds with automatic scoring.
-Thus, you can create your own quiz, play it and share it for self-evaluation or even for entertainment gaming purpose.
+The questionnaires created using QuizMaker app are in the form of interactive test quizzes that may contain pictures and sounds with automatic scoring.
+Thus, you can create your own quiz, play it and share it for self-evaluation or even for entertainment gaming purposes.
 
 The Quiz Maker application offers the possibilities to:
--Make your own quiz by creating:
+<b>1-Make</b> your own quiz by creating:
        • multiple choice questions
        • single answer questions
        • open-ended questions
+       • open-ended with multiple answers
        • Enumeration
        • Fill in the blanks
-       • Open response to multiple possibilities
        • Put in order
-       • Match
--Share your creations easily as a (*.qcm file)
--Receive, and play quizzes shared or received from your contacts as a simple portable and shareable file with extension *.qcm.
+       • Match columns
 
->What is a *.qcm file?
+<b>2-Share</b> your creations easily as a (*.qcm file)
+<b>3-Play</b> quizzes you have <b>received</b> from your contacts as a simple <b>(*.qcm)</b> file or that you have created on your own! You will have the choice between the two(2) existing <b>play modes</b>: The <b>exam</b> mode (as an exam simulator) or the <b>challenge</b> mode (as a game against the clock).
+
+<b>Go further with your quizzes</b>
+Depending on your needs you can configure either for your quizzes or for each question and answers individually the:
+- Case sensitiveness
+- Help with answer entering (to show tips to help the user answer)
+- The randomization strategy for your questions and answers
+- Your custom scoring policy
+- Images and sounds for questions, answer-proposals, comments
+- Enough configurations to customize your created quizzes and and your quiz playing experience.
+- Almost all you are looking for are there (And you are free to email us for suggestion to go further)
+
+<b>>What is a *.qcm file?</b>
 •Qcm file is file format that aims to supports interactive quizzes including pictures & sounds with automatic scoring.
 •A *.qcm file is a compressed file that contains a set of questions, proposals, and answers.
 •The structure of the files * .qcm makes it possible to embark among others multimedia contents such as images and sounds.
@@ -24,23 +35,19 @@ The Quiz Maker application offers the possibilities to:
 
 <b>Manage Files (quiz files with QCM extension)</b>
 Quiz Maker is a quiz files manager that acts as, reader and an editor for file with *.qcm extension. It thus makes it possible to <b>read</b> and execute quiz files that are on your storage disk, <b>rename, copy, move or delete</b> them.
-Moreover, from its editing feature; it allows to edit quiz files through a simple and intuitive interface so that you can easily create your own questionnaire file from scratch or modify an existing one.
-When you edit a quiz, you can choose to export it as a shareable *.qcm file so that anyone with Quiz Maker or a compatible *.qcm reader can easily read and execute it.
+Moreover, from its editing feature; it allows to edit quiz files through a simple and intuitive interface so that you can easily create your own quiz file from scratch or modify an existing one.
+All quizzes you create through this app is stored on your disk as a shareable *.qcm files so that anyone with Quiz Maker or a compatible *.qcm reader can easily read and execute it.
 
-Note that:
+
+<b>Note that:</b>
 QuizMaker app as a simple reader and editor for file with extension *.qcm, when you share a quiz as a simple shareable and portable *.qcm file, the receiver needs to have the QuizMaker app installed (or any other compatible *.qcm file reader) in order to play your shared Quiz file (*.qcm file)
 
-If you look for more features you can use professional version of this sofware that will give you more configuration options with up to 8 types of questions-and-answers.
-Professional version is available here : https://play.google.com/store/apps/details?id=com.qmaker.qcm.maker
-
-NB:
+<b>NB:</b>
 The application comes with a single embedded questionnaire file "demo.qcm" that will allow you to discover and experience the possibilities offered by the application. Then you will be able to create your own or receive new quiz files (*.qcm) from your contacts to play or re-edit them.
 
-> Extras
+<b>> Extras</b>
 -It is possible to import Q & A from a text file edited from your computer and which should  be structured as defined here: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
-
 -You can import Q & A from any other *.qcm file received, edited, or downloaded.
-
 -You can choose between two play  modes: Exam mode or Challenge mode (Quiz-Game/Flashcard)
 
 
