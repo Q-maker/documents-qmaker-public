@@ -20,12 +20,10 @@ O aplicativo Quiz Maker oferece as seguintes possibilidades:
 <b>Vá além com seus questionários</b>
 Dependendo de suas necessidades, você pode configurar para seus questionários ou para cada pergunta e resposta individualmente:
 - Sensibilidade a maiúsculas e minúsculas
-- Ajuda na inserção de respostas (para mostrar dicas para ajudar o usuário a responder)
 - Estratégia de randomização para suas perguntas e respostas
 - Sua política de pontuação personalizada
 - Imagens e sons para perguntas, propostas de respostas, comentários
-- Configurações suficientes para personalizar seus questionários criados e sua experiência de jogo de questionários.
-- Quase tudo o que você procura está lá (e você é livre para nos enviar um e-mail com sugestões para ir além)
+- Quase tudo o que você procura está lá
 
 <b>>O que é um arquivo *.qcm?</b>
 •Um arquivo Qcm é um formato de arquivo que visa suportar questionários interativos, incluindo imagens e sons com pontuação automática.
@@ -46,7 +44,5 @@ O aplicativo vem com um único arquivo de questionário embutido "demo.qcm" que 
 
 <b>> Extras</b>
 -É possível importar perguntas e respostas de um arquivo de texto editado em seu computador, que deve ser estruturado conforme definido aqui: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
--Você pode importar perguntas e respostas de qualquer outro arquivo *.qcm recebido, editado ou baixado.
--Você pode escolher entre dois modos de jogo: Modo exame ou Modo desafio (Quiz-Game/Flashcard)
 
 Com Quiz Maker, jogue, crie e compartilhe MCQ, questionários e testes facilmente. 😉

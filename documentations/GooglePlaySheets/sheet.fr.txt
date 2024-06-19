@@ -19,13 +19,9 @@ L'application Quiz Maker offre les possibilités suivantes :
 
 <b>Allez plus loin avec vos quiz</b>
 En fonction de vos besoins, vous pouvez configurer pour vos quiz ou pour chaque question et réponse individuellement :
-- La sensibilité à la casse
-- L'aide à la saisie des réponses (pour afficher des astuces pour aider l'utilisateur à répondre)
-- La stratégie de randomisation pour vos questions et réponses
 - Votre politique de notation personnalisée
 - Des images et des sons pour les questions, les propositions de réponses, les commentaires
-- Des configurations suffisantes pour personnaliser vos quiz créés et votre expérience de jeu de quiz.
-- Presque tout ce que vous cherchez est là (et vous êtes libre de nous envoyer un email pour des suggestions afin d'aller plus loin)
+- Presque tout ce que vous cherchez est là
 
 <b>>Qu'est-ce qu'un fichier *.qcm ?</b>
 •Un fichier Qcm est un format de fichier qui vise à prendre en charge des quiz interactifs incluant des images et des sons avec un score automatique.
@@ -46,7 +42,5 @@ L'application est livrée avec un seul fichier de questionnaire intégré "demo.
 
 <b>> Extras</b>
 -Il est possible d'importer des questions et réponses à partir d'un fichier texte édité à partir de votre ordinateur qui doit être structuré comme défini ici : https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md
--Vous pouvez importer des questions et réponses à partir de tout autre fichier *.qcm reçu, édité ou téléchargé.
--Vous pouvez choisir entre deux modes de jeu : le mode Examen ou le mode Challenge (Quiz-Game/Flashcard)
 
 Avec Quiz Maker, jouez, créez et partagez facilement des QCM, des quiz et des tests. 😉
