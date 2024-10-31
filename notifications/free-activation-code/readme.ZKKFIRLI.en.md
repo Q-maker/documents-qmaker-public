@@ -1,6 +1,7 @@
 #### Your activation code is:
 
 ---
+![image][image]
 # [ZKKFIRLI][app_activation]
 
 Congratulations, you just earned the free 8-character activation code. You are free to use it and even to share it to everyone else.  
@@ -21,3 +22,4 @@ You can also click [here][app_activation] to directly navigate to the [activatio
 [google_play]: https://play.google.com/store/apps/details?id=com.qmaker.qcm.maker.plus
 [app_activation]: qcmmakerstd://activities/ActivationCodeActivity?activation_code=ZKKFIRLI
 [youtube]:https://youtube.com/shorts/oQa_VnKcMO4
+[image]: https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/notifications/free-activation-code/resources/image_ZKKFIRLI.png
