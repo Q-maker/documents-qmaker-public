@@ -10,6 +10,10 @@ Note that other user's may have received this same offer! Once the **first 50 on
 🏃🏽🏃🏃🏼‍🏁
 
 ---
+Note: The activation code (**ZKKFIRLI**) above grand you an online-only activation licence! That means, as long as you are internet connected, the app can verify and grant you a full access to all premium features!
+Don't worry, you will be able to revoke this licence at anytime if no longer interested!
+
+---
 Take a look to this short [video][youtube] to have an idea of how to proceed to type your activation code into the app: [https://youtube.com/shorts/oQa_VnKcMO4][youtube].  
 You can also click [here][app_activation] to directly navigate to the [activation code page][app_activation]!
 
