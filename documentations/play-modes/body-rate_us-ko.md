@@ -1,72 +1,67 @@
-## Change the play mode and select between challenge or exam mode!
+## 플레이 모드를 변경하고 챌린지 또는 시험 모드를 선택하세요!
 
 ---
-Do you know that with QuizMaker app, it exists **two (2)** different **play modes** so that, before playing your quiz, you can choose to play it on <span style="color:red">**Challenge**</span> mode or in <span style="color:green">**Exam**</span> mode (**default** play mode)
+QuizMaker 앱에는 **두 (2)** 가지 다른 플레이 모드가 있어 퀴즈를 시작하기 전에 <span style="color:red">**챌린지**</span> 모드 또는 <span style="color:green">**시험**</span> 모드(기본 모드)로 플레이할 수 있습니다.
 
 ---
-### About exam play mode
-It is the default play mode proposed by the app.  
-The exam mode is designed to be like an exam simulator ; the player can navigate between the different questions throughout the exam during all the exam time. The displayed time is for all the exam and when the time is over, 
-
----
-
-### About challenge play mode
-Challenge mode, like a game against the clock, the **\*.qcm-file**'s questions are proposed to you one after another. You must respond in time **(configurable time on edition)**. If the time allocated to the question is exceeded or if the user has choosen his response proposal, the application shows if it is TRUE or FALSE, shows you the correction _**(according to whether the questionnaire configuration allows it or not.)**_ and automatically goes to the next question.  
+### 시험 모드에 대하여
+시험 모드는 앱이 제안하는 기본 플레이 모드입니다.  
+시험 모드는 시험 시뮬레이터처럼 설계되었습니다; 플레이어는 시험 동안 다양한 문제 사이를 이동할 수 있습니다. 표시된 시간은 전체 시험 시간을 나타내며 시간이 끝나면, 
 
 ---
 
-### How to change play mode from questionnaires tab ?
-You can change quiz play mode directly from the **Questionnaires-Tab**  
-First, from **Questionnaires-Tab**, take a look at the rectangle representing your quiz item ; you would see a little square with a "**Q**" letter icon.  
-This **Q-icon** is clickable and can take **two (2)** different colors :  
-
->* <span style="color:green">Green =</span> **Exam mode**  
->* <span style="color:red">Red =</span> **Challenge mode**  
-
-![change play mode from app home][picture1]  
+### 챌린지 모드에 대하여
+챌린지 모드는 시계와의 게임처럼 **\.qcm 파일**의 질문이 차례대로 제시됩니다. **(편집 시 설정 가능한 시간)** 안에 답해야 합니다. 질문에 할당된 시간이 초과되거나 사용자가 답안을 선택하면, 앱은 그것이 참인지 거짓인지 보여주고, _**(설문 설정이 허용하는 경우에 따라)**_ 교정을 보여준 다음 자동으로 다음 질문으로 이동합니다.
 
 ---
 
-### How to change play mode from quiz overview page ?
-Each time you open a quiz to **preview quiz** details, you can also **change play mode** before start to play it. Please take a look at **screenshot below** to get an idea of where to click.  
+### 질문 목록 탭에서 플레이 모드를 변경하는 방법?
+**질문 목록 탭**에서 퀴즈의 플레이 모드를 직접 변경할 수 있습니다.  
+먼저, **질문 목록 탭**에서 퀴즈 항목을 나타내는 직사각형을 살펴보세요. **"Q"** 글자가 적힌 작은 정사각형 아이콘이 보일 것입니다.  
+이 **Q 아이콘**은 클릭 가능하며 **두 (2)** 가지 다른 색을 가질 수 있습니다:
 
-![change play mode from quiz preview][picture2]  
+>* <span style="color:green">녹색 =</span> **시험 모드**  
+>* <span style="color:red">빨간색 =</span> **챌린지 모드**  
 
----
-
-### How to change play mode when testing your creation ?
-From your quiz description **editor and preview**, you can also **change play mode** before testing your creation. Please take a look at **screenshot below** to get an idea of where to click.  
-
-![change play mode when testing your creation][picture3]  
+![change play mode from app home][picture1]
 
 ---
 
-### How to configure available play mode for your quiz?
-More than just select the play mode when reading a quiz, you can also **define when editing your own quiz** if this one will be able to be played as <span style="color:red">**Challenge**</span> or as <span style="color:green">**Exam**</span>. You can even specify the default play mode that will be shown at user when he doesn't have yet selected his preferred one.  
-To do so, when editing, just set your desired value to the quiz configuration property named **"supported play mode"**  
+### 퀴즈 미리보기 페이지에서 플레이 모드를 변경하는 방법?
+퀴즈를 열어 **미리보기** 할 때마다, 시작하기 전에 **플레이 모드를 변경**할 수 있습니다. 아래의 **스크린샷**을 참고하여 어디를 클릭해야 하는지 확인하세요.
 
-![Edit supported play mode][picture4]  
-
----
-Start, feel free to [try it][call_to_action] and discover the <span style="color:red">**Challenge**</span> mode ; you should like it !👍  
+![change play mode from quiz preview][picture2]
 
 ---
 
-### Also
-Please, if you have got good experience using QuizMaker-app, don't hesitate to encourage and support our initiative by rating app **5 stars 🌟** on [GooglePlay] with a nice comment 🙂.
+### 내 작품을 테스트할 때 플레이 모드를 변경하는 방법?
+퀴즈 설명의 **편집 및 미리보기** 페이지에서도 **플레이 모드**를 변경할 수 있습니다. 아래의 **스크린샷**을 참고하여 어디를 클릭해야 하는지 확인하세요.
 
-**Maybe 5 stars** have no cost,  but for us each 5 stars is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] which invite us to work much more to improve permanently this totally **FREE** and **NO ADS** app.
-
----
-[Please click to support us with **5 stars 🌟** on GooglePlay ][GooglePlay]
+![change play mode when testing your creation][picture3]
 
 ---
 
+### 퀴즈의 사용 가능한 플레이 모드를 구성하는 방법?
+퀴즈를 읽을 때 플레이 모드를 선택하는 것뿐만 아니라, **자신의 퀴즈를 편집할 때** 해당 퀴즈를 <span style="color:red">**챌린지**</span> 또는 <span style="color:green">**시험**</span> 모드로 플레이할 수 있는지 정의할 수 있습니다. 아직 선호하는 모드를 선택하지 않은 사용자에게 표시될 기본 모드를 지정할 수도 있습니다.  
+이를 위해 편집할 때 퀴즈 설정 속성 **"지원되는 플레이 모드"**에 원하는 값을 설정하세요.
+
+![Edit supported play mode][picture4]
+
+---
+시작하세요, [시도해 보세요][call_to_action] 그리고 <span style="color:red">**챌린지**</span> 모드를 발견하세요; 분명 마음에 드실 거예요! 👍
+
+### 또한
+QuizMaker 앱을 사용하면서 좋은 경험을 하셨다면, [GooglePlay]에서 **5성 🌟**과 멋진 리뷰로 우리의 노력을 격려하고 지원해 주세요 🙂.
+
+5성은 비용이 들지 않을 수 있지만, 우리에게는 각 5성 평가가 **큰** 그리고 **최고의** [격려][GooglePlay]와 [지원][GooglePlay]이며, 이 완전히 **무료**이고 **광고 없는** 앱을 지속적으로 개선하도록 우리를 초대합니다.
+
+---
+[GooglePlay에서 **5성 🌟**으로 우리를 지원하려면 클릭하세요 ][GooglePlay]
 
 [picture1]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture1.png
 [picture2]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture2.png
 [picture3]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture3.png
 [picture4]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture4.png
 [call_to_action]: qcmmaker://activities/HomeActivity
-[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/en/challenge_mode.md
+[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/ko/challenge_mode.md
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker

@@ -1,72 +1,67 @@
-## Change the play mode and select between challenge or exam mode!
+## Tukar mod permainan dan pilih antara mod cabaran atau peperiksaan!
 
 ---
-Do you know that with QuizMaker app, it exists **two (2)** different **play modes** so that, before playing your quiz, you can choose to play it on <span style="color:red">**Challenge**</span> mode or in <span style="color:green">**Exam**</span> mode (**default** play mode)
+Tahukah anda bahawa dengan aplikasi QuizMaker terdapat **dua (2)** mod permainan yang berbeza supaya, sebelum bermain kuiz anda, anda boleh memilih untuk bermain dalam mod <span style="color:red">**Cabaran**</span> atau mod <span style="color:green">**Peperiksaan**</span> (mod permainan lalai)?
 
 ---
-### About exam play mode
-It is the default play mode proposed by the app.  
-The exam mode is designed to be like an exam simulator ; the player can navigate between the different questions throughout the exam during all the exam time. The displayed time is for all the exam and when the time is over, 
-
----
-
-### About challenge play mode
-Challenge mode, like a game against the clock, the **\*.qcm-file**'s questions are proposed to you one after another. You must respond in time **(configurable time on edition)**. If the time allocated to the question is exceeded or if the user has choosen his response proposal, the application shows if it is TRUE or FALSE, shows you the correction _**(according to whether the questionnaire configuration allows it or not.)**_ and automatically goes to the next question.  
+### Mengenai mod peperiksaan
+Ia adalah mod permainan lalai yang dicadangkan oleh aplikasi.  
+Mod peperiksaan direka seperti sebuah simulator peperiksaan; pemain boleh menavigasi antara soalan yang berbeza sepanjang peperiksaan. Masa yang dipaparkan adalah untuk keseluruhan peperiksaan dan apabila masa tamat, 
 
 ---
 
-### How to change play mode from questionnaires tab ?
-You can change quiz play mode directly from the **Questionnaires-Tab**  
-First, from **Questionnaires-Tab**, take a look at the rectangle representing your quiz item ; you would see a little square with a "**Q**" letter icon.  
-This **Q-icon** is clickable and can take **two (2)** different colors :  
-
->* <span style="color:green">Green =</span> **Exam mode**  
->* <span style="color:red">Red =</span> **Challenge mode**  
-
-![change play mode from app home][picture1]  
+### Mengenai mod cabaran
+Mod cabaran, seperti permainan menentang masa, soalan daripada fail **\.qcm** dikemukakan satu demi satu. Anda mesti menjawab tepat pada masanya **(masa boleh dikonfigurasi semasa pengeditan)**. Jika masa yang diperuntukkan untuk soalan melebihi atau jika pengguna telah memilih cadangan jawapannya, aplikasi menunjukkan sama ada ia BETUL atau SALAH, menunjukkan pembetulan _**(mengikut sama ada konfigurasi soal selidik membenarkannya atau tidak)**_ dan secara automatik pergi ke soalan seterusnya.
 
 ---
 
-### How to change play mode from quiz overview page ?
-Each time you open a quiz to **preview quiz** details, you can also **change play mode** before start to play it. Please take a look at **screenshot below** to get an idea of where to click.  
+### Cara menukar mod permainan dari tab soal selidik?
+Anda boleh mengubah mod permainan kuiz secara langsung dari **tab Soal Selidik**.  
+Pertama, dalam **tab Soal Selidik**, lihat segi empat yang mewakili item kuiz anda; anda akan melihat satu petak kecil dengan ikon huruf **"Q"**.  
+Ikon **Q** ini boleh diklik dan boleh mengambil **dua (2)** warna yang berbeza:
 
-![change play mode from quiz preview][picture2]  
+>* <span style="color:green">Hijau =</span> **Mod peperiksaan**  
+>* <span style="color:red">Merah =</span> **Mod cabaran**  
 
----
-
-### How to change play mode when testing your creation ?
-From your quiz description **editor and preview**, you can also **change play mode** before testing your creation. Please take a look at **screenshot below** to get an idea of where to click.  
-
-![change play mode when testing your creation][picture3]  
+![change play mode from app home][picture1]
 
 ---
 
-### How to configure available play mode for your quiz?
-More than just select the play mode when reading a quiz, you can also **define when editing your own quiz** if this one will be able to be played as <span style="color:red">**Challenge**</span> or as <span style="color:green">**Exam**</span>. You can even specify the default play mode that will be shown at user when he doesn't have yet selected his preferred one.  
-To do so, when editing, just set your desired value to the quiz configuration property named **"supported play mode"**  
+### Cara menukar mod permainan dari halaman gambaran keseluruhan kuiz?
+Setiap kali anda membuka kuiz untuk **pra‑lihat** butiran kuiz, anda juga boleh **menukar mod permainan** sebelum mula bermain. Sila lihat **tangkapan skrin di bawah** untuk mendapatkan idea di mana untuk mengklik.
 
-![Edit supported play mode][picture4]  
-
----
-Start, feel free to [try it][call_to_action] and discover the <span style="color:red">**Challenge**</span> mode ; you should like it !👍  
+![change play mode from quiz preview][picture2]
 
 ---
 
-### Also
-Please, if you have got good experience using QuizMaker-app, don't hesitate to encourage and support our initiative by rating app **5 stars 🌟** on [GooglePlay] with a nice comment 🙂.
+### Cara menukar mod permainan ketika menguji ciptaan anda?
+Dari **editor dan pra‑paparan** keterangan kuiz anda, anda juga boleh **menukar mod permainan** sebelum menguji ciptaan anda. Sila lihat **tangkapan skrin di bawah** untuk mendapatkan idea di mana untuk mengklik.
 
-**Maybe 5 stars** have no cost,  but for us each 5 stars is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] which invite us to work much more to improve permanently this totally **FREE** and **NO ADS** app.
-
----
-[Please click to support us with **5 stars 🌟** on GooglePlay ][GooglePlay]
+![change play mode when testing your creation][picture3]
 
 ---
 
+### Cara mengkonfigurasi mod permainan yang tersedia untuk kuiz anda?
+Lebih daripada sekadar memilih mod permainan apabila membaca kuiz, anda juga boleh **menetapkan semasa mengedit kuiz anda sendiri** sama ada ia boleh dimainkan sebagai <span style="color:red">**Cabaran**</span> atau sebagai <span style="color:green">**Peperiksaan**</span>. Anda bahkan boleh menentukan mod permainan lalai yang akan ditunjukkan kepada pengguna apabila dia belum lagi memilih mod pilihannya.  
+Untuk melakukannya, semasa mengedit, hanya tetapkan nilai yang diingini kepada sifat konfigurasi kuiz yang dinamakan **"mod permainan yang disokong"**.
+
+![Edit supported play mode][picture4]
+
+---
+Mulakan, sila [cubalah][call_to_action] dan temui mod <span style="color:red">**Cabaran**</span>; anda pasti menyukainya! 👍
+
+### Juga
+Sila, jika anda telah mempunyai pengalaman yang baik menggunakan aplikasi QuizMaker, jangan teragak‑agak untuk menggalakkan dan menyokong inisiatif kami dengan menilai aplikasi **5 bintang 🌟** di [GooglePlay] dengan komen yang baik 🙂.
+
+Mungkin 5 bintang tidak ada kos, tetapi bagi kami setiap 5 bintang adalah **BESAR** dan **TERBAIK** [dorongan][GooglePlay] dan [sokongan][GooglePlay] yang mengajak kami untuk bekerja lebih banyak untuk meningkatkan aplikasi ini yang sepenuhnya **PERCUMA** dan **TANPA IKLAN**.
+
+---
+[Sila klik untuk menyokong kami dengan **5 bintang 🌟** di GooglePlay ][GooglePlay]
 
 [picture1]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture1.png
 [picture2]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture2.png
 [picture3]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture3.png
 [picture4]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture4.png
 [call_to_action]: qcmmaker://activities/HomeActivity
-[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/en/challenge_mode.md
+[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/ms/challenge_mode.md
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker

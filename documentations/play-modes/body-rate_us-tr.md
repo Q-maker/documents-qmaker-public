@@ -1,72 +1,67 @@
-## Change the play mode and select between challenge or exam mode!
+## Oyun modunu değiştirin ve meydan okuma veya sınav modu arasında seçim yapın!
 
 ---
-Do you know that with QuizMaker app, it exists **two (2)** different **play modes** so that, before playing your quiz, you can choose to play it on <span style="color:red">**Challenge**</span> mode or in <span style="color:green">**Exam**</span> mode (**default** play mode)
+QuizMaker uygulamasıyla **iki (2)** farklı oyun modu olduğunu biliyor muydunuz? Böylece, testinizi oynamadan önce <span style="color:red">**Meydan Okuma**</span> modunda mı yoksa <span style="color:green">**Sınav**</span> modunda mı (varsayılan oyun modu) oynayacağınızı seçebilirsiniz.
 
 ---
-### About exam play mode
-It is the default play mode proposed by the app.  
-The exam mode is designed to be like an exam simulator ; the player can navigate between the different questions throughout the exam during all the exam time. The displayed time is for all the exam and when the time is over, 
-
----
-
-### About challenge play mode
-Challenge mode, like a game against the clock, the **\*.qcm-file**'s questions are proposed to you one after another. You must respond in time **(configurable time on edition)**. If the time allocated to the question is exceeded or if the user has choosen his response proposal, the application shows if it is TRUE or FALSE, shows you the correction _**(according to whether the questionnaire configuration allows it or not.)**_ and automatically goes to the next question.  
+### Sınav modu hakkında
+Bu, uygulamanın önerdiği varsayılan oyun modudur.  
+Sınav modu bir sınav simülatörü gibi tasarlanmıştır; oyuncu sınav süresince farklı sorular arasında gezinebilir. Görüntülenen süre tüm sınav içindir ve süre bittiğinde, 
 
 ---
 
-### How to change play mode from questionnaires tab ?
-You can change quiz play mode directly from the **Questionnaires-Tab**  
-First, from **Questionnaires-Tab**, take a look at the rectangle representing your quiz item ; you would see a little square with a "**Q**" letter icon.  
-This **Q-icon** is clickable and can take **two (2)** different colors :  
-
->* <span style="color:green">Green =</span> **Exam mode**  
->* <span style="color:red">Red =</span> **Challenge mode**  
-
-![change play mode from app home][picture1]  
+### Meydan okuma modu hakkında
+Meydan okuma modu, bir saatle yarış gibi, **\.qcm dosyasının** soruları ardı ardına sunulur. Cevabınızı zamanında vermelisiniz **(düzenleme sırasında yapılandırılabilir zaman)**. Sorunun ayrılan zamanı aşılırsa veya kullanıcı cevap önerisini seçerse, uygulama bunun DOĞRU mu YANLIŞ mı olduğunu gösterir, düzeltmeyi gösterir _**(anket yapılandırması buna izin verip vermediğine göre)**_ ve otomatik olarak bir sonraki soruya geçer.
 
 ---
 
-### How to change play mode from quiz overview page ?
-Each time you open a quiz to **preview quiz** details, you can also **change play mode** before start to play it. Please take a look at **screenshot below** to get an idea of where to click.  
+### Anketler sekmesinden oyun modu nasıl değiştirilir?
+**Anketler sekmesi** üzerinden bir testin oyun modunu doğrudan değiştirebilirsiniz.  
+Öncelikle, **Anketler sekmesi**nde testinizi temsil eden dikdörtgene bakın; üzerinde **"Q"** harfi bulunan küçük bir kare ikon göreceksiniz.  
+Bu **Q simgesi** tıklanabilir ve **iki (2)** farklı renk alabilir:
 
-![change play mode from quiz preview][picture2]  
+>* <span style="color:green">Yeşil =</span> **Sınav modu**  
+>* <span style="color:red">Kırmızı =</span> **Meydan okuma modu**  
 
----
-
-### How to change play mode when testing your creation ?
-From your quiz description **editor and preview**, you can also **change play mode** before testing your creation. Please take a look at **screenshot below** to get an idea of where to click.  
-
-![change play mode when testing your creation][picture3]  
+![change play mode from app home][picture1]
 
 ---
 
-### How to configure available play mode for your quiz?
-More than just select the play mode when reading a quiz, you can also **define when editing your own quiz** if this one will be able to be played as <span style="color:red">**Challenge**</span> or as <span style="color:green">**Exam**</span>. You can even specify the default play mode that will be shown at user when he doesn't have yet selected his preferred one.  
-To do so, when editing, just set your desired value to the quiz configuration property named **"supported play mode"**  
+### Test önizleme sayfasından oyun modu nasıl değiştirilir?
+Bir testi **önizlemek** için her açtığınızda, başlamadan önce **oyun modunu değiştirebilirsiniz**. Nereden tıklayacağınızı görmek için lütfen aşağıdaki **ekran görüntüsüne** bakın.
 
-![Edit supported play mode][picture4]  
-
----
-Start, feel free to [try it][call_to_action] and discover the <span style="color:red">**Challenge**</span> mode ; you should like it !👍  
+![change play mode from quiz preview][picture2]
 
 ---
 
-### Also
-Please, if you have got good experience using QuizMaker-app, don't hesitate to encourage and support our initiative by rating app **5 stars 🌟** on [GooglePlay] with a nice comment 🙂.
+### Kendi oluşturduğunuz testi test ederken oyun modunu nasıl değiştirilir?
+Test açıklamasının **düzenleyici ve önizleme** sayfasından, kendi oluşturduğunuz testi denemeden önce de **oyun modunu değiştirebilirsiniz**. Nereden tıklayacağınızı görmek için lütfen aşağıdaki **ekran görüntüsüne** bakın.
 
-**Maybe 5 stars** have no cost,  but for us each 5 stars is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] which invite us to work much more to improve permanently this totally **FREE** and **NO ADS** app.
-
----
-[Please click to support us with **5 stars 🌟** on GooglePlay ][GooglePlay]
+![change play mode when testing your creation][picture3]
 
 ---
 
+### Testiniz için kullanılabilir oyun modları nasıl yapılandırılır?
+Bir testi okurken oyun modunu seçmekten daha fazlası olarak, **kendi testinizi düzenlerken** testinizin <span style="color:red">**Meydan Okuma**</span> veya <span style="color:green">**Sınav**</span> modu olarak oynanıp oynanamayacağını da belirleyebilirsiniz. Hatta henüz tercih ettiği modu seçmemiş kullanıcılara gösterilecek varsayılan oyun modunu bile belirtebilirsiniz.  
+Bunu yapmak için düzenleme sırasında testin yapılandırma özelliği olan **"desteklenen oyun modu"**na istediğiniz değeri atayın.
+
+![Edit supported play mode][picture4]
+
+---
+Başlayın, [deneyin][call_to_action] ve <span style="color:red">**Meydan Okuma**</span> modunu keşfedin; seveceksiniz! 👍
+
+### Ayrıca
+Lütfen, QuizMaker uygulamasını kullanırken iyi bir deneyim yaşadıysanız, girişimimizi desteklemek ve teşvik etmek için [GooglePlay] üzerinde uygulamayı **5 yıldız 🌟** ve güzel bir yorumla değerlendirmekten çekinmeyin 🙂.
+
+**Belki 5 yıldız**ın bir maliyeti yoktur, ancak bizim için her 5 yıldız **BÜYÜK** ve **EN İYİ** [teşvik][GooglePlay] ve [destek][GooglePlay] olup, bu tamamen **ÜCRETSİZ** ve **REKLAMSIZ** uygulamayı kalıcı olarak geliştirmek için daha çok çalışmamız için bizi davet eder.
+
+---
+[Bizi GooglePlay üzerinde **5 yıldız 🌟** ile desteklemek için lütfen tıklayın ][GooglePlay]
 
 [picture1]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture1.png
 [picture2]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture2.png
 [picture3]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture3.png
 [picture4]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture4.png
 [call_to_action]: qcmmaker://activities/HomeActivity
-[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/en/challenge_mode.md
+[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/tr/challenge_mode.md
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker

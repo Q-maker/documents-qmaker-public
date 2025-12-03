@@ -1,72 +1,67 @@
-## Change the play mode and select between challenge or exam mode!
+## Thay đổi chế độ chơi và chọn giữa chế độ thử thách hoặc kiểm tra!
 
 ---
-Do you know that with QuizMaker app, it exists **two (2)** different **play modes** so that, before playing your quiz, you can choose to play it on <span style="color:red">**Challenge**</span> mode or in <span style="color:green">**Exam**</span> mode (**default** play mode)
+Bạn có biết rằng với ứng dụng QuizMaker, có **hai (2)** chế độ chơi khác nhau để bạn có thể chọn giữa <span style="color:red">**Thử thách**</span> và <span style="color:green">**Kiểm tra**</span> (chế độ mặc định) trước khi chơi bài kiểm tra của mình?
 
 ---
-### About exam play mode
-It is the default play mode proposed by the app.  
-The exam mode is designed to be like an exam simulator ; the player can navigate between the different questions throughout the exam during all the exam time. The displayed time is for all the exam and when the time is over, 
-
----
-
-### About challenge play mode
-Challenge mode, like a game against the clock, the **\*.qcm-file**'s questions are proposed to you one after another. You must respond in time **(configurable time on edition)**. If the time allocated to the question is exceeded or if the user has choosen his response proposal, the application shows if it is TRUE or FALSE, shows you the correction _**(according to whether the questionnaire configuration allows it or not.)**_ and automatically goes to the next question.  
+### Về chế độ kiểm tra
+Đây là chế độ chơi mặc định do ứng dụng đề xuất.  
+Chế độ kiểm tra được thiết kế giống như một bộ mô phỏng kỳ thi; người chơi có thể điều hướng giữa các câu hỏi khác nhau trong suốt kỳ thi. Thời gian hiển thị là cho toàn bộ kỳ thi và khi thời gian kết thúc, 
 
 ---
 
-### How to change play mode from questionnaires tab ?
-You can change quiz play mode directly from the **Questionnaires-Tab**  
-First, from **Questionnaires-Tab**, take a look at the rectangle representing your quiz item ; you would see a little square with a "**Q**" letter icon.  
-This **Q-icon** is clickable and can take **two (2)** different colors :  
-
->* <span style="color:green">Green =</span> **Exam mode**  
->* <span style="color:red">Red =</span> **Challenge mode**  
-
-![change play mode from app home][picture1]  
+### Về chế độ thử thách
+Chế độ thử thách, giống như một trò chơi chạy đua với thời gian, các câu hỏi từ **\.qcm** được đưa ra lần lượt. Bạn phải trả lời kịp thời **(thời gian có thể cấu hình khi chỉnh sửa)**. Nếu thời gian được phân bổ cho câu hỏi vượt quá hoặc người dùng đã chọn câu trả lời của mình, ứng dụng sẽ cho biết ĐÚNG hay SAI, hiển thị lời giải _**(tùy thuộc vào việc cấu hình bảng câu hỏi có cho phép hay không)**_ và tự động chuyển sang câu hỏi tiếp theo.
 
 ---
 
-### How to change play mode from quiz overview page ?
-Each time you open a quiz to **preview quiz** details, you can also **change play mode** before start to play it. Please take a look at **screenshot below** to get an idea of where to click.  
+### Làm thế nào để thay đổi chế độ chơi từ tab câu hỏi?
+Bạn có thể thay đổi chế độ chơi của bài kiểm tra trực tiếp từ **tab Câu hỏi**.  
+Đầu tiên, trong **tab Câu hỏi**, hãy nhìn vào hình chữ nhật đại diện cho mục bài kiểm tra của bạn; bạn sẽ thấy một hình vuông nhỏ với biểu tượng chữ **"Q"**.  
+Biểu tượng **Q** này có thể nhấp được và có thể có **hai (2)** màu khác nhau:
 
-![change play mode from quiz preview][picture2]  
+>* <span style="color:green">Xanh lá =</span> **Chế độ kiểm tra**  
+>* <span style="color:red">Đỏ =</span> **Chế độ thử thách**  
 
----
-
-### How to change play mode when testing your creation ?
-From your quiz description **editor and preview**, you can also **change play mode** before testing your creation. Please take a look at **screenshot below** to get an idea of where to click.  
-
-![change play mode when testing your creation][picture3]  
+![change play mode from app home][picture1]
 
 ---
 
-### How to configure available play mode for your quiz?
-More than just select the play mode when reading a quiz, you can also **define when editing your own quiz** if this one will be able to be played as <span style="color:red">**Challenge**</span> or as <span style="color:green">**Exam**</span>. You can even specify the default play mode that will be shown at user when he doesn't have yet selected his preferred one.  
-To do so, when editing, just set your desired value to the quiz configuration property named **"supported play mode"**  
+### Làm thế nào để thay đổi chế độ chơi từ trang tổng quan bài kiểm tra?
+Mỗi khi bạn mở một bài kiểm tra để **xem trước** chi tiết của nó, bạn cũng có thể **thay đổi chế độ chơi** trước khi bắt đầu. Hãy xem **ảnh chụp màn hình dưới đây** để biết nơi nhấp.
 
-![Edit supported play mode][picture4]  
-
----
-Start, feel free to [try it][call_to_action] and discover the <span style="color:red">**Challenge**</span> mode ; you should like it !👍  
+![change play mode from quiz preview][picture2]
 
 ---
 
-### Also
-Please, if you have got good experience using QuizMaker-app, don't hesitate to encourage and support our initiative by rating app **5 stars 🌟** on [GooglePlay] with a nice comment 🙂.
+### Làm thế nào để thay đổi chế độ chơi khi thử nghiệm tác phẩm của bạn?
+Từ **trình chỉnh sửa và xem trước** của mô tả bài kiểm tra, bạn cũng có thể **thay đổi chế độ chơi** trước khi thử nghiệm tác phẩm của mình. Hãy xem **ảnh chụp màn hình dưới đây** để biết nơi nhấp.
 
-**Maybe 5 stars** have no cost,  but for us each 5 stars is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] which invite us to work much more to improve permanently this totally **FREE** and **NO ADS** app.
-
----
-[Please click to support us with **5 stars 🌟** on GooglePlay ][GooglePlay]
+![change play mode when testing your creation][picture3]
 
 ---
 
+### Cách cấu hình các chế độ chơi khả dụng cho bài kiểm tra của bạn?
+Ngoài việc chỉ chọn chế độ chơi khi đọc một bài kiểm tra, bạn cũng có thể **xác định, khi chỉnh sửa chính bài kiểm tra của mình**, xem nó có thể được chơi dưới dạng <span style="color:red">**Thử thách**</span> hoặc <span style="color:green">**Kiểm tra**</span> hay không. Bạn thậm chí có thể chỉ định chế độ chơi mặc định sẽ được hiển thị cho người dùng khi họ chưa chọn chế độ ưa thích.  
+Để làm điều này, trong quá trình chỉnh sửa, chỉ cần đặt giá trị mong muốn cho thuộc tính cấu hình của bài kiểm tra có tên **"chế độ chơi được hỗ trợ"**.
+
+![Edit supported play mode][picture4]
+
+---
+Bắt đầu, hãy [thử][call_to_action] và khám phá chế độ <span style="color:red">**Thử thách**</span>; bạn sẽ thích nó! 👍
+
+### Ngoài ra
+Xin vui lòng, nếu bạn đã có trải nghiệm tốt khi sử dụng ứng dụng QuizMaker, đừng ngần ngại khuyến khích và ủng hộ sáng kiến của chúng tôi bằng cách đánh giá ứng dụng **5 sao 🌟** trên [GooglePlay] với một bình luận đẹp 🙂.
+
+**Có thể 5 sao không có chi phí**, nhưng đối với chúng tôi, mỗi 5 sao là một [động lực][GooglePlay] và [sự ủng hộ][GooglePlay] **TO LỚN** và **TỐT NHẤT**, mời gọi chúng tôi làm việc nhiều hơn để cải thiện lâu dài ứng dụng hoàn toàn **MIỄN PHÍ** và **KHÔNG QUẢNG CÁO** này.
+
+---
+[Hãy nhấp để ủng hộ chúng tôi bằng **5 sao 🌟** trên GooglePlay ][GooglePlay]
 
 [picture1]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture1.png
 [picture2]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture2.png
 [picture3]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture3.png
 [picture4]: https://qcmmaker.qmakertech.com/notifications/play-modes/resources/picture4.png
 [call_to_action]: qcmmaker://activities/HomeActivity
-[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/en/challenge_mode.md
+[challenge_mode_details]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/FAQ/apps/Android/vi/challenge_mode.md
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker

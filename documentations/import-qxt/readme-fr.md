@@ -1,28 +1,29 @@
-### Comment créer et importer des questions-réponses depuis un ordinateur 💻 ?
+# Le saviez-vous ?
 
 ---
 
-En effet, vous pouvez créer des **questions-réponses** à partir d'un ordinateur et les importer directement dans l'**éditeur** de l'application **QcmMaker**.
-Pour y arriver, vous aurez besoin d'un simple fichier texte **(*.txt)**.
-Cependant, ce fichier texte devra suivre une structure particulière afin d'être compris et interprété par l’éditeur de l'application QcmMaker.
+### Vous pouvez importer des Q&R depuis votre ordinateur
+En effet, vous pouvez créer des questions et réponses **(Q&R)** depuis votre ordinateur de bureau et les importer dans votre éditeur QuizMaker Android.
 
-Svp,rendez vous sur le [lien suivant][Documentations] pour savoir comment structurer votre fichier texte de questions-réponses:
+Pour ce faire, vous pouvez utiliser un simple fichier texte **(.txt)**.
+Ce fichier texte doit suivre une structure spécifique pour être analysé et compris par l’éditeur QuizMaker.
+
+Veuillez suivre ce [lien][Documentations] pour savoir comment structurer votre fichier Q&R :
 [Documentations]
 
 
 ![picture_import_q_and_a]
 
-### Aussi
-Si avec le temps, vous avez eu une bonne expérience avec l'application QcmMaker, Svp, n'hésitez pas à encourager et à soutenir notre initiative en nous donnant **5 🌟  étoiles**  sur le [GooglePlay].
+### Également
+Si vous avez apprécié l’application QuizMaker, n’hésitez pas à encourager et soutenir notre initiative en attribuant **5 étoiles 🌟** à l’application sur [GooglePlay].
 
-**5 🌟 étoiles** ne coûte peut être rien, mais pour nous chaque  5 étoiles est un **GRAND** [encouragement][GooglePlay] et le **MEILLEUR** [support][GooglePlay] qui nous pousse à travailler d'avantage sur cette app tout en la maintenant accessible pour tous.
-https://play.google.com/store/apps/details?id=com.devup.qcm.maker
+**Peut‑être que 5 étoiles ne vous coûtent rien**, mais pour nous chaque lot de 5 étoiles est un **GRAND** et **MEILLEUR** [encouragement][GooglePlay] et [soutien][GooglePlay] qui nous incite à travailler encore plus pour améliorer en permanence cette application totalement **GRATUITE** et **SANS PUBLICITÉ**.
 
 ---
-[Svp, cliquez ici pour soutenir notre initiative avec **5 étoiles 🌟** sur GooglePlay ][GooglePlay]
+[Veuillez cliquer pour nous soutenir avec **5 étoiles 🌟** sur GooglePlay ][GooglePlay]
 
 ---
 
 [GooglePlay]: https://play.google.com/store/apps/details?id=com.devup.qcm.maker
 [picture_import_q_and_a]: https://firebasestorage.googleapis.com/v0/b/qcm-maker-dd221.appspot.com/o/documents%2Fnotifications%2Fimages%2Fimport_q_and_a.png?alt=media&token=7f3d7856-e287-468d-a5c5-b67410dbbcf4
-[Documentations]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/fr/txt_quetion_reponse_structuration.md
+[Documentations]: https://github.com/Q-maker/document-qmaker-specifications/blob/master/file_structure/en/txt_question_answers_structuration.md

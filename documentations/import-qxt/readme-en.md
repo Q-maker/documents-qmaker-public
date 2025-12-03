@@ -1,23 +1,23 @@
-# Do you know ?
+# Do you know?
 
 ---
 
 ### You can import Q&A from your computer
-Indeed, You can create questions and answers **(Q&A)** form your desktop computer and import it to your android QuizMaker editor.
+Indeed, you can create questions and answers **(Q&A)** from your desktop computer and import them into your Android QuizMaker editor.
 
-To make that, you can use a simple text **(*.txt)** file.
-This text file should follow a specific structure to be parsed and understood by QuizMaker Editor.
+To do that, you can use a simple text **(.txt)** file.
+This text file should follow a specific structure to be parsed and understood by the QuizMaker Editor.
 
-Please follow this [link][Documentations] to know how to structure your Q&A text file :
+Please follow this [link][Documentations] to learn how to structure your Q&A text file:
 [Documentations]
 
 
 ![picture_import_q_and_a]
 
 ### Also
-Please, if you have got good experience using QuizMaker-app, don't hesitate to encourage and support our initiative by rating app **5 stars 🌟** on [GooglePlay].
+Please, if you've had a good experience using the QuizMaker app, don't hesitate to encourage and support our initiative by rating the app **5 stars 🌟** on [GooglePlay].
 
-**Maybe 5 stars** have no coast,  but for us each 5 stars is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] which invite us to work much more to improve permanently this app and to keep it accessible for everyone.
+**Maybe 5 stars cost nothing**, but for us each 5-star rating is a **BIG** and the **BEST** [encouragement][GooglePlay] and [support][GooglePlay] that invites us to work much harder to permanently improve this totally **FREE** and **NO ADS** app.
 
 ---
 [Please click to support us with **5 stars 🌟** on GooglePlay ][GooglePlay]
