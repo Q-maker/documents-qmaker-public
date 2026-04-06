@@ -72,7 +72,10 @@ Sky is_____ and plants have______ color!
 The sky is blue and plants are green (at least generally 🙂).
 
 @fill_in_all_blank[
-question.image = http://.../a_landscape_image.png
+proposals[0].image = http://.../usa_flag.png
+proposals[1].image = http://.../frensh_flag.png
+proposals[2].image = http://.../cameroun_flag.png
+proposals[3].image = http://.../cameroun_flag.png
 ]
 Order these faces from the youngest to the oldest
 * 
@@ -116,7 +119,7 @@ Please found bellow the list of supported type
 | `fill_in_all_blank`  | Fill one text with several blanks     |
 | `enumerate_all`      | Enumerate everything globally         |
 | `match_all_column`   | Match globally                        |
-| `jumbled_word`       | Reconstruct a word                    |
+| `jumbled_words`      | Reconstruct a word                    |
 | `jumbled_sentence`   | Reconstruct a sentence                |
 | `speech_recognition` | Voice recognition input               |
 | `surround_all_right_zone` | Visual zone selection             |
@@ -173,7 +176,7 @@ proposals[0].extra[tag] = correct-option
 Here we have added metadata to the first answer proposal (the answer proposal at index 0), by changing the index, you will be able to apply metadata to question at any index!
 For example:
 - proposals[1] for the second question
-- proposals[3] for the third question 
+- proposals[3] for the fourth question 
 - proposals[8] for the ninth question 
 
 ---
