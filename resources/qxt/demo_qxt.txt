@@ -1,0 +1,144 @@
+Which of these animals cackle?
+-The dog 🐶
+-The cow 🐂
+-The duck 🦆
+-The elephant 🐘
+*The chicken 🐔
+> Chickens cackle and cluck. For roosters, the sound is called "crow."
+• Duck: quack
+• Cow: moo
+• Elephant: trumpet
+• Dog: bark (also "woof" or "growl")
+______________
+It is easy to create a question of type "SINGLE SELECTION"; just fill your answer proposals and choose only one as "TRUE". If you select more than one as "TRUE", the question automatically turns into "MULTIPLE SELECTION".
+
+Does this sound match this animal?
+*Yes
+-No
+> This is the bark of a dog.
+_______________
+Creating a "BOOLEAN" question is simple; just set up two answer options (like YES/NO or TRUE/FALSE) and pick the correct one.
+
+For each animal, write the corresponding name
+*dog
+*cat
+*lion
+> The correct order is: dog, cat, lion.
+__________________
+This is an interesting way to use questions of type "fill the blanks". Here, the app lets the user match media (image, sound, etc.) with a text answer he type.
+
+Order these faces from the youngest to the oldest
+* 
+* 
+* 
+* 
+> This question of type "put in order" lets the users drag and reorder answers; useful for practicing steps or chronology. Pictures and sounds are supported.
+
+Match the sound with the animal
+* 
+* 
+* 
+* 
+* 
+* 
+> A fun way to link sounds to animals.
+____________
+This is a question of type "MATCH THE COLUMNS". You can include pictures and sounds in the question, the answers, or even the comment.
+
+Select the best correspondence among the suggestions below
+*Goat
+-Lion
+-Raven
+> The correct answer was the goat's bleat.
+__________
+You can also add pictures and sounds together to any question!
+All parts support media: [The question wording, Each answer proposal, The comment section]
+
+The cat 🐱!
+-A) Barks
+*B) Meows
+-C) Roars
+-D) Cackles
+> Cats meow, lions roar, dogs bark, and chickens cackle.
+_______________
+Although the overall quiz is randomized, this question keeps a fixed order (A, B, ...).
+That means randomizing can be turned off for specific questions.
+
+Sky is_____ and plants have______ color!
+*blue
+*green
+>
+The sky is blue and plants are green (at least generally 🙂).
+_______________
+The questions of type "FILL THE BLANKS" require the user to enter answers in the correct order, unlike question of type "ENUMERATION" where order doesn't matter.
+
+Quote one color of the rainbow!
+*violet
+*indigo
+*blue
+*green
+*yellow
+*orange
+*red
+> Yes! You can add media (picture, sound, or both) to your comment section.
+
+Match country with capital!
+*USA
+*Washington DC
+*France
+*Paris
+*Cameroon
+*Yaoundé
+> Cameroon = Yaoundé
+USA = Washington DC
+France = Paris
+____________
+This is a question of type "MATCH THE COLUMNS": The user must match each proposal on the left to its correct pair on the right.
+
+Give the name of one animal you can see in this picture!
+*cat
+*dog
+> Both "dog" and "cat" are correct.
+_____________
+This is a question of type "TYPE THE ANSWER" with the "INPUT-HELP" feature enabled. The user can type any valid answer! You can define several correct answers. Use short answers for better accessibility.
+
+Give the name of the two animals you can see in this picture!
+*cat
+*dog
+> Both a dog and a cat are shown.
+___________
+This is a question of type "ENUMERATION" with the "INPUT-HELP" feature enabled! While playing, it shows how many answers the user should fill. Without this help, the user has to guess the number and the answers.
+
+Enumerate the basic states of matter!
+*solid
+*liquid
+*gas
+> The three basic states are: solid, liquid, and gas. It also exists Plasma as a more advanced state.
+___________
+Use the questions of type "ENUMERATION" only for lists of finite and well-known answers. Enabling the "INPUT-HELP" feature allows show how many answers are expected. When turned off the user will have to guess it.
+
+(10+1)x2
+*22
+> 11 x 2 = 22
+_______________
+Depending on whether the "INPUT HELP" feature is enabled or not, the application will display a keyboard adapted to the response to be entered.
+
+Among the following animals, which ones are mammals?
+-Fish 🐠
+-tortoise 🐢
+*Lion 🦁
+*dog 🐶
+*whale 🐳
+-snake 🐍
+> Whales, dogs, and lions are all mammals (they feed their babies with breast milk).
+______________
+This is a question of type "MULTIPLE SELECTION"! There is absolutely no limit regarding the number of answer proposals you can add nor the number of "TRUE" answers you can assign to each of them.
+
+@jumbled_words[
+question.sound=tts://speak?lang=EN&rate=0.6&text=The%20sky%20will%20be%20blue%20tomorrow
+]
+Using the words bellow, write the sentence that is pronounced on the attached audio!
+*The sky will be blue tomorrow
+>The correct text was: "The sky will be blue tomorrow"
+______________
+This is a question of type "Jumbled Words" that consists on rewriting a sentence by rearranging words in the correct order from words that have previously been jumbled up.
