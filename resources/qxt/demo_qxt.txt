@@ -1,3 +1,4 @@
+@select_all
 Which of these animals cackle?
 -The dog 🐶
 -The cow 🐂
@@ -12,6 +13,10 @@ Which of these animals cackle?
 ______________
 It is easy to create a question of type "SINGLE SELECTION"; just fill your answer proposals and choose only one as "TRUE". If you select more than one as "TRUE", the question automatically turns into "MULTIPLE SELECTION".
 
+@select_all[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_667167bb-18ff-4405-9e64-7fe45f4701cd
+question.sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/question_sounds_667167bb-18ff-4405-9e64-7fe45f4701cd
+]
 Does this sound match this animal?
 *Yes
 -No
@@ -19,6 +24,11 @@ Does this sound match this animal?
 _______________
 Creating a "BOOLEAN" question is simple; just set up two answer options (like YES/NO or TRUE/FALSE) and pick the correct one.
 
+@fill_in_each_blank[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07420
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07421
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07422
+]
 For each animal, write the corresponding name
 *dog
 *cat
@@ -27,24 +37,46 @@ For each animal, write the corresponding name
 __________________
 This is an interesting way to use questions of type "fill the blanks". Here, the app lets the user match media (image, sound, etc.) with a text answer he type.
 
+@put_in_order[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/child.png
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/young.png
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/adult.png
+proposals[3].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/old.png
+]
 Order these faces from the youngest to the oldest
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 > This question of type "put in order" lets the users drag and reorder answers; useful for practicing steps or chronology. Pictures and sounds are supported.
 
+@match_each_column[
+proposals[0].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b980
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b981
+proposals[2].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b982
+proposals[3].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b983
+proposals[4].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b984
+proposals[5].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b985
+]
 Match the sound with the animal
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
 > A fun way to link sounds to animals.
 ____________
 This is a question of type "MATCH THE COLUMNS". You can include pictures and sounds in the question, the answers, or even the comment.
 
+@select_all[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23970
+proposals[0].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23970
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23971
+proposals[1].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23971
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23972
+proposals[2].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23972
+]
 Select the best correspondence among the suggestions below
 *Goat
 -Lion
@@ -54,6 +86,9 @@ __________
 You can also add pictures and sounds together to any question!
 All parts support media: [The question wording, Each answer proposal, The comment section]
 
+@select_all[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_259b971e-d50b-426e-a0f5-af4c27fc273a
+]
 The cat 🐱!
 -A) Barks
 *B) Meows
@@ -64,6 +99,9 @@ _______________
 Although the overall quiz is randomized, this question keeps a fixed order (A, B, ...).
 That means randomizing can be turned off for specific questions.
 
+@fill_in_each_blank[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.question_picture_26c6dcdd-2232-4c3b-9e3a-1aa56762622b
+]
 Sky is_____ and plants have______ color!
 *blue
 *green
@@ -72,6 +110,10 @@ The sky is blue and plants are green (at least generally 🙂).
 _______________
 The questions of type "FILL THE BLANKS" require the user to enter answers in the correct order, unlike question of type "ENUMERATION" where order doesn't matter.
 
+@open[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_4d68d8f6-3625-481f-a1ad-5a2d746fa999
+comments[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.comment_picture_4d68d8f6-3625-481f-a1ad-5a2d746fa9990.svg
+]
 Quote one color of the rainbow!
 *violet
 *indigo
@@ -82,6 +124,7 @@ Quote one color of the rainbow!
 *red
 > Yes! You can add media (picture, sound, or both) to your comment section.
 
+@match_each_column
 Match country with capital!
 *USA
 *Washington DC
@@ -95,6 +138,9 @@ France = Paris
 ____________
 This is a question of type "MATCH THE COLUMNS": The user must match each proposal on the left to its correct pair on the right.
 
+@open[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_f55114e2-9e87-4fa2-8959-c81de91b33b8
+]
 Give the name of one animal you can see in this picture!
 *cat
 *dog
@@ -102,6 +148,9 @@ Give the name of one animal you can see in this picture!
 _____________
 This is a question of type "TYPE THE ANSWER" with the "INPUT-HELP" feature enabled. The user can type any valid answer! You can define several correct answers. Use short answers for better accessibility.
 
+@enumerate_each[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_330c6a47-2060-44c6-ac81-381ec3ff6719
+]
 Give the name of the two animals you can see in this picture!
 *cat
 *dog
@@ -109,6 +158,7 @@ Give the name of the two animals you can see in this picture!
 ___________
 This is a question of type "ENUMERATION" with the "INPUT-HELP" feature enabled! While playing, it shows how many answers the user should fill. Without this help, the user has to guess the number and the answers.
 
+@enumerate_each
 Enumerate the basic states of matter!
 *solid
 *liquid
@@ -117,12 +167,14 @@ Enumerate the basic states of matter!
 ___________
 Use the questions of type "ENUMERATION" only for lists of finite and well-known answers. Enabling the "INPUT-HELP" feature allows show how many answers are expected. When turned off the user will have to guess it.
 
+@open
 (10+1)x2
 *22
 > 11 x 2 = 22
 _______________
 Depending on whether the "INPUT HELP" feature is enabled or not, the application will display a keyboard adapted to the response to be entered.
 
+@select_all
 Among the following animals, which ones are mammals?
 -Fish 🐠
 -tortoise 🐢
