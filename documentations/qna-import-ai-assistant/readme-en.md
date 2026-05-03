@@ -2,9 +2,9 @@
 
 ![AI-assisted question import scanning a document into an interactive quiz](./ai-assisted-question-import.png)
 
-Qmaker now makes it easier to turn existing exam papers, worksheets, notes, and other question-answer documents into interactive quizzes.
+The Qmaker-app now makes it easier to turn existing exam papers, worksheets, notes, and other question-answer documents into interactive quizzes.
 
-With the new AI-assisted import feature, available in QcmCreator through `ImportQcmInviteDialog`, users can import questions from almost any existing document format. They can also use their device camera as a digital document scanner, directly from the app.
+With the new AI-assisted import feature, available in development but already available for free on QcmMaker-Beta through the standard import Q&A dialog; users can import questions from almost any existing document format. They can also use their device camera as a digital document scanner, directly from the app.
 
 ## What It Does
 
