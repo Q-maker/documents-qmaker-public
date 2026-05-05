@@ -3,4 +3,7 @@
 - [Creating a quiz](create-quiz/README.md)
 - [Search](search/README.md)
 - [Play modes](play-modes/README.md)
+- [Import & Export](import-export/README.md)
+- [Sharing](sharing/README.md)
+- [Settings](settings/README.md)
 - [Premium features](premium/README.md)

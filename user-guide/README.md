@@ -13,6 +13,9 @@ Welcome to the official user guide for **QcmMaker**.
   - [Creating a quiz](features/create-quiz/README.md)
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
+  - [Import & Export](features/import-export/README.md)
+  - [Sharing](features/sharing/README.md)
+  - [Settings](features/settings/README.md)
   - [Premium features](features/premium/README.md)
 
 ---
