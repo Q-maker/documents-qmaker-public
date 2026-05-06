@@ -5,5 +5,7 @@
 - [Play modes](play-modes/README.md)
 - [Import & Export](import-export/README.md)
 - [Sharing](sharing/README.md)
+- [Bookmarks](bookmarks/README.md)
 - [Settings](settings/README.md)
 - [Premium features](premium/README.md)
+- [About and contact](about/README.md)

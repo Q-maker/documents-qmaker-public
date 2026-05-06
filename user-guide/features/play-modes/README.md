@@ -41,3 +41,11 @@ After a result, choose **Correct** to review the quiz with the answers and navig
 The Score action reopens the result summary.
 
 ![Score popup](images/score-popup.png)
+
+The menu icon in correction opens the question/status drawer. In Exam correction, green checked items indicate correct answers, red checked items indicate incorrect answers, and empty items indicate unanswered or neutral state.
+
+![Exam correction drawer](images/exam-correction-drawer.png)
+
+Challenge correction uses the same drawer structure with Challenge timing context.
+
+![Challenge correction drawer](images/challenge-correction-drawer.png)

@@ -15,8 +15,10 @@ Welcome to the official user guide for **QcmMaker**.
   - [Play modes](features/play-modes/README.md)
   - [Import & Export](features/import-export/README.md)
   - [Sharing](features/sharing/README.md)
+  - [Bookmarks](features/bookmarks/README.md)
   - [Settings](features/settings/README.md)
   - [Premium features](features/premium/README.md)
+  - [About and contact](features/about/README.md)
 
 ---
 

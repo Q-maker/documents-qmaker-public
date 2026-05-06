@@ -40,6 +40,18 @@ For a selection question, add several answers and tick the correct proposal or p
 
 ![Selection question](images/selection-question.png)
 
+The proposition options menu lets you attach media to a specific answer.
+
+![Proposition options](images/proposition-options-menu.png)
+
+Picture sources include camera, gallery, and web link.
+
+![Proposition picture menu](images/proposition-picture-menu.png)
+
+Audio sources include gallery, recording, web link, and text-to-audio.
+
+![Proposition audio menu](images/proposition-audio-menu.png)
+
 ## Typed-answer question
 
 If a selection question has only one filled answer, QcmMaker plays it as a typed-answer question.
@@ -51,3 +63,29 @@ If a selection question has only one filled answer, QcmMaker plays it as a typed
 For an enumeration question, add every expected item as a separate answer line.
 
 ![Enumeration question](images/enumeration-question.png)
+
+## Question Media
+
+Use the picture and audio buttons above the question text to attach media to the question itself.
+
+![Question picture menu](images/question-picture-menu.png)
+
+![Question audio menu](images/question-audio-menu.png)
+
+## Comments
+
+Use **Add a comment** to add correction notes or explanations. The comment dialog also supports picture and audio attachments from the header icons.
+
+![Comment editor](images/comment-editor.png)
+
+## Proposition Options By Type
+
+| Type | Answer proposition behavior |
+|------|-----------------------------|
+| Selection | Check one or more propositions as true answers. |
+| Typed answer | A single filled proposition becomes the expected typed answer. |
+| Enumeration | Each proposition is one expected answer item. |
+| Fill the blanks | Propositions represent blank values. |
+| Match columns | Propositions are matched as pairs. |
+| Put in order | Propositions are ordered by the learner. |
+| Jumbled words | Propositions are words/fragments to reconstruct. |
