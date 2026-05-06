@@ -13,3 +13,9 @@ If your author profile is empty, QcmMaker warns that the file will be shared wit
 After confirmation, Android shows the standard share sheet.
 
 ![Android share sheet](images/android-share-sheet-qcm.png)
+
+## Open Shared Quiz Links
+
+QcmMaker can also open supported QcmMaker and QcmFile web links directly in the app. These links can preview a quiz, start quiz mode, start exam mode, open a project, or show documentation.
+
+See [Open shared quiz links](open-quiz-links.md).
