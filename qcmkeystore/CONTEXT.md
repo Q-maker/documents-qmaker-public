@@ -2,4 +2,8 @@
 
 Documentation publique du produit **QcmKeystore** — service de verrouillage de fichiers QCM.
 
-_Aucune documentation publique rédigée pour ce produit pour l'instant._
+## Guides utilisateur
+
+| Guide | Description |
+|-------|-------------|
+| [`user-guide/README.md`](./user-guide/README.md) | Guide utilisateur anglais de QcmKeyStore/Qcm Locker, avec captures d'ecran ADB de l'app Android actuelle. |
