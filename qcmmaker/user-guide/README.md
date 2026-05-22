@@ -1,6 +1,10 @@
+---
+
 <p align="center">
   <img src="assets/app-icon.png" alt="QcmMaker app icon" width="96" />
 </p>
+
+---
 
 # QcmMaker — User Guide
 
