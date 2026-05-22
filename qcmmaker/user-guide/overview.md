@@ -11,9 +11,8 @@
 
 QcmMaker is a quiz authoring and practice app for Android. An author creates a quiz
 file (`.qcm`) containing questions of various types, then plays it locally, shares it
-with learners, or imports/exports it across devices. The app ships in three tiers
-(QcmMaker, QcmMaker Plus, QcmMaker Pro) that share the same codebase via a git
-distribution model; all tiers are referred to as "QcmMaker" in user-facing content.
+with learners, or imports/exports it across devices. The app is available in several editions (QcmMaker, QcmMaker Plus, QcmMaker Pro)
+with different feature sets; all editions are referred to as "QcmMaker" in this guide.
 
 ## Getting Started
 

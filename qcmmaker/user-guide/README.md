@@ -25,19 +25,3 @@ quiz files with other users or devices.
   - [Premium features](features/premium/README.md)
   - [About and contact](features/about/README.md)
 
----
-
-> This guide is generated from live emulator exploration.
-
-## Translation convention
-
-Each page in this guide follows the multi-language structure defined in [DOC_STRATEGY.md](../../DOC_STRATEGY.md#multi-language-user-guide-structure):
-
-- `README.md` — English (base, always required)
-- `README-fr.md` — French
-- `README-pt.md` — Portuguese
-- `README-es.md` — Spanish (add as translations are produced)
-- `assets/` — shared media (language-neutral)
-- `assets-<lang>/` — language-specific media (only when a media file contains localized text)
-
-Language codes are always **lowercase**. Media is referenced with **relative paths**.
