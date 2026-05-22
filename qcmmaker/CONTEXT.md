@@ -14,6 +14,7 @@ Public-facing documentation for the **QcmMaker** product.
 |------|-------------|
 | [`user-guide/README.md`](./user-guide/README.md) | User guide index — evergreen intro + TOC + link to overview |
 | [`user-guide/overview.md`](./user-guide/overview.md) | Product overview — AI-agent entry point, feature summary with links to sub-pages |
+| [`user-guide/faq.md`](./user-guide/faq.md) | User-facing FAQ mined from recurring support questions |
 
 ## Live Production Documentation
 

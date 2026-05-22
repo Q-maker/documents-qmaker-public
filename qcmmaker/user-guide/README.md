@@ -16,6 +16,8 @@ quiz files with other users or devices.
 
 ## Table of Contents
 
+- [FAQ](faq.md)
+
 - [Getting Started](getting-started/README.md)
   - [Interface overview](getting-started/interface-overview.md)
   - [Workspace setup](getting-started/workspace-setup.md)
