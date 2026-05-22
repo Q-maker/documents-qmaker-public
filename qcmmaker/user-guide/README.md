@@ -1,5 +1,9 @@
 # QcmMaker — User Guide
 
+<p align="center">
+  <img src="assets/app-icon.png" alt="QcmMaker app icon" width="96" />
+</p>
+
 QcmMaker is a quiz authoring and practice app for Android. It lets you create quizzes
 with multiple question types, play them in Exam or Challenge mode, and share `.qcm`
 quiz files with other users or devices.
@@ -25,3 +29,6 @@ quiz files with other users or devices.
   - [Premium features](features/premium/README.md)
   - [About and contact](features/about/README.md)
 
+---
+
+© QmakerTech — Last updated: 2026-05-22

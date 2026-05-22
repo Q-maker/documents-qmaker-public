@@ -27,3 +27,7 @@ and control who can open them by distributing PassCodes to authorized users.
 - [Account, About, And Legal Screens](overview.md#account-about-and-legal-screens)
 - [Screen Inventory](overview.md#screen-inventory)
 - [Current Limitations Observed](overview.md#current-limitations-observed)
+
+---
+
+© QmakerTech — Last updated: 2026-05-22
