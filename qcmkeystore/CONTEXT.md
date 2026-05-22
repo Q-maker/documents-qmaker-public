@@ -6,4 +6,5 @@ Documentation publique du produit **QcmKeystore** — service de verrouillage de
 
 | Guide | Description |
 |-------|-------------|
-| [`user-guide/README.md`](./user-guide/README.md) | Guide utilisateur anglais de QcmKeyStore/Qcm Locker, avec captures d'ecran ADB de l'app Android actuelle. |
+| [`user-guide/README.md`](./user-guide/README.md) | Index de navigation evergreen — intro produit + TOC. |
+| [`user-guide/overview.md`](./user-guide/overview.md) | Walkthrough complet avec captures d'écran ADB — point d'entrée pour les agents IA. |

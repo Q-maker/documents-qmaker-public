@@ -1,0 +1,43 @@
+> This document is the single-read context for QcmMaker — designed for AI agents,
+> new contributors, and anyone who needs a full picture without navigating sub-pages.
+> Detailed feature documentation lives in the sub-pages linked in each section below.
+
+# QcmMaker — Product Overview
+
+**App:** QcmMaker (Android)
+**Product family:** QmakerTech / Qmaker-algorithm
+
+## What It Does
+
+QcmMaker is a quiz authoring and practice app for Android. An author creates a quiz
+file (`.qcm`) containing questions of various types, then plays it locally, shares it
+with learners, or imports/exports it across devices. The app ships in three tiers
+(QcmMaker, QcmMaker Plus, QcmMaker Pro) that share the same codebase via a git
+distribution model; all tiers are referred to as "QcmMaker" in user-facing content.
+
+## Getting Started
+
+| Guide | Description |
+|---|---|
+| [Interface overview](getting-started/interface-overview.md) | Home screen areas, quiz card options, selection mode |
+| [Workspace setup](getting-started/workspace-setup.md) | Grant folder permission, choose a working directory |
+| [Creating your first quiz](getting-started/first-quiz.md) | End-to-end walkthrough for new users |
+
+## Feature Summary
+
+| Feature | What it does | Detailed doc |
+|---|---|---|
+| **Create a quiz** | Create a `.qcm` quiz file and add questions (selection, open answer, put-in-order, enumeration, match-column, fill-in-blanks, jumbled words). Attach images and audio to questions and propositions. | [features/create-quiz/](features/create-quiz/README.md) |
+| **Search** | Filter the home quiz list by name or keyword. | [features/search/](features/search/README.md) |
+| **Play modes** | Play a quiz in **Exam** mode (timed, feedback at end) or **Challenge** mode (immediate per-question feedback). Review correction and score after completion. | [features/play-modes/](features/play-modes/README.md) |
+| **Import & Export** | Import questions from an existing `.qcm` file into the current quiz. Export and share `.qcm` files via Android share sheet. | [features/import-export/](features/import-export/README.md) |
+| **Sharing** | Share a `.qcm` file through Android's share sheet. Recipients can open quiz links directly in QcmMaker via Android App Links. | [features/sharing/](features/sharing/README.md) |
+| **Bookmarks** | Save frequently-used quizzes to a bookmark list for quick access. | [features/bookmarks/](features/bookmarks/README.md) |
+| **Settings** | Configure quiz player behaviour (show correct answer, randomise questions, timer…) and app language. | [features/settings/](features/settings/README.md) |
+| **Premium features** | Unlock ad-free usage and additional features via an activation code or in-app purchase. | [features/premium/](features/premium/README.md) |
+| **About and contact** | View app version, send feedback, share the app. | [features/about/](features/about/README.md) |
+
+## File Formats
+
+`.qcm` is the native binary quiz format. Plain-text import formats (`.txt`) are
+also supported. See [file-formats/](file-formats/) for format specifications.
