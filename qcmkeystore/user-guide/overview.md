@@ -1,16 +1,16 @@
-> This document is the single-read context for QcmKeyStore — designed for AI agents,
+> This document is the single-read context for Qcm Locker — designed for AI agents,
 > new contributors, and anyone who needs a full picture without navigating sub-pages.
 > When feature sub-pages are added in the future, this document will become a summary
 > with links to those sub-pages.
 
-# QcmKeyStore User Guide
+# Qcm Locker — User Guide
 
 <p align="center">
-  <img src="images/app-logo.png" alt="Current QcmKeyStore app logo" width="96" />
+  <img src="images/app-logo.png" alt="Qcm Locker app icon" width="96" />
 </p>
 
-**App name shown on Android:** Qcm Locker  
-**Product name:** QcmKeyStore  
+**App name:** Qcm Locker  
+**Powered by:** QcmKeyStore (key storage service)  
 **Captured app version:** 1.0  
 **Screenshot date:** 17 May 2026  
 **Capture device:** Samsung SM-S721B, 1080 x 2340
@@ -22,30 +22,35 @@ English and translates the important labels where needed.
 
 ## Product Idea
 
-QcmKeyStore is the author-side lock and PassCode manager for QcmMaker quiz files.
-It lets a quiz author keep the `.qcm` file portable while controlling who can open
-the protected quiz.
+**Qcm Locker** is the quiz protection app for QcmMaker authors. It lets you create
+locks on `.qcm` files, generate PassCodes for authorized users, and keep full control
+over who can open your protected quizzes.
+
+Under the hood, Qcm Locker is powered by **QcmKeyStore** — a secure key storage
+service built by QmakerTech. QcmKeyStore stores the decryption keys for your locked
+quizzes and validates PassCodes when a reader tries to open a protected file. As an
+author you do not interact with QcmKeyStore directly; Qcm Locker and compatible
+QcmMaker readers communicate with it automatically.
 
 In the QcmMaker ecosystem, a quiz can be shared as a `.qcm` file through normal file
 channels: local storage, email, messaging apps, cloud drives, Bluetooth, or any other
 file transfer tool. That portability is useful, but it also means an unprotected quiz
-can be copied freely. QcmKeyStore adds a security layer without removing the file-based
+can be copied freely. Qcm Locker adds a security layer without removing the file-based
 workflow.
 
 The core idea is a **lock**. A lock is a digital access definition attached to a quiz.
 The lock has a password used to protect the quiz content and can generate **PassCodes**
-that are distributed to learners or customers. A compatible reader can then ask the
-user for a PassCode and use QcmKeyStore's repository data to recover the key needed to
-open the protected quiz.
+that are distributed to learners or customers. A compatible reader then asks the user
+for a PassCode, which the QcmKeyStore service validates to deliver the decryption key.
 
 Typical author workflow:
 
 1. Create a quiz in QcmMaker.
-2. Create a lock in QcmKeyStore.
+2. Open Qcm Locker and create a lock.
 3. Generate PassCodes for that lock.
 4. Protect the `.qcm` file with the lock.
 5. Share the protected file and give each authorized user a PassCode.
-6. The end user opens the protected file in a compatible QcmMaker/QcmReader client and
+6. The end user opens the protected file in a compatible QcmMaker/QcmReader app and
    enters the PassCode.
 
 ## Key Concepts
@@ -62,11 +67,11 @@ Typical author workflow:
 
 ## First Launch And Sign-In
 
-When the app starts, it briefly shows the current QcmKeyStore/Qcm Locker logo.
+When the app starts, it briefly shows the Qcm Locker logo.
 
 ![Splash screen](images/splash.png)
 
-On first launch, QcmKeyStore presents three onboarding slides:
+On first launch, Qcm Locker presents three onboarding slides:
 
 ![Welcome slide 1](images/onboarding-slide-1.png)
 
@@ -251,7 +256,7 @@ Android opens the system document picker. Choose the source `.qcm` file that sho
 protected. In the captured test run, a sample file was pushed to Downloads and selected
 from the picker.
 
-After QcmKeyStore processes the source quiz, Android opens a save screen for the
+After Qcm Locker processes the source quiz, Android opens a save screen for the
 protected output file.
 
 ![Save protected file](images/protect-save-dialog.png)
@@ -296,7 +301,7 @@ disabled lock disappears from the active Home list.
 
 ## Account, About, And Legal Screens
 
-The About page explains the current purpose of QcmKeyStore, lists the main features,
+The About page explains the current purpose of Qcm Locker, lists the main features,
 links community/contact options, and shows the app version.
 
 ![About page](images/about.png)

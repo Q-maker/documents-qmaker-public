@@ -1,16 +1,18 @@
 ---
 
 <p align="center">
-  <img src="images/app-logo.png" alt="QcmKeyStore app icon" width="96" />
+  <img src="images/app-logo.png" alt="Qcm Locker app icon" width="96" />
 </p>
 
 ---
 
-# QcmKeyStore — User Guide
+# Qcm Locker — User Guide
 
-QcmKeyStore (marketed as **Qcm Locker** on Android) is the author-side lock and
-PassCode manager for QcmMaker quiz files. It lets a quiz author protect `.qcm` files
-and control who can open them by distributing PassCodes to authorized users.
+**Qcm Locker** is the quiz protection app for QcmMaker authors. It lets you create
+locks on `.qcm` files, generate PassCodes for authorized users, and keep full control
+over who can open your protected quizzes. Qcm Locker is powered by **QcmKeyStore**,
+a secure key storage service that validates PassCodes and delivers decryption keys to
+compatible QcmMaker readers.
 
 > For the full product walkthrough with screenshots, see [overview.md](overview.md).
 
