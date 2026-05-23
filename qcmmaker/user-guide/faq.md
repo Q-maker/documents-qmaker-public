@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+---
+
 #### What is QcmMaker used for?
 
 QcmMaker is used to create your own quiz files, play them locally, and share them with other people as portable `.qcm` files. A quiz can include questions, answers, pictures, sounds, comments, and automatic scoring.
@@ -19,6 +21,8 @@ QcmMaker stores quizzes as `.qcm` files in the workspace folder chosen on your d
 ---
 
 ## Creating Quizzes
+
+---
 
 #### Can I combine two quizzes into one?
 
@@ -46,6 +50,8 @@ First make sure you are playing the same quiz file that you edited. If you have 
 
 ## Playing & Reviewing
 
+---
+
 #### Can I see the correct answer immediately after answering?
 
 Yes. Use **Challenge mode** when you want immediate feedback during play; use **Exam mode** when you want feedback and correction at the end.
@@ -64,6 +70,8 @@ Yes. After a quiz result, choose **Correct** to review the quiz with answer info
 
 ## Sharing & Compatibility
 
+---
+
 #### How do I send a quiz to someone else?
 
 Share the quiz as a `.qcm` file from QcmMaker or from your device's file manager. The receiver needs QcmMaker or another compatible QCM reader to open and play that file.
@@ -81,6 +89,8 @@ QcmMaker's normal sharing model is file-based: you share a `.qcm` file, not a li
 ---
 
 ## Premium
+
+---
 
 #### Will Premium or the trial screen block access to my quizzes?
 
@@ -115,6 +125,8 @@ Check whether the purchase appears in Google Play purchase history and look for 
 ---
 
 ## Troubleshooting
+
+---
 
 #### Why did a quiz disappear from the home screen?
 
