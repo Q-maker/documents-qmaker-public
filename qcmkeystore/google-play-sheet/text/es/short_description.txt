@@ -1,0 +1,1 @@
+Bloquea quiz .qcm y comparte el acceso con PassCodes seguros.

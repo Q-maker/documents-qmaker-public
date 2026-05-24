@@ -34,6 +34,11 @@ compatible QcmMaker readers.
 - [Screen Inventory](overview.md#screen-inventory)
 - [Current Limitations Observed](overview.md#current-limitations-observed)
 
+## Account Management
+
+- [How to Delete Your Account](delete-account.md) — Step-by-step instructions for
+  permanently deleting your Qcm Locker account and all associated data.
+
 ---
 
-© QmakerTech — Last updated: 2026-05-22
+© QmakerTech — Last updated: 2026-05-24

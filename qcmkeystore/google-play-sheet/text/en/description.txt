@@ -1,0 +1,11 @@
+Qcm Locker helps QcmMaker authors protect portable .qcm quiz files before they are shared. Create a lock, generate PassCodes, protect the file, and keep control over who can open your content.
+
+- Create locks for quizzes, exams, courses, or training packs
+- Generate PassCodes for learners, customers, or selected groups
+- Set optional expiration dates and usage limits
+- Protect .qcm files while keeping normal file sharing simple
+- Copy or export access codes when you are ready to distribute them
+- Disable a lock to stop future access when needed
+- Sign in with Google to manage your locks from one account
+
+Qcm Locker is built for teachers, trainers, schools, and professional quiz authors who need more control than a plain shared file can offer. Share your quiz normally, but let PassCodes decide who gets access.
