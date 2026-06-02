@@ -28,6 +28,8 @@ quiz files with other users or devices.
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
   - [Import & Export](features/import-export/README.md)
+    - [Standard TXT import](features/import-export/import-txt-standard.md)
+    - [Advanced TXT import](features/import-export/import-txt-advanced.md)
   - [Sharing](features/sharing/README.md)
     - [Open shared quiz links](features/sharing/open-quiz-links.md)
   - [Bookmarks](features/bookmarks/README.md)
@@ -37,4 +39,4 @@ quiz files with other users or devices.
 
 ---
 
-© QmakerTech — Last updated: 2026-05-22
+© QmakerTech — Last updated: 2026-06-02

@@ -120,9 +120,6 @@ Please found bellow the list of supported type
 | `enumerate_all`      | Enumerate everything globally         |
 | `match_all_column`   | Match globally                        |
 | `jumbled_words`      | Reconstruct a word                    |
-| `jumbled_sentence`   | Reconstruct a sentence                |
-| `speech_recognition` | Voice recognition input               |
-| `surround_all_right_zone` | Visual zone selection             |
 
 That mean, you can for exemple start your question section with :**@single**, **@open**, **@put_in_order** or any other label from the table above!
 

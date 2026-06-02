@@ -1,0 +1,51 @@
+with Quiz Maker can you share your questionnaires, your creations
+*Yes
+-No
+>QuizMaker allows you to create quizzes and share them as a portable file with the extension *.qcm; so that it can be easily shared and read by any compatible reader.
+
+Guess the good answer:
+Can you add open-ended questions with Quiz Maker?
+*Yes
+-No
+>To create an open-ended question with QuizMaker, all you have to do is create a question with one and only one single answer proposal.
+
+Can *.qcm files contain images in addition to the questions & answers?
+*Yes
+-No
+>Quiz files with the *.qcm extension Are structured in such a way that they can contain not only questions and answers, but also all types of media and resources such as images and audios...
+Once you will be ready to create your own quiz, you will be able to discover all of these interesting features from your creations/edition space.
+
+What is the QuizMaker quizzes files extension?
+*qcm
+-exe
+-word
+-xls
+-csv
+>Quiz files created from the QuizMaker application have extension as "qcm" for question, choice, multiple.
+It is a shareable file format intended to support interactive quiz contents with automatic scoring.
+The "qcm" file is like any other file format; it needs a compatible reader in order to be interpreted.
+Same as you need MSWord to open a Docx file, MSExcel to open an XLS file or even a PDF reader to read a PDF file, you also need of a "QCM file" reader in order to read the QCM files as did this app and all other QCM files compatible reader.
+
+tick the right answers: QuizMaker allows you to
+*Play questionnaires
+*Create questionnaires
+*Share questionnaires
+-Eat well
+>QuizMaker lets you easily play, create, and share quizzes as a simple, portable and shareable file.
+
+What is the title of the quiz you are currently playing
+*demo
+>The title of this quiz is Demo; this is a demonstration questionnaire to allow you to experience the game of a questionnaire on the QuizMaker application.
+As you can see, this question was turned into an open-ended question cause it contains one and only one single answer proposal.
+Thus you will be able to do the same while you will start editing your own quiz.
+
+Which application corresponds to this icon
+-Facebook
+-Tweeter
+*Quiz Maker
+-Google
+-Quanta
+>When you create your quizzes, you can add images [📷] and even sounds [🔊] to your questions.
+The image here is the icon of QcmMaker, the [Q] symbolizes the MCQ, Quiz, Questionnaire, Question
+The green color is for the simplicity and the way it is designed to help you create your quiz naturally and easily.
+The white to let you know the fact it offer a white space to let you make your own creation up to your own mind.

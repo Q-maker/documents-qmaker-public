@@ -34,7 +34,7 @@ Yes. Open the destination quiz, then use the import feature to import questions 
 
 #### Can QcmMaker create a quiz directly from a PDF or image?
 
-QcmMaker's documented import flow supports existing `.qcm` quiz files and supported text question files. If your source is a PDF or image, prepare the questions in a supported text structure first, or recreate them manually inside the editor.
+QcmMaker's documented import flow supports existing `.qcm` quiz files and supported text question files. If your source is a PDF or image, prepare the questions in the [standard TXT format](features/import-export/import-txt-standard.md) first, or recreate them manually inside the editor.
 
 → See [Import & Export](features/import-export/README.md) for the full how-to.
 
