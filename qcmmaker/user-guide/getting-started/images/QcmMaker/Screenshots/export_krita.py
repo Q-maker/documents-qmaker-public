@@ -1,0 +1,11 @@
+from krita import *
+app = Krita.instance()
+doc = app.openDocument('promotionnal.xcf')
+app.setActiveDocument(doc)
+info = InfoObject()
+info.setProperty('filename', 'promo_export.png')
+info.setProperty('fileType', 'PNG')
+info.setProperty('compression', 9)
+app.exportDocument(doc, 'promo_export.png', info)
+app.closeDocument(doc)
+Krita.instance().quit()
