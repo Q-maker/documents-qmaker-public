@@ -34,6 +34,9 @@ Common formats:
 | Typed answer | A short answer the learner must enter. |
 | Enumeration | Several expected answers listed by the learner. |
 
+To see how these and other question families appear while learners play, open
+the [Exam question type reference](../play-modes/exam-question-types/README.md).
+
 ## Selection question
 
 For a selection question, add several answers and tick the correct proposal or proposals.

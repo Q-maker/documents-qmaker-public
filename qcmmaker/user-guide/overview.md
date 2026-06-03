@@ -1,7 +1,3 @@
-> This document is the single-read context for QcmMaker — designed for AI agents,
-> new contributors, and anyone who needs a full picture without navigating sub-pages.
-> Detailed feature documentation lives in the sub-pages linked in each section below.
-
 # QcmMaker — Product Overview
 
 **App:** QcmMaker (Android)
@@ -28,7 +24,7 @@ with different feature sets; all editions are referred to as "QcmMaker" in this 
 |---|---|---|
 | **Create a quiz** | Create a `.qcm` quiz file and add questions (selection, open answer, put-in-order, enumeration, match-column, fill-in-blanks, jumbled words). Attach images and audio to questions and propositions. | [features/create-quiz/](features/create-quiz/README.md) |
 | **Search** | Filter the home quiz list by name or keyword. | [features/search/](features/search/README.md) |
-| **Play modes** | Play a quiz in **Exam** mode (timed, feedback at end) or **Challenge** mode (immediate per-question feedback). Review correction and score after completion. | [features/play-modes/](features/play-modes/README.md) |
+| **Play modes** | Play a quiz in **Exam** mode (timed, feedback at end) or **Challenge** mode (immediate per-question feedback). Choose a mode before playing, configure which modes a quiz supports, review correction and score after completion, and use the [Exam question type reference](features/play-modes/exam-question-types/README.md) to preview each supported question family. | [features/play-modes/](features/play-modes/README.md) |
 | **Import & Export** | Import questions from an existing `.qcm` file or from a prepared text Q&A file. Start with the [standard TXT format](features/import-export/import-txt-standard.md), then use the advanced format when you need question types, media, or metadata. Export and share `.qcm` files via Android share sheet. | [features/import-export/](features/import-export/README.md) |
 | **Sharing** | Share a `.qcm` file through Android's share sheet. Recipients can open quiz links directly in QcmMaker via Android App Links. | [features/sharing/](features/sharing/README.md) |
 | **Bookmarks** | Save frequently-used quizzes to a bookmark list for quick access. | [features/bookmarks/](features/bookmarks/README.md) |

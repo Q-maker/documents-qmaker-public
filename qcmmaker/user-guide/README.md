@@ -27,6 +27,7 @@ quiz files with other users or devices.
   - [Creating a quiz](features/create-quiz/README.md)
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
+    - [Exam question types](features/play-modes/exam-question-types/README.md)
   - [Import & Export](features/import-export/README.md)
     - [Standard TXT import](features/import-export/import-txt-standard.md)
     - [Advanced TXT import](features/import-export/import-txt-advanced.md)
@@ -39,4 +40,4 @@ quiz files with other users or devices.
 
 ---
 
-© QmakerTech — Last updated: 2026-06-02
+© QmakerTech — Last updated: 2026-06-03

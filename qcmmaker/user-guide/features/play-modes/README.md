@@ -1,8 +1,18 @@
 # Play Modes
 
-QcmMaker can launch a saved quiz in Exam mode or Challenge mode.
+QcmMaker can launch a quiz in **Exam mode** or **Challenge mode**. You can choose
+the mode before playing, and quiz authors can also define which modes a shared
+`.qcm` file supports.
 
-From a quiz detail page, use the **Game mode** selector to choose the mode before playing.
+## Choose A Mode Before Playing
+
+From the home **Questionnaires** tab, tap the small **Q** icon on a quiz card to
+switch between **Exam mode** and **Challenge mode**. The icon is green for Exam
+mode and red for Challenge mode.
+
+![Home play mode selector](images/home-play-mode-selector.png)
+
+From a quiz detail page, use the **Game mode** selector before pressing **Play**.
 
 ![Detail page](images/previewer-detail.png)
 
@@ -12,11 +22,19 @@ From the editor, open **Save**, choose **Save & play using**, then select a mode
 
 ![Save and play using](images/save-play-using.png)
 
+Choosing a mode this way controls how the quiz starts for you. It does not
+change the modes that the quiz file itself allows.
+
 ## Exam Mode
 
-Exam mode keeps a classic test layout: question, answer area, timer, page indicator, and navigation. Feedback is shown at the end.
+Exam mode works like a test or exam simulator. You can navigate between
+questions during the test, use the timer for the whole questionnaire, and review
+feedback after finishing.
 
 ![Exam mode](images/exam-start.png)
+
+For visual examples of each supported question family in Exam mode, see
+[Exam question types](exam-question-types/README.md).
 
 At the end, QcmMaker shows the score, elapsed time, scoring policy, and actions to replay, correct, or leave.
 
@@ -24,13 +42,38 @@ At the end, QcmMaker shows the score, elapsed time, scoring policy, and actions 
 
 ## Challenge Mode
 
-Challenge mode is timed and more immediate. It shows score, countdown, pause controls, and quick next/finish actions.
+Challenge mode is more immediate, like a game against the clock. Questions are
+shown one after another, each answer is checked as you play, and QcmMaker can
+move automatically to the next question depending on the quiz and player
+settings.
 
 ![Challenge mode](images/challenge-start.png)
 
 The result dialog keeps the same core actions: replay, correct, or leave.
 
 ![Challenge result](images/challenge-result.png)
+
+## Supported Play Mode
+
+When editing a quiz, the **Supported play mode** setting defines which modes the
+exported `.qcm` file can use. Open the quiz information editor, then change the
+**Supported play mode** row.
+
+![Editor supported play mode](images/editor-supported-play-mode.png)
+
+The available values are:
+
+- **auto**: lets QcmMaker use the quiz and app default behaviour.
+- **Challenge only**: the quiz can only be played in Challenge mode.
+- **Exam only**: the quiz can only be played in Exam mode.
+- **Exam & Challenge**: both modes are allowed, with Exam mode proposed first
+  when the player has not explicitly chosen a mode.
+- **Challenge & Exam**: both modes are allowed, with Challenge mode proposed
+  first when the player has not explicitly chosen a mode.
+
+This setting belongs to the quiz authoring configuration. It is different from
+the play-mode selector shown on the home and detail pages, which only selects
+the mode for the current play session.
 
 ## Correction And Score
 
