@@ -29,7 +29,7 @@ quiz files with other users or devices.
   - [Play modes](features/play-modes/README.md)
     - [Exam question types](features/play-modes/exam-question-types/README.md)
     - [Challenge question types](features/play-modes/challenge-question-types/README.md)
-    - [Challenge result and replay](features/play-modes/challenge-result-replay.md)
+    - [Result and replay](features/play-modes/result-and-replay.md)
   - [Import & Export](features/import-export/README.md)
     - [Standard TXT import](features/import-export/import-txt-standard.md)
     - [Advanced TXT import](features/import-export/import-txt-advanced.md)

@@ -37,6 +37,7 @@ For visual examples of each supported question family in Exam mode, see
 [Exam question types](exam-question-types/README.md).
 
 At the end, QcmMaker shows the score, elapsed time, scoring policy, and actions to replay, correct, or leave.
+See [Result and replay](result-and-replay.md) for the actions available after a test.
 
 ![Exam result](images/exam-result.png)
 
@@ -53,8 +54,8 @@ For visual examples of captured immediate feedback by question family, see
 [Challenge question types](challenge-question-types/README.md).
 
 The result dialog keeps the same core actions: replay, correct, or leave. See
-[Challenge result and replay](challenge-result-replay.md) for the result dialog
-and replay choices.
+[Result and replay](result-and-replay.md) for the result dialog and replay
+choices.
 
 ![Challenge result](images/challenge-result.png)
 
