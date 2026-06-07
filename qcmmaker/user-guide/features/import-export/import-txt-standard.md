@@ -2,7 +2,9 @@
 
 Use the standard TXT format when you want to create questions quickly from a phone or a computer. You write the questions in a normal `.txt` file, save it, then import it into QcmMaker.
 
-This is the recommended format for your first text import.
+This is the recommended format for your first text import because it focuses on the essentials: question, correct answers, wrong answers, and optional explanation.
+
+When to use this: choose the standard format when your quiz is mostly text and you want to prepare many questions faster than entering them one by one in the editor.
 
 ## Basic Structure
 
@@ -57,6 +59,8 @@ Which of these animals are flying?
 - Leave one empty line between two questions.
 - Save the file as `.txt`.
 - Prefer UTF-8 encoding, especially if your file contains accents, symbols, or non-English text.
+
+Good to know: the symbols at the start of answer lines tell QcmMaker how to interpret the file. `*` means this answer should be treated as correct, `-` means it is a wrong proposal, and `>` becomes explanation text shown during correction when available.
 
 ## Useful Patterns
 

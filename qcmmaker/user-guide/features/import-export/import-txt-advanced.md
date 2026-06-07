@@ -4,6 +4,8 @@ Use the advanced TXT format when the standard format is not enough. It lets you 
 
 Before using this page, make sure you understand [Standard TXT Import](import-txt-standard.md).
 
+Good to know: the advanced format is more powerful because it gives instructions to QcmMaker before the question is imported. Use it when the import needs to preserve the author's intent, not only the visible text.
+
 ## Advanced Question Types
 
 Add a question type at the beginning of a question section with `@type`.
@@ -52,6 +54,8 @@ The metadata block starts with `[` and ends with `]`. Each metadata line uses th
 ```text
 target.property = value
 ```
+
+What metadata does: it describes extra behavior or resources for the question. For example, it can attach a picture to the prompt, add audio, or configure how an answer should be interpreted.
 
 ## Add Media to Answers
 
@@ -129,6 +133,8 @@ $html{
 - Use `comments[0]` for comment media.
 - Separate question sections with one blank line.
 - Prefer UTF-8 encoding.
+
+If an import fails, simplify the file first: remove metadata, keep one question, confirm the basic structure works, then add advanced instructions back one by one.
 
 You can start from the sample file here: [demo_advanced.txt](../../../../resources/qxt/demo_advanced.txt).
 

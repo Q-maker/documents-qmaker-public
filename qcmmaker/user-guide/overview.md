@@ -7,8 +7,22 @@
 
 QcmMaker is a quiz authoring and practice app for Android. An author creates a quiz
 file (`.qcm`) containing questions of various types, then plays it locally, shares it
-with learners, or imports/exports it across devices. The app is available in several editions (QcmMaker, QcmMaker Plus, QcmMaker Pro)
+with learners, or imports/exports it across devices. The app is available in several editions
 with different feature sets; all editions are referred to as "QcmMaker" in this guide.
+
+## Key Ideas To Understand First
+
+| Concept | What it means |
+|---|---|
+| `.qcm` file | The portable quiz document used by QcmMaker. It can contain questions, answers, media, comments, scoring settings, and author information. |
+| Workspace | The folder QcmMaker watches and uses to list your quiz files. If a quiz is outside the workspace, you may need to open it manually or add its folder. |
+| Quiz project | The quiz you are editing. In the current workspace layout, it is saved as a `.qcm` file that can later be played or shared. |
+| Play mode | The experience chosen before starting a quiz. Exam mode waits until the end for feedback; Challenge mode gives quicker feedback while playing. |
+| Correction | The review screen shown after a test when the quiz configuration allows it. It helps you understand correct, wrong, missing, or partial answers. |
+| Sharing | Sending a portable `.qcm` file or supported quiz link. The receiver needs QcmMaker or another compatible QCM reader to open the file. |
+| Author profile | The information used to sign your shared quiz files. If it is empty, a shared file can appear as created by an anonymous author. |
+| Import and export | Import adds questions from another source into a quiz. Export or sharing makes a portable file ready to send, save, or reuse. |
+| Premium access | Premium controls advanced tools and access options. It does not remove ownership of quiz files already saved in your workspace. |
 
 ## Getting Started
 

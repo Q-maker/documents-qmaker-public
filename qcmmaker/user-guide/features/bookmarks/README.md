@@ -5,6 +5,8 @@ them, and replay them later.
 
 ![Bookmark introduction](images/bookmark-introduction.jpg)
 
+Good to know: bookmarks are a study tool, not a copy of the whole quiz. They point you back to selected questions so you can focus on what matters most during review.
+
 ## What A Bookmark Is
 
 A bookmark is a collection of quiz questions. You can use bookmarks to group

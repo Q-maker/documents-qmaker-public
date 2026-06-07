@@ -1,5 +1,7 @@
 # Add A Question
 
+Each question combines four ideas: the prompt, the expected answer logic, optional media, and optional correction help. The editor keeps these pieces together so the quiz can teach as well as test.
+
 From the project viewer, tap **EDIT QUESTIONS**.
 
 ![Project viewer](images/project-viewer.png)
@@ -37,6 +39,8 @@ Common formats:
 To see how these and other question families appear while learners play, open
 the [Exam question type reference](../play-modes/exam-question-types/README.md).
 
+Good to know: answer propositions do not mean the same thing for every question type. In a Selection question, propositions are choices. In Enumeration, they are expected items. In Put in order, they become items the learner must arrange.
+
 ## Selection question
 
 For a selection question, add several answers and tick the correct proposal or proposals.
@@ -61,6 +65,8 @@ If a selection question has only one filled answer, QcmMaker plays it as a typed
 
 ![Typed-answer question](images/type-answer-question.png)
 
+What this means: a single expected answer becomes something the learner must type instead of choose from a list. Use this when remembering the answer matters more than recognizing it.
+
 ## Enumeration question
 
 For an enumeration question, add every expected item as a separate answer line.
@@ -80,6 +86,8 @@ Use the picture and audio buttons above the question text to attach media to the
 Use **Add a comment** to add correction notes or explanations. The comment dialog also supports picture and audio attachments from the header icons.
 
 ![Comment editor](images/comment-editor.png)
+
+When to use comments: add a comment when the learner should understand why an answer is correct, why a common mistake is wrong, or what to review before the next attempt. Comments make the correction screen more useful than a simple score.
 
 ## Proposition Options By Type
 

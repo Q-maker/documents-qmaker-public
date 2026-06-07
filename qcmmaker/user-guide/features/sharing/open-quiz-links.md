@@ -6,6 +6,8 @@ QcmMaker can open supported QcmMaker and QcmFile links directly from Android. Wh
 
 Use these links when sharing content with another QcmMaker user:
 
+Good to know: a web link points to a remote quiz or document location. A local `.qcm` file must first be uploaded or hosted somewhere before a link can open it remotely.
+
 | Link type | What it opens |
 |-----------|---------------|
 | `https://read.qcmfile.com/open?src=...` | Quiz preview by default. |
@@ -51,3 +53,4 @@ Some Android devices may ask which app should open the link the first time. Choo
 
 Remote files opened from a link are intended for reading, previewing, or playing. To edit a shared quiz permanently, save or import it into your own workspace first.
 
+What happens next: once the quiz is in your own workspace, edits belong to your local copy. The original remote file is not changed unless you control the place where it is hosted.

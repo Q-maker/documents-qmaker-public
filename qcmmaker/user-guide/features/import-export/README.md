@@ -2,6 +2,14 @@
 
 QcmMaker can import questions into an existing quiz from another `.qcm` quiz file or from a plain text file.
 
+Import is useful when you already have content somewhere else and do not want to recreate every question manually. Export and sharing are useful when you want the quiz to become a portable file that can be saved, sent, or opened on another device.
+
+| Source | Best when |
+|---|---|
+| Existing `.qcm` file | You want to reuse questions from another QcmMaker quiz. |
+| Standard TXT file | You want to write simple questions quickly from a phone or computer. |
+| Advanced TXT file | You need question types, metadata, media URLs, or styled content. |
+
 From the project information page, open **More options**, then choose **Import questions**.
 
 ![Import questions](images/import-questions-dialog.png)
@@ -13,6 +21,8 @@ Choose whether the source is a QCM file or a text file.
 For a `.qcm` file, Android opens the file picker. Select the source file to continue the import.
 
 ![Import file picker](images/import-qcm-picker.png)
+
+What happens next: questions from the selected file are added to the quiz you are editing. The source file remains a separate file.
 
 ## Import from a text file
 
@@ -26,3 +36,5 @@ Start with the standard format if you are discovering text import. It is the fas
 | Add question types, media links, metadata, or styled content | [Advanced TXT import](import-txt-advanced.md) |
 
 Export and backup actions are available from project-level actions when the current project state supports them.
+
+Good to know: import changes the quiz you are editing. Export or sharing creates a portable result you can keep outside the editor workflow.

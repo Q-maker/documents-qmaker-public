@@ -4,6 +4,13 @@ QcmMaker can launch a quiz in **Exam mode** or **Challenge mode**. You can choos
 the mode before playing, and quiz authors can also define which modes a shared
 `.qcm` file supports.
 
+Good to know: the two modes are not only visual styles. They create different learning experiences. Exam mode protects the feeling of a real test; Challenge mode helps practice through quick feedback.
+
+| Choose this mode | When you want |
+|---|---|
+| Exam mode | To simulate an evaluation, manage time across the whole quiz, and see feedback after finishing. |
+| Challenge mode | To train quickly, answer under pressure, and learn from immediate feedback. |
+
 ## Choose A Mode Before Playing
 
 From the home **Questionnaires** tab, tap the small **Q** icon on a quiz card to
@@ -81,6 +88,8 @@ This setting belongs to the quiz authoring configuration. It is different from
 the play-mode selector shown on the home and detail pages, which only selects
 the mode for the current play session.
 
+What happens when you share the quiz: the supported play mode setting travels with the exported `.qcm` file. It tells other compatible readers which experience the author intended to allow.
+
 ## Correction And Score
 
 After a result, choose **Correct** to review the quiz with the answers and navigation controls.
@@ -98,3 +107,5 @@ The menu icon in correction opens the question/status drawer. In Exam correction
 Challenge correction uses the same drawer structure with Challenge timing context.
 
 ![Challenge correction drawer](images/challenge-correction-drawer.png)
+
+Good to know: correction availability depends on the quiz configuration. Some authors may allow full correction, partial correction, or no correction at all. When correction is available, use it to understand mistakes before replaying.

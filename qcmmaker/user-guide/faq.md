@@ -20,6 +20,22 @@ QcmMaker stores quizzes as `.qcm` files in the workspace folder chosen on your d
 
 ---
 
+#### Why does QcmMaker ask me to choose a workspace folder?
+
+The workspace folder tells QcmMaker where to look for your quiz files and where to save new ones. It keeps your quizzes visible on the Home screen and makes them easier to back up, move, or share later.
+
+→ See [Workspace setup](getting-started/workspace-setup.md) for the full how-to.
+
+---
+
+#### What is a `.qcm` file?
+
+A `.qcm` file is the portable quiz document used by QcmMaker. It can contain questions, answers, media, comments, scoring settings, and author information, so it can be opened again, played, edited, or shared with a compatible reader.
+
+→ See [Product overview](overview.md) for the full context.
+
+---
+
 ## Creating Quizzes
 
 ---
@@ -37,6 +53,14 @@ Yes. Open the destination quiz, then use the import feature to import questions 
 QcmMaker's documented import flow supports existing `.qcm` quiz files and supported text question files. If your source is a PDF or image, prepare the questions in the [standard TXT format](features/import-export/import-txt-standard.md) first, or recreate them manually inside the editor.
 
 → See [Import & Export](features/import-export/README.md) for the full how-to.
+
+---
+
+#### When should I use TXT import instead of typing questions in the editor?
+
+Use TXT import when you already have many text questions or want to prepare them faster from a computer. Use the editor when you need to carefully build one quiz with media, comments, and visual checks as you go.
+
+→ See [Standard TXT import](features/import-export/import-txt-standard.md) for the full how-to.
 
 ---
 
@@ -75,6 +99,14 @@ Yes. After a quiz result, choose **Correct** to review the quiz with answer info
 #### How do I send a quiz to someone else?
 
 Share the quiz as a `.qcm` file from QcmMaker or from your device's file manager. The receiver needs QcmMaker or another compatible QCM reader to open and play that file.
+
+→ See [Sharing](features/sharing/README.md) for the full how-to.
+
+---
+
+#### What happens if I share a quiz without filling my author profile?
+
+The quiz can still be shared and opened, but the receiver may see it as created by an anonymous author. Fill in your author profile before sharing when you want the file to clearly carry your signature.
 
 → See [Sharing](features/sharing/README.md) for the full how-to.
 
