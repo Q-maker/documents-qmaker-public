@@ -44,7 +44,7 @@ A `.qcm` file is the portable quiz document used by QcmMaker. It can contain que
 
 Yes. Open the destination quiz, then use the import feature to import questions from another `.qcm` file into the current quiz.
 
-→ See [Import & Export](features/import-export/README.md) for the full how-to.
+→ See [Import](features/import-export/README.md) for the full how-to.
 
 ---
 
@@ -52,7 +52,7 @@ Yes. Open the destination quiz, then use the import feature to import questions 
 
 QcmMaker's documented import flow supports existing `.qcm` quiz files and supported text question files. If your source is a PDF or image, prepare the questions in the [standard TXT format](features/import-export/import-txt-standard.md) first, or recreate them manually inside the editor.
 
-→ See [Import & Export](features/import-export/README.md) for the full how-to.
+→ See [Import](features/import-export/README.md) for the full how-to.
 
 ---
 

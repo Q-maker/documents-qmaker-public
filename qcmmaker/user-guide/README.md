@@ -25,6 +25,7 @@ access.
 - [Getting Started](getting-started/README.md)
   - [Interface overview](getting-started/interface-overview.md)
   - [Workspace setup](getting-started/workspace-setup.md)
+  - [Opening an existing `.qcm` file](getting-started/open-qcm-file/README.md)
   - [Creating your first quiz](getting-started/first-quiz.md)
 
 - [Features](features/README.md)
@@ -34,7 +35,7 @@ access.
     - [Exam question types](features/play-modes/exam-question-types/README.md)
     - [Challenge question types](features/play-modes/challenge-question-types/README.md)
     - [Result and replay](features/play-modes/result-and-replay.md)
-  - [Import & Export](features/import-export/README.md)
+  - [Import](features/import-export/README.md)
     - [Standard TXT import](features/import-export/import-txt-standard.md)
     - [Advanced TXT import](features/import-export/import-txt-advanced.md)
   - [Sharing](features/sharing/README.md)
@@ -46,4 +47,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-06-07
+© QmakerTech — Last updated: 2026-06-12

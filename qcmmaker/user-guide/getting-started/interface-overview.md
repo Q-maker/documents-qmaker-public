@@ -17,6 +17,8 @@ Main actions:
 | PLAY | Starts the quiz. |
 | Floating action button | Opens workspace actions: create, open, or add folder. |
 
+To open a quiz file that is stored outside the visible workspace list, use the floating action button and follow [Opening a `.qcm` file from your device](open-qcm-file/README.md).
+
 ## Quiz Card Options
 
 Use the options menu on a quiz card for quick actions such as details, properties, copy, share, delete, editor, and desktop shortcut.

@@ -21,7 +21,7 @@ with different feature sets; all editions are referred to as "QcmMaker" in this 
 | Correction | The review screen shown after a test when the quiz configuration allows it. It helps you understand correct, wrong, missing, or partial answers. |
 | Sharing | Sending a portable `.qcm` file or supported quiz link. The receiver needs QcmMaker or another compatible QCM reader to open the file. |
 | Author profile | The information used to sign your shared quiz files. If it is empty, a shared file can appear as created by an anonymous author. |
-| Import and export | Import adds questions from another source into a quiz. Export or sharing makes a portable file ready to send, save, or reuse. |
+| Import | Adds questions from another `.qcm` quiz or a prepared text file into the quiz you are editing. |
 | Premium access | Premium controls advanced tools and access options. It does not remove ownership of quiz files already saved in your workspace. |
 
 ## Getting Started
@@ -30,6 +30,7 @@ with different feature sets; all editions are referred to as "QcmMaker" in this 
 |---|---|
 | [Interface overview](getting-started/interface-overview.md) | Home screen areas, quiz card options, selection mode |
 | [Workspace setup](getting-started/workspace-setup.md) | Grant folder permission, choose a working directory |
+| [Opening an existing `.qcm` file](getting-started/open-qcm-file/README.md) | Open a quiz file from Android's file explorer and add it to the workspace list |
 | [Creating your first quiz](getting-started/first-quiz.md) | End-to-end walkthrough for new users |
 
 ## Feature Summary
@@ -39,7 +40,7 @@ with different feature sets; all editions are referred to as "QcmMaker" in this 
 | **Create a quiz** | Create a `.qcm` quiz file and add questions (selection, open answer, put-in-order, enumeration, match-column, fill-in-blanks, jumbled words). Attach images and audio to questions and propositions. | [features/create-quiz/](features/create-quiz/README.md) |
 | **Search** | Filter the home quiz list by name or keyword. | [features/search/](features/search/README.md) |
 | **Play modes** | Play a quiz in **Exam** mode (timed, feedback at end) or **Challenge** mode (immediate per-question feedback). Choose a mode before playing, configure which modes a quiz supports, review correction and score after completion, use the [Exam question type reference](features/play-modes/exam-question-types/README.md) or [Challenge question type reference](features/play-modes/challenge-question-types/README.md) to preview captured question families, and see [Result and replay](features/play-modes/result-and-replay.md) for retake options after a test. | [features/play-modes/](features/play-modes/README.md) |
-| **Import & Export** | Import questions from an existing `.qcm` file or from a prepared text Q&A file. Start with the [standard TXT format](features/import-export/import-txt-standard.md), then use the advanced format when you need question types, media, or metadata. Export and share `.qcm` files via Android share sheet. | [features/import-export/](features/import-export/README.md) |
+| **Import** | Import questions from an existing `.qcm` file or from a prepared text Q&A file. Start with the [standard TXT format](features/import-export/import-txt-standard.md), then use the advanced format when you need question types, media, or metadata. | [features/import-export/](features/import-export/README.md) |
 | **Sharing** | Share a `.qcm` file through Android's share sheet. Recipients can open quiz links directly in QcmMaker via Android App Links. | [features/sharing/](features/sharing/README.md) |
 | **Bookmarks** | Save specific questions into system or custom bookmark groups, then review or replay those focused question sets later. | [features/bookmarks/](features/bookmarks/README.md) |
 | **Settings** | Configure quiz player behaviour (show correct answer, randomise questions, timer…) and app language. | [features/settings/](features/settings/README.md) |

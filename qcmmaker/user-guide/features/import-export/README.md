@@ -1,8 +1,8 @@
-# Import & Export
+# Import
 
 QcmMaker can import questions into an existing quiz from another `.qcm` quiz file or from a plain text file.
 
-Import is useful when you already have content somewhere else and do not want to recreate every question manually. Export and sharing are useful when you want the quiz to become a portable file that can be saved, sent, or opened on another device.
+Import is useful when you already have content somewhere else and do not want to recreate every question manually.
 
 | Source | Best when |
 |---|---|
@@ -35,6 +35,4 @@ Start with the standard format if you are discovering text import. It is the fas
 | Create a simple question-and-answer text file quickly | [Standard TXT import](import-txt-standard.md) |
 | Add question types, media links, metadata, or styled content | [Advanced TXT import](import-txt-advanced.md) |
 
-Export and backup actions are available from project-level actions when the current project state supports them.
-
-Good to know: import changes the quiz you are editing. Export or sharing creates a portable result you can keep outside the editor workflow.
+Good to know: import changes the quiz you are editing. The source file remains separate, but the imported questions become part of the current quiz.
