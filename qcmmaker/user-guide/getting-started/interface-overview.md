@@ -22,15 +22,9 @@ Main actions:
 
 Sometimes a quiz card shows a small number in the top corner. This number is not the number of questions in the quiz. It means QcmMaker found several files that appear to be the same quiz, usually because copies or older versions are stored in different folders.
 
-Tap the number to open the list of found locations. From there, you can choose which version to play, inspect, edit, share, or delete.
+![Number badge showing similar quiz occurrences](images/home-occurrence-count-badge.jpg)
 
-![Similar quiz occurrences list](images/qcm-file-occurrences.png)
-
-At the top of this list, QcmMaker may briefly show a summary banner with the number of matching files it found. This banner helps you confirm that you are looking at copies or versions of the same quiz, not unrelated quizzes with similar names.
-
-![Similar quiz occurrences after the summary banner is hidden](images/qcm-file-occurrences-info-bar-gone.jpg)
-
-After the banner is closed or hidden, the list remains available. Use the file names and locations to choose the version you want to open.
+Tap the number to open the list of found locations. See [Similar quiz files](similar-quiz-occurrences/README.md) for the dedicated explanation of that list and how to choose the right file.
 
 To open a quiz file that is stored outside the visible workspace list, use the floating action button and follow [Opening a `.qcm` file from your device](open-qcm-file/README.md).
 
