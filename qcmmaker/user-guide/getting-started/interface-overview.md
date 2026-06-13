@@ -24,6 +24,14 @@ Sometimes a quiz card shows a small number in the top corner. This number is not
 
 Tap the number to open the list of found locations. From there, you can choose which version to play, inspect, edit, share, or delete.
 
+![Similar quiz occurrences list](images/qcm-file-occurrences.png)
+
+At the top of this list, QcmMaker may briefly show a summary banner with the number of matching files it found. This banner helps you confirm that you are looking at copies or versions of the same quiz, not unrelated quizzes with similar names.
+
+![Similar quiz occurrences after the summary banner is hidden](images/qcm-file-occurrences-info-bar-gone.jpg)
+
+After the banner is closed or hidden, the list remains available. Use the file names and locations to choose the version you want to open.
+
 To open a quiz file that is stored outside the visible workspace list, use the floating action button and follow [Opening a `.qcm` file from your device](open-qcm-file/README.md).
 
 ## Quiz Card Options
