@@ -16,4 +16,6 @@ What happens next: QcmMaker can list the `.qcm` files already present in this fo
 
 ![Android folder permission](images/android-folder-permission.png)
 
+If you add several folders to the workspace, QcmMaker may find several copies or versions of the same quiz. In that case, the Home card can show a small number badge so you can open the list of matching files and choose the version you want.
+
 If a quiz does not appear on the Home screen later, first check whether the `.qcm` file is still inside a workspace folder. If it was moved elsewhere, open the file manually or add the folder that contains it.

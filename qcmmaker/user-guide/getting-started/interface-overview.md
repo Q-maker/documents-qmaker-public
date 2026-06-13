@@ -14,8 +14,15 @@ Main actions:
 | Arrangement | Changes how quiz cards are displayed. |
 | Search | Filters quizzes in the workspace. |
 | Quiz card | Opens or plays a quiz. |
+| Number badge on a quiz card | Shows how many copies or versions of the same quiz QcmMaker found. |
 | PLAY | Starts the quiz. |
 | Floating action button | Opens workspace actions: create, open, or add folder. |
+
+## Similar Quiz Occurrences
+
+Sometimes a quiz card shows a small number in the top corner. This number is not the number of questions in the quiz. It means QcmMaker found several files that appear to be the same quiz, usually because copies or older versions are stored in different folders.
+
+Tap the number to open the list of found locations. From there, you can choose which version to play, inspect, edit, share, or delete.
 
 To open a quiz file that is stored outside the visible workspace list, use the floating action button and follow [Opening a `.qcm` file from your device](open-qcm-file/README.md).
 

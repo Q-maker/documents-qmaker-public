@@ -165,3 +165,11 @@ Check whether the purchase appears in Google Play purchase history and look for 
 The home screen lists the `.qcm` files found in the current workspace. If a quiz was moved, deleted, stored in another folder, or not included in a phone transfer, locate the `.qcm` file and open it again or add the folder that contains it.
 
 → See [Interface overview](getting-started/interface-overview.md) for the full how-to.
+
+---
+
+#### What does the number on a quiz card mean?
+
+The number on a quiz card means QcmMaker found several copies or versions of the same quiz in your workspace. It is not the number of questions. Tap the number to see the matching files and their locations, then choose the version you want to use.
+
+→ See [Interface overview](getting-started/interface-overview.md) for the full how-to.
