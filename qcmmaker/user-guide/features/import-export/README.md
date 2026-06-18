@@ -20,7 +20,7 @@ Choose whether the source is a QCM file or a text file.
 
 For a `.qcm` file, Android opens the file picker. Select the source file to continue the import.
 
-![Import file picker](images/import-qcm-picker.png)
+![Import file picker](images/import-qcm-picker.jpg)
 
 What happens next: questions from the selected file are added to the quiz you are editing. The source file remains a separate file.
 
