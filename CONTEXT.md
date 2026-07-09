@@ -35,3 +35,27 @@ Public-facing documentation for QmakerTech products.
 - New user-facing documentation for **QcmMaker** → `qcmmaker/`
 - Existing live content under `documentations/`, `faq/`, `tips/` → **MUST stay in place**
 - New public docs for other products → create `<product>/` directory here
+
+## Public Legal Documents Standard
+
+Every documented public app must expose its legal documents under:
+
+```
+<product>/legal/
+```
+
+The canonical English privacy policy filename is:
+
+```
+<product>/legal/privacy-policy.md
+```
+
+Localized variants use a lowercase language suffix:
+
+```
+<product>/legal/privacy-policy-fr.md
+```
+
+Legacy live files under `documents/PrivacyPolicies/` or other production-served locations must not be
+moved or renamed. When a policy already exists there, copy its content into the product-level
+`legal/` directory and convert legacy `.txt` sources to properly formatted Markdown.
