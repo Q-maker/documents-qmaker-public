@@ -1,23 +1,29 @@
 # Settings
 
+Settings let you adapt QcmMaker to the way you store quiz files, open the workspace, and play quizzes. They change the app's default behavior; they do not rewrite existing `.qcm` files by themselves.
+
+## How to access
+
 Open the navigation drawer from the home screen and scroll to **Preferences**.
 
 ![Navigation drawer](images/navigation-drawer-settings.png)
 
-The settings page groups Language, Workspace, and Quiz & player settings.
+The Settings screen groups the main app preferences: language and appearance, workspace setup, and quiz player behavior.
 
 ![Settings](images/settings-main.png)
 
-Good to know: settings can change how QcmMaker displays quizzes, where it looks for files, and how the player behaves by default. They do not rewrite every quiz file automatically.
+## Main areas
 
-## Quiz & Player
+| Area | What it controls | Full guide |
+|------|------------------|------------|
+| Quiz & player | Default play mode, player text sizes, audio, replay, Challenge mode gestures, and preview quiz. | [Quiz & player settings](player/README.md) |
+| Workspace content | Main workspace directory, extra folders listed in the workspace, and storage access strategy. | [Workspace content settings](workspace-content/README.md) |
+| Workspace behavior | Default sorting, Home action bar shortcuts, and play mode selector visibility. | [Workspace behavior settings](workspace-behaviour/README.md) |
 
-The Quiz & player page controls the default play mode, adaptive language, and player text sizes.
+## Good to know
 
-![Quiz and player settings](images/settings-quiz-player.png)
+Some settings affect the next time you open the Home screen or launch a quiz. If a change does not appear immediately, go back to Home and reopen the quiz or workspace.
 
-Further down, it includes media/audio behavior and test retake behavior.
+Storage-related settings define what QcmMaker can see and manage on your device. Removing a folder from the workspace removes QcmMaker's access to that location; it does not delete the folder or the quiz files inside it.
 
-![More player settings](images/settings-quiz-player-lower.png)
-
-When to review these settings: check them when a quiz starts in an unexpected mode, text feels too small, audio behaves differently than expected, or replay rules do not match your study flow.
+© QmakerTech — Last updated: 2026-07-12
