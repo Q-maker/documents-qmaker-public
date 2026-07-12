@@ -16,5 +16,8 @@ Use this section when you already know what you want to do with a quiz file.
   - [Open shared quiz links](sharing/open-quiz-links.md)
 - [Bookmarks](bookmarks/README.md)
 - [Settings](settings/README.md)
+  - [Quiz & player settings](settings/player/README.md)
+  - [Workspace content settings](settings/workspace-content/README.md)
+  - [Workspace behavior settings](settings/workspace-behaviour/README.md)
 - [Premium features](premium/README.md)
 - [About and contact](about/README.md)

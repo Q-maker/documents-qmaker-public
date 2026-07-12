@@ -42,6 +42,9 @@ access.
     - [Open shared quiz links](features/sharing/open-quiz-links.md)
   - [Bookmarks](features/bookmarks/README.md)
   - [Settings](features/settings/README.md)
+    - [Quiz & player settings](features/settings/player/README.md)
+    - [Workspace content settings](features/settings/workspace-content/README.md)
+    - [Workspace behavior settings](features/settings/workspace-behaviour/README.md)
   - [Premium features](features/premium/README.md)
   - [About and contact](features/about/README.md)
 
