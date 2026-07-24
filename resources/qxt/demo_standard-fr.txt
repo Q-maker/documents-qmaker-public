@@ -1,0 +1,51 @@
+Avec QcmMaker, pouvez-vous partager vos questionnaires et vos créations ?
+*Oui
+-Non
+> QcmMaker vous permet de créer des quiz et de les partager sous forme de fichier portable avec l'extension *.qcm, afin qu'ils puissent être facilement partagés et lus par tout lecteur compatible.
+
+Devinez la bonne réponse :
+Pouvez-vous ajouter des questions ouvertes avec QcmMaker ?
+*Oui
+-Non
+> Pour créer une question ouverte avec QcmMaker, il suffit de créer une question avec une seule proposition de réponse.
+
+Les fichiers *.qcm peuvent-ils contenir des images en plus des questions et réponses ?
+*Oui
+-Non
+> Les fichiers quiz avec l'extension *.qcm sont structurés de manière à pouvoir contenir non seulement des questions et réponses, mais aussi tous types de médias et de ressources comme des images et des audios...
+Lorsque vous serez prêt à créer votre propre quiz, vous pourrez découvrir toutes ces fonctionnalités intéressantes depuis votre espace de création/édition.
+
+Quelle est l'extension des fichiers quiz QcmMaker ?
+*qcm
+-exe
+-word
+-xls
+-csv
+> Les fichiers quiz créés depuis l'application QcmMaker ont l'extension "qcm", pour question, choix, multiple.
+C'est un format de fichier partageable destiné à prendre en charge des contenus de quiz interactifs avec notation automatique.
+Le fichier "qcm" est comme n'importe quel autre format de fichier : il a besoin d'un lecteur compatible pour être interprété.
+De la même manière que vous avez besoin de MS Word pour ouvrir un fichier Docx, de MS Excel pour ouvrir un fichier XLS ou d'un lecteur PDF pour lire un PDF, vous avez besoin d'un lecteur de "fichier QCM" pour lire les fichiers QCM, comme cette application et tout autre lecteur compatible avec les fichiers QCM.
+
+Cochez les bonnes réponses : QcmMaker vous permet de
+*Jouer des questionnaires
+*Créer des questionnaires
+*Partager des questionnaires
+-Bien manger
+> QcmMaker vous permet de jouer, créer et partager facilement des quiz sous forme de fichier simple, portable et partageable.
+
+Quel est le titre du quiz que vous jouez actuellement ?
+*demo
+> Le titre de ce quiz est Demo ; c'est un questionnaire de démonstration qui vous permet d'expérimenter le jeu d'un questionnaire dans l'application QcmMaker.
+Comme vous pouvez le voir, cette question a été transformée en question ouverte parce qu'elle contient une seule proposition de réponse.
+Vous pourrez donc faire la même chose lorsque vous commencerez à éditer votre propre quiz.
+
+Quelle application correspond à cette icône ?
+-Facebook
+-Tweeter
+*QcmMaker
+-Google
+-Quanta
+> Lorsque vous créez vos quiz, vous pouvez ajouter des images [📷] et même des sons [🔊] à vos questions.
+L'image ici est l'icône de QcmMaker, le [Q] symbolise le QCM, le quiz, le questionnaire, la question.
+La couleur verte représente la simplicité et la manière dont l'application est conçue pour vous aider à créer votre quiz naturellement et facilement.
+Le blanc indique qu'elle vous offre un espace libre pour faire votre propre création selon vos idées.

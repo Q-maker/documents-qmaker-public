@@ -19,18 +19,16 @@ What is the result of (10 + 1) x 2?
 
 Documented type labels include:
 
-| Type | Use it for |
-|---|---|
-| `auto` | Let QcmMaker detect the question type. |
-| `single` | One correct answer. |
-| `multiple` | Several correct answers. |
-| `open` | Short typed answer. |
-| `select_all` | Selection questions with several possible answers. |
-| `put_in_order` | Items that must be reordered. |
-| `fill_in_all_blank` | Fill several blanks in one text. |
-| `enumerate_all` | Enumerate all expected answers. |
-| `match_all_column` | Match items across columns. |
-| `jumbled_words` | Rebuild a sentence from shuffled words. |
+| Type | Use it for                                                            |
+|---|-----------------------------------------------------------------------|
+| `auto` | Let QcmMaker detect the question type. (can be omitted while editing) |
+| `select_all` | Selection questions with several possible answers. (can be omitted while editing)                    |
+| `open` | Short typed answer.                                                   |
+| `put_in_order` | Items that must be reordered.                                         |
+| `fill_in_all_blank` | Fill several blanks in one text.                                      |
+| `enumerate_all` | Enumerate all expected answers.                                       |
+| `match_all_column` | Match items across columns.                                           |
+| `jumbled_words` | Rebuild a sentence from shuffled words.                               |
 
 The advanced sample also shows practical variants such as `fill_in_each_blank`, `enumerate_each`, and `match_each_column`.
 
@@ -104,7 +102,7 @@ Wrap a question section in `$md{}` when you want Markdown styling.
 
 ```text
 $md{
-@single
+@select_all
 **Which planet is closest to the sun?**
 *Mercury
 -Venus

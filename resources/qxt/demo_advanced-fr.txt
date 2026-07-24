@@ -1,0 +1,196 @@
+@select_all
+Lesquels de ces animaux caquettent ?
+-Le chien 🐶
+-La vache 🐂
+-Le canard 🦆
+-L'éléphant 🐘
+*La poule 🐔
+> Les poules caquettent et gloussent. Pour les coqs, on dit qu'ils chantent.
+• Canard : cancane
+• Vache : meugle
+• Éléphant : barrit
+• Chien : aboie
+______________
+Il est facile de créer une question de type "SÉLECTION SIMPLE" : remplissez simplement vos propositions de réponse et choisissez-en une seule comme "VRAIE". Si vous sélectionnez plusieurs réponses comme "VRAIES", la question devient automatiquement une "SÉLECTION MULTIPLE".
+
+@select_all[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_667167bb-18ff-4405-9e64-7fe45f4701cd
+question.sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/question_sounds_667167bb-18ff-4405-9e64-7fe45f4701cd
+]
+Ce son correspond-il à cet animal ?
+*Oui
+-Non
+> C'est l'aboiement d'un chien.
+_______________
+Créer une question "BOOLÉENNE" est simple : définissez deux options de réponse (comme OUI/NON ou VRAI/FAUX) et choisissez la bonne.
+
+@fill_in_each_blank[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07420
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07421
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_3a035ce8-1bd4-4dc0-a2fd-a35da97a07422
+]
+Pour chaque animal, écrivez le nom correspondant
+*chien
+*chat
+*lion
+> Le bon ordre est : chien, chat, lion.
+__________________
+C'est une manière intéressante d'utiliser les questions de type "texte à trous". Ici, l'application permet à l'utilisateur d'associer un média (image, son, etc.) à une réponse texte qu'il saisit.
+
+@put_in_order[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/child.png
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/young.png
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/adult.png
+proposals[3].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/old.png
+]
+Classez ces visages du plus jeune au plus âgé
+*
+*
+*
+*
+> Cette question de type "remettre dans l'ordre" permet aux utilisateurs de faire glisser et réordonner les réponses ; c'est utile pour pratiquer des étapes ou une chronologie. Les images et les sons sont pris en charge.
+
+@match_each_column[
+proposals[0].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b980
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b981
+proposals[2].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b982
+proposals[3].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b983
+proposals[4].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_a0a03e98-6432-4c5e-b11f-22979d8e8b984
+proposals[5].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_a0a03e98-6432-4c5e-b11f-22979d8e8b985
+]
+Associez le son à l'animal
+*
+*
+*
+*
+*
+*
+> Une façon amusante de relier des sons à des animaux.
+____________
+C'est une question de type "ASSOCIER LES COLONNES". Vous pouvez inclure des images et des sons dans la question, les réponses ou même le commentaire.
+
+@select_all[
+proposals[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23970
+proposals[0].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23970
+proposals[1].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23971
+proposals[1].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23971
+proposals[2].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.proposition_picture_e389c96e-d906-4d54-ae6d-da7a0adb23972
+proposals[2].sound = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/sounds/com.qmaker.core.entities.qcm.proposition_sounds_e389c96e-d906-4d54-ae6d-da7a0adb23972
+]
+Sélectionnez la meilleure correspondance parmi les suggestions ci-dessous
+*Chèvre
+-Lion
+-Corbeau
+> La bonne réponse était le bêlement de la chèvre.
+__________
+Vous pouvez aussi ajouter ensemble des images et des sons à n'importe quelle question !
+Toutes les parties prennent en charge les médias : [l'énoncé de la question, chaque proposition de réponse, la section commentaire]
+
+@select_all[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_259b971e-d50b-426e-a0f5-af4c27fc273a
+]
+Le chat 🐱 !
+-A) Aboie
+*B) Miaule
+-C) Rugit
+-D) Caquette
+> Les chats miaulent, les lions rugissent, les chiens aboient et les poules caquettent.
+_______________
+Même si l'ensemble du quiz est mélangé, cette question garde un ordre fixe (A, B, ...).
+Cela signifie que le mélange peut être désactivé pour des questions précises.
+
+@fill_in_each_blank[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.question_picture_26c6dcdd-2232-4c3b-9e3a-1aa56762622b
+]
+Le ciel est_____ et les plantes ont la couleur______ !
+*bleu
+*verte
+>
+Le ciel est bleu et les plantes sont vertes (au moins en général 🙂).
+_______________
+Les questions de type "TEXTE À TROUS" exigent que l'utilisateur saisisse les réponses dans le bon ordre, contrairement aux questions de type "ÉNUMÉRATION" où l'ordre n'a pas d'importance.
+
+@open[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_4d68d8f6-3625-481f-a1ad-5a2d746fa999
+comments[0].image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/com.qmaker.core.entities.qcm.comment_picture_4d68d8f6-3625-481f-a1ad-5a2d746fa9990.svg
+]
+Citez une couleur de l'arc-en-ciel !
+*violet
+*indigo
+*bleu
+*vert
+*jaune
+*orange
+*rouge
+> Oui ! Vous pouvez ajouter un média (image, son ou les deux) à votre section commentaire.
+
+@match_each_column
+Associez chaque pays à sa capitale !
+*États-Unis
+*Washington DC
+*France
+*Paris
+*Cameroun
+*Yaoundé
+> Cameroun = Yaoundé
+États-Unis = Washington DC
+France = Paris
+____________
+C'est une question de type "ASSOCIER LES COLONNES" : l'utilisateur doit associer chaque proposition de gauche à sa paire correcte à droite.
+
+@open[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_f55114e2-9e87-4fa2-8959-c81de91b33b8
+]
+Donnez le nom d'un animal que vous pouvez voir sur cette image !
+*chat
+*chien
+> "chien" et "chat" sont tous les deux corrects.
+_____________
+C'est une question de type "SAISIR LA RÉPONSE" avec la fonctionnalité "AIDE À LA SAISIE" activée. L'utilisateur peut saisir n'importe quelle réponse valide ! Vous pouvez définir plusieurs bonnes réponses. Utilisez des réponses courtes pour une meilleure accessibilité.
+
+@enumerate_each[
+question.image = https://raw.githubusercontent.com/Q-maker/documents-qmaker-public/master/resources/demo_qcm/res/images/question_picture_330c6a47-2060-44c6-ac81-381ec3ff6719
+]
+Donnez le nom des deux animaux que vous voyez sur cette image !
+*chat
+*chien
+> Un chien et un chat sont visibles.
+___________
+C'est une question de type "ÉNUMÉRATION" avec la fonctionnalité "AIDE À LA SAISIE" activée ! Pendant le jeu, elle indique combien de réponses l'utilisateur doit remplir. Sans cette aide, l'utilisateur doit deviner le nombre de réponses et les réponses elles-mêmes.
+
+@enumerate_each
+Énumérez les états de base de la matière !
+*solide
+*liquide
+*gaz
+> Les trois états de base sont : solide, liquide et gaz. Le plasma existe aussi comme état plus avancé.
+___________
+Utilisez les questions de type "ÉNUMÉRATION" uniquement pour des listes de réponses finies et bien connues. Activer la fonctionnalité "AIDE À LA SAISIE" permet d'indiquer combien de réponses sont attendues. Lorsqu'elle est désactivée, l'utilisateur doit le deviner.
+
+@open
+(10+1)x2
+*22
+> 11 x 2 = 22
+_______________
+Selon que la fonctionnalité "AIDE À LA SAISIE" est activée ou non, l'application affiche un clavier adapté à la réponse à saisir.
+
+@select_all
+Parmi les animaux suivants, lesquels sont des mammifères ?
+-Poisson 🐠
+-Tortue 🐢
+*Lion 🦁
+*Chien 🐶
+*Baleine 🐳
+-Serpent 🐍
+> Les baleines, les chiens et les lions sont tous des mammifères (ils nourrissent leurs petits avec du lait maternel).
+______________
+C'est une question de type "SÉLECTION MULTIPLE" ! Il n'y a absolument aucune limite concernant le nombre de propositions de réponse que vous pouvez ajouter ni le nombre de réponses "VRAIES" que vous pouvez assigner à chacune d'elles.
+
+@jumbled_words[
+question.sound=tts://speak?lang=EN&rate=0.6&text=The%20sky%20will%20be%20blue%20tomorrow
+]
+En utilisant les mots ci-dessous, écrivez la phrase prononcée dans l'audio attaché !
+*The sky will be blue tomorrow
+> Le texte correct était : "The sky will be blue tomorrow"
+______________
+C'est une question de type "mots mélangés" qui consiste à réécrire une phrase en réorganisant dans le bon ordre des mots préalablement mélangés.

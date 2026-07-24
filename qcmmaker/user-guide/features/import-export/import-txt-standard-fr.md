@@ -85,6 +85,6 @@ QcmMaker vous permet de :
 > QcmMaker est conçu pour créer, jouer et partager des fichiers de quiz.
 ```
 
-Vous pouvez partir du fichier d'exemple ici : [demo_standard.txt](../../../../resources/qxt/demo_standard.txt).
+Vous pouvez partir du fichier d'exemple ici : [demo_standard-fr.txt](../../../../resources/qxt/demo_standard-fr.txt).
 
 Lorsque vous êtes à l'aise avec cette structure, vous pouvez utiliser [l'import TXT avancé](import-txt-advanced-fr.md) pour ajouter des types de questions, des médias et des métadonnées.

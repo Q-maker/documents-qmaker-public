@@ -21,11 +21,9 @@ Les libellés de type documentés incluent :
 
 | Type | À utiliser pour |
 |---|---|
-| `auto` | Laisser QcmMaker détecter le type de question. |
-| `single` | Une seule bonne réponse. |
-| `multiple` | Plusieurs bonnes réponses. |
+| `auto` | Laisser QcmMaker détecter le type de question. Peut être omis pendant l'édition. |
+| `select_all` | Questions de sélection avec plusieurs réponses possibles. Peut être omis pendant l'édition. |
 | `open` | Réponse courte saisie au clavier. |
-| `select_all` | Questions de sélection avec plusieurs réponses possibles. |
 | `put_in_order` | Éléments à remettre dans l'ordre. |
 | `fill_in_all_blank` | Remplir plusieurs blancs dans un même texte. |
 | `enumerate_all` | Énumérer toutes les réponses attendues. |
@@ -104,7 +102,7 @@ Entourez une section de question avec `$md{}` lorsque vous voulez une mise en fo
 
 ```text
 $md{
-@single
+@select_all
 **Quelle planète est la plus proche du soleil ?**
 *Mercure
 -Vénus
@@ -136,6 +134,6 @@ $html{
 
 Si un import échoue, simplifiez d'abord le fichier : retirez les métadonnées, gardez une seule question, confirmez que la structure de base fonctionne, puis rajoutez les instructions avancées une par une.
 
-Vous pouvez partir du fichier d'exemple ici : [demo_advanced.txt](../../../../resources/qxt/demo_advanced.txt).
+Vous pouvez partir du fichier d'exemple ici : [demo_advanced-fr.txt](../../../../resources/qxt/demo_advanced-fr.txt).
 
 Pour un premier import plus simple, revenez à [l'import TXT standard](import-txt-standard-fr.md).
