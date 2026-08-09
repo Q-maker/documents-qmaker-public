@@ -51,12 +51,6 @@ All the options below understand the same `.qcm` quiz format. Choose the reader 
 
 For the best compatibility with recently created quizzes, keep the selected reader up to date.
 
-## If You Received a Quiz Link
-
-A compatible link can open a remotely hosted quiz in QcmMaker or in the web reader. This is different from receiving the `.qcm` file itself.
-
-See [Open shared quiz links](open-quiz-links.md) for supported link types and play modes.
-
 ## Before You Send a Quiz
 
 - Open and play the quiz once to check its questions, answers, correction, pictures, and sounds.
@@ -69,5 +63,6 @@ Sharing creates or sends another occurrence of the quiz file. It does not change
 
 - **No app opens the file:** install or update QcmMaker, or select the file on [read.qcmfile.com](https://read.qcmfile.com).
 - **The file is not visible in the browser selector:** check that it finished downloading and still has the `.qcm` extension.
-- **A quiz link does not open:** confirm that the full link was copied and that the remote file is still accessible.
 - **Some quiz content is not interpreted correctly:** update the reader and try opening the file again.
+
+If you received an HTTP address instead of a `.qcm` file, see [Share and open hosted quiz links](open-quiz-links.md).

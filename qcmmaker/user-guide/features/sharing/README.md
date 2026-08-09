@@ -1,33 +1,19 @@
-# Sharing
+# Sharing a Quiz
 
-Use the Share action on a quiz detail page or project page to send a portable `.qcm` file.
+QcmMaker's native sharing model is file-based: you send the portable `.qcm` quiz file itself. The receiver gets a complete copy that can be stored, moved, backed up, and opened with a compatible QCM reader.
 
-Good to know: sharing a quiz sends a quiz file, similar to sending a document. It does not automatically create a live classroom session, and it does not change the original file stored in your workspace.
+Sharing a hosted quiz through an HTTP link is a separate, additional option. A link is an address pointing to a remote quiz; it is not the `.qcm` file itself.
 
-The shared file can contain the quiz questions, answers, settings, correction information, pictures, and sounds. These elements travel together inside the `.qcm` file.
+## Share the `.qcm` File — Native Method
 
-The first time, QcmMaker explains that the receiver needs a compatible QCM reader. The receiver can use QcmMaker on Android or open the local file from a browser with [read.qcmfile.com](https://read.qcmfile.com).
+Choose this method when you want the receiver to obtain the quiz file and keep a local copy under their control.
 
-![Share warning](images/share-qcm-warning.png)
+→ [Share a quiz as a `.qcm` file](share-a-qcm-file.md)
 
-If your author profile is empty, QcmMaker warns that the file will be shared with an anonymous author.
+If you received a `.qcm` file and want to open it, see [Read a shared `.qcm` file](read-a-shared-qcm-file.md).
 
-![Author warning](images/share-author-warning.png)
+## Share a Hosted Quiz Through a Link — Additional Method
 
-What this means: the receiver can still open the quiz, but the file may not clearly identify you as the author. Fill in your author profile when you want shared quizzes to carry your signature.
+Choose this method when your `.qcm` file is already hosted online, or when you want to host it so that other people can access the remote quiz through an HTTP address.
 
-After confirmation, Android shows the standard share sheet.
-
-![Android share sheet](images/android-share-sheet-qcm.png)
-
-## What the Receiver Needs
-
-A `.qcm` file needs a compatible reader in the same way that a `.pdf` file needs a PDF reader. Installing an Android app is not mandatory: the receiver can select the local `.qcm` file directly on [read.qcmfile.com](https://read.qcmfile.com).
-
-See [Read a shared `.qcm` file](read-a-shared-qcm-file.md) for the available QmakerTech readers, browser instructions, and troubleshooting steps.
-
-## Open Shared Quiz Links
-
-QcmMaker can also open supported QcmMaker and QcmFile web links directly in the app. These links can preview a quiz, start quiz mode, start exam mode, open a project, or show documentation.
-
-See [Open shared quiz links](open-quiz-links.md).
+→ [Share and open hosted quiz links](open-quiz-links.md)

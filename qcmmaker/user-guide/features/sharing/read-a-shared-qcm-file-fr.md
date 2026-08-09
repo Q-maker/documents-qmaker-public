@@ -51,12 +51,6 @@ Toutes les solutions ci-dessous comprennent le même format de quiz `.qcm`. Choi
 
 Pour une compatibilité optimale avec les quiz créés récemment, maintenez le lecteur sélectionné à jour.
 
-## Si vous avez reçu un lien vers un quiz
-
-Un lien compatible peut ouvrir un quiz hébergé à distance dans QcmMaker ou dans le lecteur web. Ce fonctionnement est différent de la réception du fichier `.qcm` lui-même.
-
-Consultez [Ouvrir des liens de quiz partagés](open-quiz-links-fr.md) pour connaître les types de liens et les modes de jeu pris en charge.
-
 ## Avant d'envoyer un quiz
 
 - Ouvrez et jouez au quiz une fois afin de vérifier ses questions, réponses, corrections, images et sons.
@@ -69,5 +63,6 @@ Le partage crée ou envoie une autre occurrence du fichier de quiz. Il ne modifi
 
 - **Aucune application n'ouvre le fichier :** installez ou mettez à jour QcmMaker, ou sélectionnez le fichier sur [read.qcmfile.com](https://read.qcmfile.com).
 - **Le fichier n'apparaît pas dans le sélecteur du navigateur :** vérifiez que son téléchargement est terminé et qu'il possède toujours l'extension `.qcm`.
-- **Un lien vers un quiz ne s'ouvre pas :** vérifiez que le lien complet a été copié et que le fichier distant est toujours accessible.
 - **Une partie du contenu du quiz n'est pas interprétée correctement :** mettez le lecteur à jour, puis essayez de nouveau.
+
+Si vous avez reçu une adresse HTTP plutôt qu'un fichier `.qcm`, consultez [Partager et ouvrir des liens vers des quiz hébergés](open-quiz-links-fr.md).
