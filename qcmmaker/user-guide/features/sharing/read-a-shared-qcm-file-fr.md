@@ -1,18 +1,25 @@
 # Lire un fichier `.qcm` partagé
 
-Un fichier `.qcm` est un document de quiz portable. Il peut contenir les questions, les réponses, les paramètres, les informations de correction, les images et les sons afin que le quiz complet puisse être envoyé par e-mail, messagerie, stockage cloud ou tout autre moyen de partage de fichiers.
+Un fichier `.qcm` est un fichier comme ceux que vous utilisez chaque jour : vous pouvez le télécharger, le copier, le renommer, le conserver, le joindre à un e-mail ou l'envoyer avec une application de messagerie. Sa particularité vient simplement de sa fonction : c'est un format de fichier dédié aux quiz interactifs.
 
-## Pourquoi faut-il un lecteur compatible ?
+Dans un seul fichier `.qcm` portable, un quiz peut embarquer ses questions, ses réponses, ses paramètres, ses informations de correction, ses images et ses sons. Le service utilisé pour le partage n'a pas besoin de comprendre le quiz : il transporte simplement le fichier, comme il transporterait un PDF, un document Word ou une feuille de calcul.
 
-Partager un quiz ne le transforme pas en session de classe en direct ni en document ordinaire. Le fichier doit être interprété par un logiciel qui comprend le format `.qcm`.
+## Un format de fichier dédié aux quiz
 
-| Fichier reçu | Logiciel compatible |
-|--------------|---------------------|
-| Document `.pdf` | Un lecteur PDF |
-| Document `.docx` | Un traitement de texte compatible |
-| Quiz `.qcm` | QcmMaker ou un autre lecteur QCM compatible |
+Le format `.qcm` donne aux quiz interactifs leur propre format de fichier reconnaissable et portable, comme les autres types de contenus qui disposent de formats conçus pour eux.
 
-Le lecteur ne doit pas nécessairement être une application Android installée. QmakerTech propose également un lecteur accessible depuis un navigateur.
+Le format et l'application utilisée pour le lire sont deux éléments complémentaires. L'extension d'un fichier indique comment son contenu est organisé, tandis qu'un lecteur compatible sait comment ouvrir et présenter ce contenu.
+
+| Format de fichier | Contenu transporté | Ce qui permet de l'ouvrir |
+|-------------------|--------------------|---------------------------|
+| `.pdf` | Documents portables | Un lecteur PDF |
+| `.docx` | Documents de traitement de texte | Un traitement de texte compatible |
+| `.xlsx` | Feuilles de calcul | Un tableur compatible |
+| `.qcm` | Quiz interactifs | QcmMaker ou un autre lecteur QCM compatible |
+
+Il n'y a donc rien d'inhabituel à recevoir un fichier `.qcm`. Avec le bon lecteur, vous l'ouvrez et profitez de son contenu comme vous le feriez avec un autre format de fichier familier.
+
+Le lecteur ne doit pas nécessairement être une application Android installée. QmakerTech propose également un lecteur QCM accessible depuis un navigateur.
 
 ## Ouvrir un fichier `.qcm` local dans un navigateur
 
@@ -33,7 +40,7 @@ Vous pouvez également ouvrir QcmMaker et utiliser son option d'ouverture de fic
 
 ## Lecteurs QmakerTech compatibles
 
-Toutes les solutions ci-dessous peuvent lire les fichiers de quiz `.qcm` compatibles. Choisissez celle qui correspond le mieux à votre appareil et à vos besoins.
+Toutes les solutions ci-dessous comprennent le même format de quiz `.qcm`. Choisissez le lecteur qui correspond le mieux à votre appareil et à vos besoins.
 
 | Lecteur | Quand le choisir | Lien |
 |---------|------------------|------|
@@ -54,7 +61,7 @@ Consultez [Ouvrir des liens de quiz partagés](open-quiz-links-fr.md) pour conna
 
 - Ouvrez et jouez au quiz une fois afin de vérifier ses questions, réponses, corrections, images et sons.
 - Envoyez le fichier `.qcm` avec l'action de partage de QcmMaker ou le gestionnaire de fichiers de votre appareil.
-- Indiquez au destinataire qu'un lecteur compatible est nécessaire et transmettez-lui cette page si besoin.
+- Indiquez au destinataire qu'il s'agit d'un fichier de quiz `.qcm`, ouvrable avec tout lecteur QCM compatible, et transmettez-lui cette page si besoin.
 
 Le partage crée ou envoie une autre occurrence du fichier de quiz. Il ne modifie pas le fichier `.qcm` original enregistré dans votre espace de travail.
 

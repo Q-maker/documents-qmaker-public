@@ -1,18 +1,25 @@
 # Read a Shared `.qcm` File
 
-A `.qcm` file is a portable quiz document. It can carry questions, answers, settings, correction information, pictures, and sounds so that the complete quiz can be sent by email, messaging apps, cloud storage, or any other file-sharing method.
+A `.qcm` file is a file like any other file you use every day: you can download it, copy it, rename it, store it, attach it to an email, or send it through a messaging app. What makes it special is simply its purpose: it is a file format dedicated to interactive quizzes.
 
-## Why You Need a Compatible Reader
+Inside one portable `.qcm` file, a quiz can carry its questions, answers, settings, correction information, pictures, and sounds. The sharing service does not need to understand the quiz; it only transports the file, just as it would transport a PDF, Word document, or spreadsheet.
 
-Sharing a quiz does not convert it into a live classroom session or an ordinary document. The file must be interpreted by software that understands the `.qcm` format.
+## A File Format Dedicated to Quizzes
 
-| File received | Compatible software |
-|---------------|---------------------|
-| `.pdf` document | A PDF reader |
-| `.docx` document | A compatible word processor |
-| `.qcm` quiz | QcmMaker or another compatible QCM reader |
+The `.qcm` format gives interactive quizzes their own recognizable and portable file format, in the same way that other kinds of content have formats designed for them.
 
-The reader does not have to be an installed Android app. QmakerTech also provides a browser-based reader.
+The format and the application used to read it are two complementary things. A file extension identifies how its content is organized, and a compatible reader knows how to open and present that content.
+
+| File format | Content it carries | What opens it |
+|-------------|--------------------|---------------|
+| `.pdf` | Portable documents | A PDF reader |
+| `.docx` | Word-processing documents | A compatible word processor |
+| `.xlsx` | Spreadsheets | A compatible spreadsheet application |
+| `.qcm` | Interactive quizzes | QcmMaker or another compatible QCM reader |
+
+There is therefore nothing unusual about receiving a `.qcm` file. With the right reader, you open it and enjoy its quiz content just as you would open another familiar file format.
+
+The reader does not have to be an installed Android app. QmakerTech also provides a browser-based QCM reader.
 
 ## Open a Local `.qcm` File in a Browser
 
@@ -33,7 +40,7 @@ You can also open QcmMaker and use its file-opening option to select a `.qcm` fi
 
 ## Compatible QmakerTech Readers
 
-All the options below can read compatible `.qcm` quiz files. Choose the one that best matches your device and needs.
+All the options below understand the same `.qcm` quiz format. Choose the reader that best matches your device and needs.
 
 | Reader | When to choose it | Link |
 |--------|-------------------|------|
@@ -54,7 +61,7 @@ See [Open shared quiz links](open-quiz-links.md) for supported link types and pl
 
 - Open and play the quiz once to check its questions, answers, correction, pictures, and sounds.
 - Send the `.qcm` file using QcmMaker's Share action or your device's file manager.
-- Tell the receiver that the file requires a compatible reader and share this page when helpful.
+- Tell the receiver that it is a `.qcm` quiz file and that it opens with any compatible QCM reader; share this page when helpful.
 
 Sharing creates or sends another occurrence of the quiz file. It does not change the original `.qcm` file stored in your workspace.
 
