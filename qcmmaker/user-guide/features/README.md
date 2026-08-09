@@ -13,6 +13,7 @@ Use this section when you already know what you want to do with a quiz file.
 - [Play modes](play-modes/README.md)
 - [Import](import-export/README.md)
 - [Sharing](sharing/README.md)
+  - [Read a shared `.qcm` file](sharing/read-a-shared-qcm-file.md)
   - [Open shared quiz links](sharing/open-quiz-links.md)
 - [Bookmarks](bookmarks/README.md)
 - [Settings](settings/README.md)

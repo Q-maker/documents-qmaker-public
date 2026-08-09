@@ -39,6 +39,7 @@ access.
     - [Standard TXT import](features/import-export/import-txt-standard.md)
     - [Advanced TXT import](features/import-export/import-txt-advanced.md)
   - [Sharing](features/sharing/README.md)
+    - [Read a shared `.qcm` file](features/sharing/read-a-shared-qcm-file.md)
     - [Open shared quiz links](features/sharing/open-quiz-links.md)
   - [Bookmarks](features/bookmarks/README.md)
   - [Settings](features/settings/README.md)
@@ -50,4 +51,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-07-12
+© QmakerTech — Last updated: 2026-08-08

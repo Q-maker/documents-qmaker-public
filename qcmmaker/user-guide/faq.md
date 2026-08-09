@@ -98,9 +98,9 @@ Yes. After a quiz result, choose **Correct** to review the quiz with answer info
 
 #### How do I send a quiz to someone else?
 
-Share the quiz as a `.qcm` file from QcmMaker or from your device's file manager. The receiver needs QcmMaker or another compatible QCM reader to open and play that file.
+Share the quiz as a `.qcm` file from QcmMaker or from your device's file manager. The receiver can open it with QcmMaker, another compatible QCM reader, or by selecting the local file on `read.qcmfile.com` from a browser.
 
-→ See [Sharing](features/sharing/README.md) for the full how-to.
+→ See [Read a shared `.qcm` file](features/sharing/read-a-shared-qcm-file.md) for all reading options.
 
 ---
 
@@ -114,9 +114,9 @@ The quiz can still be shared and opened, but the receiver may see it as created 
 
 #### Where is the code or live link for students to join my quiz?
 
-QcmMaker's normal sharing model is file-based: you share a `.qcm` file, not a live room code. Supported web links can open a hosted quiz in QcmMaker, but a local quiz must first be shared as a file or hosted somewhere that provides a link.
+QcmMaker's normal sharing model is file-based: you share a `.qcm` file, not a live room code. A receiver can open that local file with QcmMaker or `read.qcmfile.com`; hosting is only needed when you want to distribute a remote link instead of the file itself.
 
-→ See [Open shared quiz links](features/sharing/open-quiz-links.md) for the full how-to.
+→ See [Sharing](features/sharing/README.md) for file sharing and [Open shared quiz links](features/sharing/open-quiz-links.md) for hosted links.
 
 ---
 

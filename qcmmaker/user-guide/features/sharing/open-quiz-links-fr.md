@@ -2,9 +2,13 @@
 
 QcmMaker peut ouvrir les liens QcmMaker et QcmFile compatibles directement depuis Android. Lorsque QcmMaker est installé, un appui sur l'un de ces liens peut ouvrir le quiz, l'examen, le projet ou la documentation dans l'application. Si l'application n'est pas installée, le même lien peut être pris en charge par le lecteur web lorsque le site le prend en charge.
 
+Le lecteur web possède également un parcours distinct pour les fichiers locaux : rendez-vous sur [read.qcmfile.com](https://read.qcmfile.com), puis sélectionnez un fichier `.qcm` présent sur votre appareil. Cette ouverture locale ne nécessite ni création ni hébergement d'un lien distant.
+
 ## Liens pris en charge
 
 Utilisez ces liens pour partager du contenu avec un autre utilisateur de QcmMaker :
+
+Bon à savoir : un lien web pointe vers l'emplacement distant d'un quiz ou d'un document. L'hébergement est nécessaire lorsque vous souhaitez transmettre un lien distant à d'autres personnes, mais pas lorsque vous voulez simplement sélectionner et lire un fichier `.qcm` local dans le lecteur web.
 
 | Type de lien | Ce qu'il ouvre |
 |--------------|----------------|
@@ -50,3 +54,5 @@ https://doc.qcmmaker.com/documentations/play-modes/body.md
 Certains appareils Android peuvent demander quelle application doit ouvrir le lien la première fois. Choisissez QcmMaker pour continuer dans l'application.
 
 Les fichiers distants ouverts depuis un lien sont destinés à la lecture, la prévisualisation ou le jeu. Pour modifier un quiz partagé de façon permanente, sauvegardez-le ou importez-le d'abord dans votre propre espace de travail.
+
+Si vous avez reçu un fichier plutôt qu'un lien, consultez [Lire un fichier `.qcm` partagé](read-a-shared-qcm-file-fr.md).
