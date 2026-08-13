@@ -9,6 +9,7 @@ Use this section when you already know what you want to do with a quiz file.
 - Use **Settings** when the app behavior, workspace, language, or player experience needs adjustment.
 
 - [Creating a quiz](create-quiz/README.md)
+- [Editing questions](editor/README.md)
 - [Search](search/README.md)
 - [Play modes](play-modes/README.md)
 - [Import](import-export/README.md)

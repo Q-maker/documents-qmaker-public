@@ -30,6 +30,7 @@ access.
 
 - [Features](features/README.md)
   - [Creating a quiz](features/create-quiz/README.md)
+  - [Editing questions](features/editor/README.md)
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
     - [Exam question types](features/play-modes/exam-question-types/README.md)
@@ -52,4 +53,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-08-09
+© QmakerTech — Last updated: 2026-08-13
