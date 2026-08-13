@@ -3,6 +3,11 @@
 This section shows how the main QcmMaker question families look while playing in
 Exam mode.
 
+> The detailed screenshots for the different question types were taken in Exam
+> mode to keep the visual presentation consistent. The same question families
+> can be used in Challenge mode, but the navigation rhythm and the moment when
+> correction appears are different.
+
 In Exam mode, you answer each question first. QcmMaker shows detailed feedback
 only after the quiz is finished, when you open the correction review.
 
@@ -33,3 +38,8 @@ Each page shows the same progression when available:
 The visible correction style can vary by question type. Green usually marks
 accepted answers, red usually marks rejected or missing answers, and correction
 comments may show the expected answer.
+
+Questions and proposals may contain text, pictures, and sound controls. These
+media belong to the quiz and appear beside the statement or answer concerned.
+Only item-by-item evaluation can produce a meaningful partial state; questions
+evaluated as one complete set are shown as correct or incorrect.

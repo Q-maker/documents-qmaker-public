@@ -40,7 +40,10 @@ feedback after finishing.
 
 ![Exam mode](images/exam-start.png)
 
-For visual examples of each supported question family in Exam mode, see
+All detailed question-family screenshots use Exam mode as the visual reference.
+This keeps empty, filled, correct, incorrect, and partial states consistent.
+The same question families can be used in Challenge mode, but navigation rhythm
+and the moment when correction appears are different. See
 [Exam question types](exam-question-types/README.md).
 
 At the end, QcmMaker shows the score, elapsed time, scoring policy, and actions to replay, correct, or leave.
@@ -57,8 +60,10 @@ settings.
 
 ![Challenge mode](images/challenge-start.png)
 
-For visual examples of captured immediate feedback by question family, see
-[Challenge question types](challenge-question-types/README.md).
+Challenge uses the same question families documented in the Exam visual guide.
+The important difference is timing: an answer is checked during the run, a
+success, failure, partial, or skipped message may appear, and the player then
+moves on automatically or waits for your action according to its settings.
 
 The result dialog keeps the same core actions: replay, correct, or leave. See
 [Result and replay](result-and-replay.md) for the result dialog and replay
@@ -109,3 +114,26 @@ Challenge correction uses the same drawer structure with Challenge timing contex
 ![Challenge correction drawer](images/challenge-correction-drawer.png)
 
 Good to know: correction availability depends on the quiz configuration. Some authors may allow full correction, partial correction, or no correction at all. When correction is available, use it to understand mistakes before replaying.
+
+## Controls, Media, And Special States
+
+- Exam mode provides Previous and Next navigation and a question/status drawer,
+  so you can revisit answers before finishing. The last Next action becomes the
+  finish action.
+- Challenge mode normally progresses sequentially. During immediate feedback,
+  its next-question countdown can be automatic or require your action, depending
+  on the quiz and player settings.
+- A quiz can use a global time limit, a per-question countdown, or no visible
+  limit. Pause availability and timer display depend on the selected mode and
+  configuration.
+- Questions and proposals can include pictures and sounds. Tap the visible media
+  controls to enlarge a picture or play audio when they are available.
+- Pressing Android Back while a run is active asks for confirmation before
+  leaving. In correction, navigation returns through the review flow.
+- QcmMaker preserves the active run when Android recreates the screen whenever
+  the saved quiz and session state remain available. Always check the restored
+  question and timer before continuing after an interruption.
+
+Accessibility depends partly on the content authored in the quiz. Prefer clear
+question text, meaningful media, and sufficiently short answers; use the system
+keyboard for text fields and the labeled player buttons for navigation.
