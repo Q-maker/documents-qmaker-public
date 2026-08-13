@@ -39,6 +39,11 @@ une réussite partielle ou une question passée lorsque cet état existe. Le
 passage suivant peut être automatique après un compte à rebours ou manuel,
 selon les réglages.
 
+L’en-tête peut afficher les points obtenus et le temps restant pour la question.
+Une réponse composée propose **Réinitialiser** et **Valider**. Après validation,
+le bandeau de résultat peut afficher une explication avec image ou son, l’action
+d’ajout aux favoris, **Pause** et **Suivant**.
+
 Le lecteur peut utiliser un chronomètre, des sons, une vibration et des effets
 visuels pour signaler l’action ou le résultat. Leur présence dépend du quiz, des
 réglages du lecteur et de l’appareil.
@@ -56,6 +61,15 @@ Après une rotation ou une reprise de l’application, vérifiez la question et 
 temps restaurés avant de continuer. La restauration dépend de la disponibilité
 du quiz et de l’état de session sauvegardé.
 
+Sur la version Android observée, une rotation pendant un Examen a conservé la
+question courante, le tableau de progression ouvert et le chronomètre global en
+cours.
+
+Les boutons textuels principaux sont identifiables par les services
+d’accessibilité. Sur la version Android observée, certaines actions uniquement
+représentées par une image ne possédaient toutefois pas de libellé vocal utile ;
+un utilisateur de lecteur d’écran peut avoir besoin d’aide pour ces contrôles.
+
 ## Résultat, correction et nouvelle tentative
 
 À la fin, choisissez **Corriger** pour relire les réponses si le quiz l’autorise,
@@ -64,4 +78,3 @@ rejeu peuvent cibler tout le test, les réponses échouées, les questions manqu
 ou les favoris selon le contenu de la tentative.
 
 ![Résultat d’un examen](images/exam-result.png)
-

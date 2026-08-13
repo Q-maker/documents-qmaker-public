@@ -118,22 +118,38 @@ Good to know: correction availability depends on the quiz configuration. Some au
 ## Controls, Media, And Special States
 
 - Exam mode provides Previous and Next navigation and a question/status drawer,
-  so you can revisit answers before finishing. The last Next action becomes the
-  finish action.
+  so you can revisit answers before finishing. You can also swipe left or right
+  between questions. The drawer reports pages, answered questions, remaining
+  questions, questions seen, and remaining time, and includes a **Finish the
+  test** action. The last Next action also becomes the finish action.
 - Challenge mode normally progresses sequentially. During immediate feedback,
   its next-question countdown can be automatic or require your action, depending
   on the quiz and player settings.
+- In Challenge mode, the header can show points earned and the current
+  question's remaining time. Composed answers expose **Reset** and **Submit**;
+  after submission, the feedback area can show an explanation with its own
+  picture or sound, a success/failure message, a bookmark action, **Pause**, and
+  **Next**.
 - A quiz can use a global time limit, a per-question countdown, or no visible
   limit. Pause availability and timer display depend on the selected mode and
   configuration.
 - Questions and proposals can include pictures and sounds. Tap the visible media
   controls to enlarge a picture or play audio when they are available.
 - Pressing Android Back while a run is active asks for confirmation before
-  leaving. In correction, navigation returns through the review flow.
+  leaving and explicitly warns that current progress will be lost. In
+  correction, navigation returns through the review flow.
 - QcmMaker preserves the active run when Android recreates the screen whenever
   the saved quiz and session state remain available. Always check the restored
   question and timer before continuing after an interruption.
 
+On the tested Android build, rotating the device recreated the Exam screen while
+preserving the active question/navigation context, the open progress drawer,
+and the running global timer.
+
 Accessibility depends partly on the content authored in the quiz. Prefer clear
 question text, meaningful media, and sufficiently short answers; use the system
-keyboard for text fields and the labeled player buttons for navigation.
+keyboard for text fields and the labeled player buttons for navigation. On the
+tested Android build, core text controls were exposed to accessibility services,
+but some image-only question and card actions did not provide a useful spoken
+label. Users relying on a screen reader may therefore need assistance with
+media-only controls.
