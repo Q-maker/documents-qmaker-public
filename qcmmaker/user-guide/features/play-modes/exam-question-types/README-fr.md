@@ -1,5 +1,8 @@
 # Types de questions en mode Examen
 
+> Les captures actuelles montrent l’interface en anglais. Les explications de
+> cette page utilisent les noms français des actions et des états.
+
 > Les captures détaillées des différents types de questions ont été réalisées
 > en mode Examen afin de conserver une présentation visuelle cohérente. Les
 > mêmes familles de questions peuvent être utilisées en mode Challenge, mais le

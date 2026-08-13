@@ -39,3 +39,24 @@ missed questions only, or replaying bookmarked questions.
 
 Use **Replay failed questions only** when you want focused practice after a run.
 Use **Replay the whole test** when you want a fresh complete attempt.
+
+## Correction Review
+
+Choose **Correct** to reopen the quiz with answer feedback and navigation
+controls. The Score action reopens the result summary.
+
+![Correction review](images/correction-review.png)
+
+The correction menu opens a question/status drawer. In Exam correction, green
+checked items indicate correct answers, red checked items indicate incorrect
+answers, and empty items indicate an unanswered or neutral state.
+
+![Exam correction drawer](images/exam-correction-drawer.png)
+
+Challenge correction uses the same drawer structure with Challenge timing
+context.
+
+![Challenge correction drawer](images/challenge-correction-drawer.png)
+
+Correction availability depends on the quiz configuration. Some quizzes allow
+full or limited correction, while others do not expose correction at all.

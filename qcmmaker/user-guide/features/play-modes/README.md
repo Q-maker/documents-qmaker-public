@@ -11,6 +11,16 @@ Good to know: the two modes are not only visual styles. They create different le
 | Exam mode | To simulate an evaluation, manage time across the whole quiz, and see feedback after finishing. |
 | Challenge mode | To train quickly, answer under pressure, and learn from immediate feedback. |
 
+## In This Guide
+
+- [Choose a mode](#choose-a-mode-before-playing)
+- [Use Exam mode](#exam-mode)
+- [Use Challenge mode](#challenge-mode)
+- [Set the modes allowed by a quiz](#supported-play-mode)
+- [Understand controls, timing, and media](#controls-timing-and-media)
+- [Review results, corrections, and replay options](result-and-replay.md)
+- [Learn how to answer each question family](exam-question-types/README.md)
+
 ## Choose A Mode Before Playing
 
 From the home **Questionnaires** tab, tap the small **Q** icon on a quiz card to
@@ -95,27 +105,7 @@ the mode for the current play session.
 
 What happens when you share the quiz: the supported play mode setting travels with the exported `.qcm` file. It tells other compatible readers which experience the author intended to allow.
 
-## Correction And Score
-
-After a result, choose **Correct** to review the quiz with the answers and navigation controls.
-
-![Correction review](images/correction-review.png)
-
-The Score action reopens the result summary.
-
-![Score popup](images/score-popup.png)
-
-The menu icon in correction opens the question/status drawer. In Exam correction, green checked items indicate correct answers, red checked items indicate incorrect answers, and empty items indicate unanswered or neutral state.
-
-![Exam correction drawer](images/exam-correction-drawer.png)
-
-Challenge correction uses the same drawer structure with Challenge timing context.
-
-![Challenge correction drawer](images/challenge-correction-drawer.png)
-
-Good to know: correction availability depends on the quiz configuration. Some authors may allow full correction, partial correction, or no correction at all. When correction is available, use it to understand mistakes before replaying.
-
-## Controls, Media, And Special States
+## Controls, Timing, And Media
 
 - Exam mode provides Previous and Next navigation and a question/status drawer,
   so you can revisit answers before finishing. You can also swipe left or right
@@ -139,17 +129,20 @@ Good to know: correction availability depends on the quiz configuration. Some au
   leaving and explicitly warns that current progress will be lost. In
   correction, navigation returns through the review flow.
 - QcmMaker preserves the active run when Android recreates the screen whenever
-  the saved quiz and session state remain available. Always check the restored
-  question and timer before continuing after an interruption.
-
-On the tested Android build, rotating the device recreated the Exam screen while
-preserving the active question/navigation context, the open progress drawer,
-and the running global timer.
+  the saved quiz and session state remain available. After a rotation or an
+  interruption, check the restored question and timer before continuing.
 
 Accessibility depends partly on the content authored in the quiz. Prefer clear
 question text, meaningful media, and sufficiently short answers; use the system
-keyboard for text fields and the labeled player buttons for navigation. On the
-tested Android build, core text controls were exposed to accessibility services,
-but some image-only question and card actions did not provide a useful spoken
-label. Users relying on a screen reader may therefore need assistance with
-media-only controls.
+keyboard for text fields and the labeled player buttons for navigation. Some
+image-only actions may not provide a useful spoken label, so users relying on a
+screen reader may need assistance with media-only controls.
+
+## Results, Correction, And Replay
+
+Correction availability depends on the quiz configuration. An author can allow
+full or limited correction, or prevent correction entirely. When it is
+available, the correction view lets you revisit answers and reopen the score.
+
+See [Result and replay](result-and-replay.md) for the result actions, correction
+drawer, and focused replay choices.

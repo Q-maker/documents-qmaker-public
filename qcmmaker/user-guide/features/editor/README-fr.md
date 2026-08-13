@@ -2,9 +2,24 @@
 
 L'éditeur de questions permet de rédiger l'énoncé, choisir la manière de répondre, joindre des médias, définir les réponses acceptées, ajouter une explication et organiser le quiz. Chaque page correspond à une question.
 
+> Les captures actuelles montrent l’interface en anglais. Les noms français des
+> actions sont indiqués dans le texte lorsque leur traduction est disponible.
+
 ## Accès
 
 Ouvrez un quiz, puis touchez **Edit questions / Modifier les questions**.
+
+## Accès rapide
+
+- [Choisir un type de question](#types-de-questions-pris-en-charge)
+- [Ajouter et organiser les réponses](#section-de-réponses-vide-ou-complétée)
+- [Modifier les options de la question](#options-avancées-de-la-question)
+- [Joindre un média à une proposition](#options-propres-à-chaque-proposition)
+- [Joindre un média à la question](#image-et-audio-de-la-question)
+- [Ajouter une explication de correction](#commentaire-avec-texte-image-et-son)
+- [Corriger une erreur de validation](#erreurs-de-validation)
+- [Réordonner les questions ou naviguer rapidement](#tiroir-réordonnancement-et-menu-dindex)
+- [Enregistrer ou quitter](#avant-de-quitter)
 
 ## Comprendre l'écran
 
@@ -74,7 +89,7 @@ Le bouton appareil photo permet de prendre une photo, choisir une image, utilise
 
 Le bouton audio permet de choisir un fichier, enregistrer un son, utiliser un lien web ou générer de l'audio à partir d'un texte. Le lecteur permet ensuite d'écouter et de modifier ce média.
 
-## Commentaire : texte, image et son
+## Commentaire avec texte, image et son
 
 ![Éditeur de commentaire](./assets/comment-editor.png)
 

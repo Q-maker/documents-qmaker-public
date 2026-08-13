@@ -6,6 +6,18 @@ The question editor is where you write the prompt, choose how the learner must a
 
 Open a quiz, then tap **Edit questions**.
 
+## Quick Tasks
+
+- [Choose a question type](#supported-question-types)
+- [Add and organize answers](#empty-and-completed-answer-sections)
+- [Change question options](#question-level-advanced-options)
+- [Attach media to an answer](#options-for-each-answer-row)
+- [Attach media to the question](#question-picture-and-audio)
+- [Add a correction explanation](#comment-text-picture-and-sound)
+- [Fix a validation error](#validation-messages)
+- [Reorder or jump between questions](#question-drawer-reordering-and-index-menu)
+- [Save or leave the editor](#before-leaving)
+
 ## Understand the editor
 
 ![A completed selection question](./assets/selection-filled.png)
@@ -84,7 +96,7 @@ The camera button can take a picture, choose one from the device, use a web link
 
 The audio button can choose an audio file, record sound, use a web link, or create audio from text. Once attached, the player lets you listen and reopen editing options.
 
-## Comment: text, picture, and sound
+## Comment text, picture, and sound
 
 ![Comment editor](./assets/comment-editor.png)
 

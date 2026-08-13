@@ -5,10 +5,21 @@ mode **Challenge**. Le premier reproduit une épreuve que l’on termine avant d
 voir la correction ; le second privilégie un entraînement séquentiel avec un
 retour immédiat après chaque réponse.
 
+> Les captures actuelles montrent l’interface en anglais. Le fonctionnement
+> décrit reste identique lorsque QcmMaker affiche les commandes en français.
+
 | Choisissez | Lorsque vous souhaitez |
 |---|---|
 | Examen | Parcourir les questions, modifier vos réponses et gérer le temps de l’épreuve avant de terminer. |
 | Challenge | Répondre dans l’ordre, connaître immédiatement le résultat et enchaîner rapidement. |
+
+## Dans ce guide
+
+- [Utiliser le mode Examen](#mode-examen)
+- [Utiliser le mode Challenge](#mode-challenge)
+- [Comprendre le temps, les médias et les interruptions](#temps-médias-et-interruption)
+- [Consulter le résultat et recommencer](result-and-replay-fr.md)
+- [Répondre à chaque famille de questions](exam-question-types/README-fr.md)
 
 ## Mode Examen
 
@@ -61,14 +72,10 @@ Après une rotation ou une reprise de l’application, vérifiez la question et 
 temps restaurés avant de continuer. La restauration dépend de la disponibilité
 du quiz et de l’état de session sauvegardé.
 
-Sur la version Android observée, une rotation pendant un Examen a conservé la
-question courante, le tableau de progression ouvert et le chronomètre global en
-cours.
-
 Les boutons textuels principaux sont identifiables par les services
-d’accessibilité. Sur la version Android observée, certaines actions uniquement
-représentées par une image ne possédaient toutefois pas de libellé vocal utile ;
-un utilisateur de lecteur d’écran peut avoir besoin d’aide pour ces contrôles.
+d’accessibilité. Certaines actions uniquement représentées par une image
+peuvent toutefois ne pas fournir de libellé vocal utile ; un utilisateur de
+lecteur d’écran peut avoir besoin d’aide pour ces contrôles.
 
 ## Résultat, correction et nouvelle tentative
 
@@ -78,3 +85,6 @@ rejeu peuvent cibler tout le test, les réponses échouées, les questions manqu
 ou les favoris selon le contenu de la tentative.
 
 ![Résultat d’un examen](images/exam-result.png)
+
+Consultez [Résultat et nouvelle tentative](result-and-replay-fr.md) pour les
+actions de correction et les différentes options de rejeu.

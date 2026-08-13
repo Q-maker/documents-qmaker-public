@@ -1,7 +1,11 @@
 # Challenge Question Types
 
-This section shows how the main QcmMaker question families look while playing in
-Challenge mode.
+> The canonical visual guide for question families uses
+> [Exam mode](../exam-question-types/README.md). This supplemental section is
+> retained only to illustrate the timing of immediate Challenge feedback. Do
+> not use it as the visual reference for question-by-question documentation.
+
+The same main QcmMaker question families can be played in Challenge mode.
 
 In Challenge mode, each question is checked as soon as you answer or submit it.
 QcmMaker then shows immediate feedback before moving to the next question.

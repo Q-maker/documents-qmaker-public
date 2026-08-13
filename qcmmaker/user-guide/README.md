@@ -33,7 +33,6 @@ access.
   - [Editing questions](features/editor/README.md)
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
-    - [Play modes — French translation](features/play-modes/README-fr.md)
     - [Exam question types](features/play-modes/exam-question-types/README.md)
     - [Result and replay](features/play-modes/result-and-replay.md)
   - [Import](features/import-export/README.md)
