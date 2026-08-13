@@ -38,15 +38,17 @@ In a completed selection question, checked boxes are the accepted true answers. 
 
 ## Question-level advanced options
 
-![Question options bottom sheet](./assets/question-options-sheet.png)
+Tap the vertical three-dot button at the top right of the answer card. The resulting sheet is different for each question-type family:
 
-Tap the vertical three-dot button at the top right of the answer card. Depending on the question type, the bottom sheet can control:
+| Question types | Options shown | Example |
+|---|---|---|
+| Selection, single/multiple selection | Case sensitivity, input help, answer randomization, and optional display limits | [Selection sheet](./assets/options-sheet-selection.png) |
+| Type answer, enumeration | Case sensitivity and input help | [Text-answer sheet](./assets/options-sheet-open-enumeration-panel.png) |
+| Fill in the blanks | Case sensitivity | [Fill-blank sheet](./assets/options-sheet-fill-blank.png) |
+| Match columns | Randomize the left column, right column, or both | [Match-column sheet](./assets/options-sheet-match-column.png) |
+| Put in order, jumbled words | The sheet explicitly reports that this type has no options | [No-options sheet](./assets/options-sheet-no-options.png) |
 
-- case-sensitive comparison;
-- input help when the learner needs assistance;
-- randomization of answer proposals.
-
-Randomization is useful for selection questions, but avoid it when the visible order itself carries meaning unless the selected question type explicitly manages ordering.
+Types in the same row share the same visual. Randomization is useful for selection questions; Match columns has its own strategy because its two sides can be shuffled independently.
 
 ## Options for each answer row
 
@@ -61,6 +63,16 @@ Tap the options area on the left of a proposal. Available actions depend on the 
 - reordering the proposal.
 
 Open-ended and enumeration answers do not expose proposition picture/audio actions, while selection, matching, fill-in, and ordering variants can support proposition media.
+
+The visible menu families are:
+
+| Question types | Proposition menu |
+|---|---|
+| Selection, Match columns, Put in order | Picture and audio submenus. The current Android editor also displays them for Jumbled words, but that type can reject unsupported proposition media during validation. |
+| Type answer, Enumeration | Text evaluation only: exact equality, contains, or pattern match. |
+| Fill in the blanks | Picture, audio, text evaluation, and clue controls. |
+
+The menu also reacts to the selected proposal. A proposal with an image gains expand/crop/remove commands; one with audio gains listen/remove commands. For Fill in the blanks, an existing clue changes the direct add action into edit/delete choices.
 
 ## Question picture and audio
 

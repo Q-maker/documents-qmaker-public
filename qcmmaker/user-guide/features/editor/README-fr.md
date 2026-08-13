@@ -38,15 +38,31 @@ Les cases cochées sont les réponses vraies ; les autres lignes remplies sont d
 
 ## Options avancées de la question
 
-![Bottom sheet des options](./assets/question-options-sheet.png)
+Touchez les trois points verticaux en haut à droite de la carte. Le panneau dépend de la famille de question :
 
-Touchez les trois points verticaux en haut à droite de la carte. Selon le type, le panneau permet de régler la sensibilité à la casse, l'aide à la saisie et le mélange des propositions.
+| Types de question | Options visibles | Exemple |
+|---|---|---|
+| Sélection simple/multiple | Sensibilité à la casse, aide à la saisie, mélange et limites d'affichage éventuelles | [Panneau Sélection](./assets/options-sheet-selection.png) |
+| Réponse saisie, Énumération | Sensibilité à la casse et aide à la saisie | [Panneau texte](./assets/options-sheet-open-enumeration-panel.png) |
+| Texte à trous | Sensibilité à la casse | [Panneau Texte à trous](./assets/options-sheet-fill-blank.png) |
+| Association de colonnes | Mélange de la colonne gauche, droite ou des deux | [Panneau Association](./assets/options-sheet-match-column.png) |
+| Mise en ordre, Mots mélangés | Message explicite indiquant qu'aucune option n'est disponible | [État sans option](./assets/options-sheet-no-options.png) |
+
+Les types placés sur une même ligne partagent le même visuel.
 
 ## Options propres à chaque proposition
 
 ![Menu d'une proposition](./assets/proposition-row-options.png)
 
 Touchez la zone d'options à gauche d'une ligne. Selon le type, vous pouvez joindre une image, joindre/enregistrer/générer un son, choisir l'évaluation du texte (égalité, contenu ou motif), ajouter un indice ou réordonner la proposition. Les réponses ouvertes et les énumérations n'offrent pas les médias de proposition, contrairement aux variantes de sélection, association, texte à trous et ordre.
+
+| Types de question | Contenu du menu de proposition |
+|---|---|
+| Sélection, Association, Mise en ordre | Sous-menus Image et Audio. L'éditeur Android les affiche aussi actuellement pour Mots mélangés, mais ce type peut ensuite refuser un média de proposition non pris en charge. |
+| Réponse saisie, Énumération | Type d'évaluation du texte uniquement : égalité, contenu ou motif. |
+| Texte à trous | Image, Audio, type d'évaluation et gestion d'un indice. |
+
+Le contenu varie aussi selon la proposition : une image existante ajoute agrandissement/recadrage/suppression, un son ajoute écoute/suppression, et un indice existant remplace l'ajout direct par des commandes de modification et suppression.
 
 ## Image et audio de la question
 
