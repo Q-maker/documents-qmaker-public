@@ -1,138 +1,64 @@
 # Modifier les questions
 
-L'éditeur de questions permet de rédiger l'énoncé, choisir la manière de répondre, joindre des médias, définir les réponses acceptées, ajouter une explication et organiser le quiz. Chaque page correspond à une question.
+> [Read this page in English](README.md). Les captures montrent le quiz Demo avec l'interface en anglais.
 
-> Les captures actuelles montrent l’interface en anglais. Les noms français des
-> actions sont indiqués dans le texte lorsque leur traduction est disponible.
+**Objectif :** créer des questions valides, définir les réponses attendues et les organiser dans le quiz.
 
-## Accès
+**Point de départ :** ouvrez un quiz et touchez **EDIT QUESTIONS / MODIFIER LES QUESTIONS**. Chaque page de l'éditeur correspond à une question.
 
-Ouvrez un quiz, puis touchez **Edit questions / Modifier les questions**.
+## Créer une question en quatre étapes
 
-## Accès rapide
+![Question de sélection complétée du quiz Demo anglais](./assets/selection-filled.png)
 
-- [Choisir un type de question](#types-de-questions-pris-en-charge)
-- [Ajouter et organiser les réponses](#section-de-réponses-vide-ou-complétée)
-- [Modifier les options de la question](#options-avancées-de-la-question)
-- [Joindre un média à une proposition](#options-propres-à-chaque-proposition)
-- [Joindre un média à la question](#image-et-audio-de-la-question)
-- [Ajouter une explication de correction](#commentaire-avec-texte-image-et-son)
-- [Corriger une erreur de validation](#erreurs-de-validation)
-- [Réordonner les questions ou naviguer rapidement](#tiroir-réordonnancement-et-menu-dindex)
-- [Enregistrer ou quitter](#avant-de-quitter)
+1. Saisissez l'énoncé dans le grand champ supérieur.
+2. Touchez l'icône de type dans la carte de réponses et choisissez la manière de répondre.
+3. Remplissez la section de réponses en suivant la consigne affichée au-dessus.
+4. Touchez **Next / Suivant** ou **Save / Enregistrer**. Si la page est incomplète, la consigne devient rouge et précise ce qui manque.
 
 ## Comprendre l'écran
 
-![Question de sélection complétée](./assets/selection-filled.png)
-
-La zone supérieure contient l'énoncé et les commandes image/audio. La carte de réponses contient les entrées rapides, le type de question et les options avancées. Chaque ligne possède à gauche une poignée et son menu d'options, puis le contrôle de validité lorsqu'il s'applique, le texte et le bouton de suppression. L'index central de la barre inférieure ouvre la navigation rapide.
-
-## Types de questions pris en charge
-
-| Type | Action de l'apprenant | Données à définir |
-|---|---|---|
-| Sélection | Choisir une ou plusieurs réponses | Au moins deux propositions et une réponse vraie cochée. Une seule proposition remplie devient une réponse à saisir. |
-| Réponse à saisir | Saisir librement une réponse | Une ou plusieurs réponses acceptées. |
-| Énumération | Donner plusieurs éléments attendus | Les éléments attendus et leur mode d'évaluation. |
-| Texte à trous | Compléter les parties manquantes | Le texte et la valeur attendue de chaque trou. |
-| Association de colonnes | Associer deux colonnes | Des paires gauche/droite complètes. |
-| Mise en ordre | Restaurer le bon ordre | Au moins deux propositions saisies dans l'ordre de référence. |
-| Mots mélangés | Remettre les mots en ordre | La phrase complète de référence. |
-
-Touchez l'icône de type dans la carte de réponses. La consigne située au-dessus s'adapte au type choisi.
-
-## Section de réponses vide ou complétée
-
-![Section de réponses vide](./assets/selection-empty.png)
-
-Une nouvelle question de sélection commence avec une ligne vide. Rédigez l'énoncé, remplissez la première proposition, utilisez **Add an answer / Ajouter une réponse**, puis cochez chaque réponse vraie. La poignée réordonne une ligne et **X** la supprime.
-
-![Section de réponses complétée](./assets/selection-filled.png)
-
-Les cases cochées sont les réponses vraies ; les autres lignes remplies sont des distracteurs. Pour une mise en ordre, l'ordre affiché dans l'éditeur est l'ordre de référence.
-
-## Options avancées de la question
-
-Touchez les trois points verticaux en haut à droite de la carte. Le panneau dépend de la famille de question :
-
-| Types de question | Options visibles | Exemple |
-|---|---|---|
-| Sélection simple/multiple | Sensibilité à la casse, aide à la saisie, mélange et limites d'affichage éventuelles | [Panneau Sélection](./assets/options-sheet-selection.png) |
-| Réponse saisie, Énumération | Sensibilité à la casse et aide à la saisie | [Panneau texte](./assets/options-sheet-open-enumeration-panel.png) |
-| Texte à trous | Sensibilité à la casse | [Panneau Texte à trous](./assets/options-sheet-fill-blank.png) |
-| Association de colonnes | Mélange de la colonne gauche, droite ou des deux | [Panneau Association](./assets/options-sheet-match-column.png) |
-| Mise en ordre, Mots mélangés | Message explicite indiquant qu'aucune option n'est disponible | [État sans option](./assets/options-sheet-no-options.png) |
-
-Les types placés sur une même ligne partagent le même visuel.
-
-## Options propres à chaque proposition
-
-![Menu d'une proposition](./assets/proposition-row-options.png)
-
-Touchez la zone d'options à gauche d'une ligne. Selon le type, vous pouvez joindre une image, joindre/enregistrer/générer un son, choisir l'évaluation du texte (égalité, contenu ou motif), ajouter un indice ou réordonner la proposition. Les réponses ouvertes et les énumérations n'offrent pas les médias de proposition, contrairement aux variantes de sélection, association, texte à trous et ordre.
-
-| Types de question | Contenu du menu de proposition |
+| Zone | Rôle |
 |---|---|
-| Sélection, Association, Mise en ordre | Sous-menus Image et Audio. L'éditeur Android les affiche aussi actuellement pour Mots mélangés, mais ce type peut ensuite refuser un média de proposition non pris en charge. |
-| Réponse saisie, Énumération | Type d'évaluation du texte uniquement : égalité, contenu ou motif. |
-| Texte à trous | Image, Audio, type d'évaluation et gestion d'un indice. |
+| Barre d'actions supérieure | Quitter, enregistrer/lancer, effacer, insérer, dupliquer, importer ou ouvrir la liste. |
+| En-tête de question | Saisir l'énoncé et joindre une image ou un son. |
+| Consigne du type | Indiquer ce que le type attend et afficher les erreurs. |
+| En-tête de la carte de réponses | Ouvrir les entrées rapides, le sélecteur de type et les options avancées. |
+| Section de réponses | Modifier les choix, réponses acceptées, éléments, trous ou paires. |
+| Commentaire | Ajouter une explication affichée pendant la correction. |
+| Barre inférieure | Changer de question ou ouvrir la navigation rapide depuis l'index central. |
 
-Le contenu varie aussi selon la proposition : une image existante ajoute agrandissement/recadrage/suppression, un son ajoute écoute/suppression, et un indice existant remplace l'ajout direct par des commandes de modification et suppression.
+## Choisir le bon type
 
-## Image et audio de la question
+| Type | Action du participant | Présentation dans l'éditeur |
+|---|---|---|
+| [Sélection](question-types/selection-fr.md) | Choisir une ou plusieurs réponses | Liste avec contrôles vrai/faux |
+| [Réponse à saisir](question-types/typed-answer-fr.md) | Saisir une réponse libre | Liste de réponses acceptées |
+| [Énumération](question-types/enumeration-fr.md) | Donner plusieurs éléments | Liste des éléments attendus |
+| [Texte à trous](question-types/fill-in-blanks-fr.md) | Compléter des parties manquantes | Liste de valeurs et indices éventuels |
+| [Association de colonnes](question-types/match-columns-fr.md) | Associer les éléments de gauche et de droite | **Grille de cellules sur deux colonnes** |
+| [Mise en ordre](question-types/put-in-order-fr.md) | Restaurer l'ordre de référence | Liste réordonnable |
+| [Mots mélangés](question-types/jumbled-words-fr.md) | Reconstruire une phrase | Suite ordonnée de mots ou fragments |
 
-![Menu image](./assets/question-picture-menu.png)
+Consultez le [comparatif des types](question-types/README-fr.md) si vous hésitez.
 
-Le bouton appareil photo permet de prendre une photo, choisir une image, utiliser un lien web ou retirer l'image. Des commandes de recadrage/disposition peuvent apparaître lorsqu'une image existe.
+## Section vide et section complétée
 
-![Menu audio](./assets/question-audio-menu.png)
+<p align="center">
+  <img src="./assets/selection-empty.png" alt="Section de sélection vide avec une ligne" width="360" />
+  <img src="./assets/selection-filled.png" alt="Question de sélection complétée avec réponses vraies cochées" width="360" />
+</p>
 
-Le bouton audio permet de choisir un fichier, enregistrer un son, utiliser un lien web ou générer de l'audio à partir d'un texte. Le lecteur permet ensuite d'écouter et de modifier ce média.
+Une sélection vide commence avec une ligne. Remplissez-la, utilisez **Add an answer / Ajouter une réponse**, puis cochez chaque bonne réponse. La poignée de gauche déplace la ligne et **X** la supprime.
 
-## Commentaire avec texte, image et son
+Une ligne n'a pas la même signification pour tous les types : elle peut représenter un choix, un texte accepté, un élément attendu, une cellule d'une paire ou un élément ordonné. Suivez toujours la consigne du type actif.
 
-![Éditeur de commentaire](./assets/comment-editor.png)
+## Accéder directement à une tâche
 
-Touchez **Add a comment / Ajouter un commentaire** ou le crayon. Ce commentaire sert d'explication lors de la correction et peut combiner texte, image et audio. **Apply** applique le dialogue ; il faut encore enregistrer le quiz depuis l'éditeur.
+- [Comprendre les types de questions](question-types/README-fr.md)
+- [Utiliser les options propres aux types et aux réponses](answer-options-fr.md)
+- [Ajouter des images, des sons et des commentaires](media-and-comments-fr.md)
+- [Valider, réordonner, naviguer et enregistrer](organize-and-save-fr.md)
 
-## Erreurs de validation
+**Précédent :** [Modifier les informations du quiz](../create-quiz/edit-information-fr.md)
 
-QcmMaker valide la page lors du passage à la suite ou de l'enregistrement. La consigne devient rouge et un message signale que la page est incomplète.
-
-![Erreur de sélection](./assets/selection-validation-error.png)
-
-Pour une **sélection**, dès que plusieurs propositions sont remplies, au moins une doit être cochée comme vraie.
-
-![Erreur de mise en ordre](./assets/order-validation-error.png)
-
-Pour une **mise en ordre**, au moins deux propositions sont nécessaires. Les autres types structurés refusent également les paires, trous ou ensembles attendus incomplets. Une page finale entièrement vide n'est pas une question valide : complétez-la ou laissez-la hors du contenu enregistré.
-
-## Barre d'actions
-
-![Menu d'enregistrement](./assets/actionbar-save-menu.png)
-
-| Commande | Rôle |
-|---|---|
-| Retour | Quitte l'éditeur et propose d'enregistrer ou d'abandonner en cas de modification. |
-| Enregistrer | Enregistre, enregistre et lance, ou choisit un mode de jeu. |
-| Supprimer (X) | Efface/supprime la question courante. |
-| Insérer | Duplique, insère avant/après, colle ou importe des questions. |
-| Liste | Ouvre le tiroir des questions. |
-
-## Tiroir, réordonnancement et menu d'index
-
-![Tiroir des questions](./assets/question-drawer.png)
-
-Le tiroir droit liste les questions et surligne la page courante. Touchez le texte pour naviguer. Maintenez puis faites glisser une ligne pour réordonner. Touchez son numéro d'index pour ouvrir le popup : **Move** explique le déplacement et **Delete** supprime la question.
-
-![Popup du numéro d'index](./assets/question-index-popup.png)
-
-## Navigation rapide
-
-![Navigation rapide](./assets/fast-navigation.png)
-
-Touchez l'index central (par exemple `15/16`), saisissez un numéro et validez avec **OK**. Cette méthode est adaptée aux longs quiz.
-
-## Avant de quitter
-
-Enregistrez lorsque le quiz est prêt. Corrigez toute consigne rouge au préalable. Quitter sans enregistrer abandonne les modifications de la session, y compris les nouveaux médias.
+**Suivant :** [Choisir un type de question](question-types/README-fr.md)

@@ -1,6 +1,10 @@
 # Creating Your First Quiz
 
-This walkthrough creates a real `.qcm` quiz file in your workspace. You can keep editing it, play it for yourself, or share it later when it is ready.
+> Lire ce tutoriel en [français](first-quiz-fr.md).
+
+**Goal:** create, describe, and test a first question in one short walkthrough.
+
+This walkthrough creates a real `.qcm` quiz file in your workspace. For detailed explanations or advanced options, follow the links at the end of each step.
 
 From Home, tap the floating action button and choose **Create a new quiz project**.
 
@@ -16,8 +20,24 @@ QcmMaker opens the project viewer. Tap **NO THANKS** to skip the guided tour or 
 
 ![Editor guided tour](../features/create-quiz/images/dialog-editor-guided-tour.png)
 
-On the project viewer, tap **EDIT QUESTIONS** to start adding questions.
+## 2. Give the quiz a clear identity
+
+On the project information screen, add a topic and a short description. These details help learners understand the purpose of the quiz before playing it. You can keep the other settings unchanged for this first attempt.
 
 ![Project viewer](../features/create-quiz/images/project-viewer.png)
 
-What to do next: add at least one question, save your work, then use **Save & play using** or the play button to test the quiz. Testing before sharing helps you verify the questions, answers, correction comments, media, and play mode.
+See [Edit quiz information](../features/create-quiz/edit-information.md) for every field and setting.
+
+## 3. Add a first question
+
+Tap **EDIT QUESTIONS**. Enter a prompt, add at least two answer choices, and check the correct answer. Tap **Next** or **Save** to validate it.
+
+See [Editing questions](../features/editor/README.md) if you want another question type, media, or a correction explanation.
+
+## 4. Save and test
+
+Open the save action and choose **Save & play using**, or return to the project screen and tap **PLAY**. Answer the question and inspect its correction.
+
+Testing before sharing helps you find missing answers, unclear wording, unsuitable timing, or an incorrect scoring configuration.
+
+**Next:** [add more question types](../features/editor/question-types/README.md) or [share the completed `.qcm` file](../features/sharing/README.md).

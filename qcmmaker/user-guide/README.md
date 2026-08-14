@@ -26,11 +26,17 @@ access.
   - [Interface overview](getting-started/interface-overview.md)
   - [Workspace setup](getting-started/workspace-setup.md)
   - [Opening an existing `.qcm` file](getting-started/open-qcm-file/README.md)
-  - [Creating your first quiz](getting-started/first-quiz.md)
+  - [Creating your first quiz](getting-started/first-quiz.md) ([français](getting-started/first-quiz-fr.md))
 
 - [Features](features/README.md)
-  - [Creating a quiz](features/create-quiz/README.md)
-  - [Editing questions](features/editor/README.md)
+  - [Creating and editing a quiz](features/create-quiz/README.md) ([français](features/create-quiz/README-fr.md))
+    - [Create the `.qcm` file](features/create-quiz/create-quiz.md)
+    - [Edit quiz information](features/create-quiz/edit-information.md)
+  - [Editing questions](features/editor/README.md) ([français](features/editor/README-fr.md))
+    - [Choose a question type](features/editor/question-types/README.md)
+    - [Question and answer options](features/editor/answer-options.md)
+    - [Pictures, audio, and correction comments](features/editor/media-and-comments.md)
+    - [Organize, validate, and save](features/editor/organize-and-save.md)
   - [Search](features/search/README.md)
   - [Play modes](features/play-modes/README.md)
     - [Exam question types](features/play-modes/exam-question-types/README.md)
@@ -52,4 +58,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-08-13
+© QmakerTech — Last updated: 2026-08-14

@@ -1,18 +1,29 @@
-# Creating A Quiz
+# Create and edit a quiz
 
-QcmMaker creates quizzes as `.qcm` files in the workspace. A quiz is built from information about the quiz, then from questions, answer propositions, optional media, and correction comments.
+> Lire ce parcours en [français](README-fr.md).
 
-Good to know: the same file can be edited, played, shared, backed up, and moved to another device. This is why the app often reminds you where the file is stored and whether it is safe to edit.
+A QcmMaker quiz is a portable `.qcm` file. Creating the file is only the first step: a useful quiz also needs clear information, valid questions, the right player settings, and a final test before it is shared.
 
-Useful screens:
+## Choose what you want to do
 
-- [Create a quiz](create-quiz.md)
-- [Add a question](add-question.md)
+| Your goal | Start here |
+|---|---|
+| Create a new quiz file | [Create the quiz](create-quiz.md) |
+| Add a title, cover, topic, description, scoring rules, or session settings | [Edit quiz information](edit-information.md) |
+| Create or modify questions and answers | [Edit questions](../editor/README.md) |
+| Choose the best question format | [Question type guide](../editor/question-types/README.md) |
+| Add pictures, audio, or correction explanations | [Media and correction comments](../editor/media-and-comments.md) |
+| Reorder questions, navigate, validate, and save | [Organize and save](../editor/organize-and-save.md) |
+| Test the completed quiz | [Play modes](../play-modes/README.md) |
+| Send the quiz to another person | [Sharing](../sharing/README.md) |
 
-Recommended path:
+## Recommended authoring path
 
-1. Create the quiz file.
-2. Add a few questions.
-3. Add comments or media when they help the learner understand the answer.
-4. Save and test the quiz in Exam or Challenge mode.
-5. Share it only after checking the result and correction.
+1. [Create the `.qcm` file](create-quiz.md).
+2. [Describe and configure the quiz](edit-information.md) so learners know what it contains and how a session should run.
+3. [Add questions](../editor/README.md), selecting the right answer format for each learning objective.
+4. Add correction comments or media only when they make the question clearer.
+5. Save and play the quiz in its intended mode.
+6. Review the questions, answers, correction, timing, and score before sharing.
+
+> New to QcmMaker? Follow the shorter [first-quiz walkthrough](../../getting-started/first-quiz.md) from beginning to end.

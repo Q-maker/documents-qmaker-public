@@ -1,6 +1,12 @@
 # Create A Quiz
 
-Creating a quiz prepares a new `.qcm` file in your workspace. This file is the container that will hold the quiz title, questions, answers, media, comments, and player settings.
+> Lire cette page en [français](create-quiz-fr.md).
+
+**Goal:** create an empty `.qcm` file that you can configure and fill with questions.
+
+**Starting point:** the QcmMaker Home screen.
+
+Creating a quiz prepares a new `.qcm` file in your workspace. This file will contain the quiz information, questions, answers, media, correction comments, and player settings.
 
 Open the workspace actions menu from Home, then tap **Create a new quiz project**.
 
@@ -14,4 +20,10 @@ Enter a name and tap **CREATE**.
 
 ![Create quiz dialog](images/dialog-create-quiz.png)
 
-What happens next: QcmMaker opens the project viewer for this new file. From there, you can edit quiz information, add questions, test the quiz, or later share the resulting `.qcm` file.
+The name identifies the quiz file in the workspace. Choose a short, recognizable name; you can give the quiz a more descriptive title and description on the next screen.
+
+## Expected result
+
+QcmMaker opens the project information screen for the new quiz. The file already exists, but it does not yet contain a complete quiz.
+
+**Next:** [add the quiz information and session settings](edit-information.md), then [create the questions](../editor/README.md).
