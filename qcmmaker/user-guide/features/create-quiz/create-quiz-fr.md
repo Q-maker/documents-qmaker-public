@@ -1,7 +1,5 @@
 # Créer un quiz
 
-> [Read this page in English](create-quiz.md).
-
 **Objectif :** créer un fichier `.qcm` vide qui pourra être configuré et complété.
 
 **Point de départ :** l'écran d'accueil de QcmMaker.

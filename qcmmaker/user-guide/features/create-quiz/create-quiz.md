@@ -1,7 +1,5 @@
 # Create A Quiz
 
-> Lire cette page en [français](create-quiz-fr.md).
-
 **Goal:** create an empty `.qcm` file that you can configure and fill with questions.
 
 **Starting point:** the QcmMaker Home screen.

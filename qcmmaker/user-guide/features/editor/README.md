@@ -1,7 +1,5 @@
 # Edit questions
 
-> Lire cette page en [français](README-fr.md).
-
 **Goal:** create valid questions, define the expected answers, and organize them into a quiz.
 
 **Starting point:** open a quiz and tap **EDIT QUESTIONS**. Each editor page represents one question.

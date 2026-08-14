@@ -1,7 +1,5 @@
 # Edit quiz information
 
-> Lire cette page en [français](edit-information-fr.md).
-
 **Goal:** explain what the quiz is about and define how a normal play session should behave.
 
 **Starting point:** open a quiz, then choose **Edit information**. When a quiz has just been created, QcmMaker opens this screen automatically.

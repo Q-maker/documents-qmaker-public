@@ -1,6 +1,6 @@
 # Modifier les questions
 
-> [Read this page in English](README.md). Les captures montrent le quiz Demo avec l'interface en anglais.
+> Les captures montrent le quiz Demo avec l'interface en anglais.
 
 **Objectif :** créer des questions valides, définir les réponses attendues et les organiser dans le quiz.
 

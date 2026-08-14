@@ -1,7 +1,5 @@
 # Créer et modifier un quiz
 
-> [Read this authoring path in English](README.md).
-
 Un quiz QcmMaker est un fichier `.qcm` portable. La création du fichier n'est que la première étape : il faut aussi renseigner les informations, créer des questions valides, configurer la session et tester le résultat avant le partage.
 
 ## Choisir une tâche

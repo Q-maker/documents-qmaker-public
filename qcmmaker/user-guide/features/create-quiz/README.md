@@ -1,7 +1,5 @@
 # Create and edit a quiz
 
-> Lire ce parcours en [français](README-fr.md).
-
 A QcmMaker quiz is a portable `.qcm` file. Creating the file is only the first step: a useful quiz also needs clear information, valid questions, the right player settings, and a final test before it is shared.
 
 ## Choose what you want to do

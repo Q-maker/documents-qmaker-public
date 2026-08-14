@@ -1,7 +1,5 @@
 # Creating Your First Quiz
 
-> Lire ce tutoriel en [français](first-quiz-fr.md).
-
 **Goal:** create, describe, and test a first question in one short walkthrough.
 
 This walkthrough creates a real `.qcm` quiz file in your workspace. For detailed explanations or advanced options, follow the links at the end of each step.

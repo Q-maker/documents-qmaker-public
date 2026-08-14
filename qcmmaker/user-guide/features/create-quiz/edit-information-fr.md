@@ -1,6 +1,6 @@
 # Modifier les informations du quiz
 
-> [Read this page in English](edit-information.md). Les captures montrent le quiz Demo avec l'interface en anglais.
+> Les captures montrent le quiz Demo avec l'interface en anglais.
 
 **Objectif :** expliquer le contenu du quiz et définir le comportement d'une session de jeu.
 

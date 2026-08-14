@@ -1,6 +1,6 @@
 # Créer son premier quiz
 
-> [Read this walkthrough in English](first-quiz.md). Les captures montrent l'interface en anglais.
+> Les captures montrent l'interface en anglais.
 
 **Objectif :** créer, décrire et tester une première question.
 
