@@ -38,6 +38,7 @@ access.
     - [Pictures, audio, and correction comments](features/editor/media-and-comments.md)
     - [Organize, validate, and save](features/editor/organize-and-save.md)
   - [Search](features/search/README.md)
+  - [Sort and reorder the workspace](features/workspace-sorting/README.md)
   - [Play modes](features/play-modes/README.md)
     - [Exam question types](features/play-modes/exam-question-types/README.md)
     - [Result and replay](features/play-modes/result-and-replay.md)
@@ -52,10 +53,10 @@ access.
   - [Settings](features/settings/README.md)
     - [Quiz & player settings](features/settings/player/README.md)
     - [Workspace content settings](features/settings/workspace-content/README.md)
-    - [Workspace behavior settings](features/settings/workspace-behaviour/README.md)
+    - [App customization settings](features/settings/workspace-behaviour/README.md)
   - [Premium features](features/premium/README.md)
   - [About and contact](features/about/README.md)
 
 ---
 
-© QmakerTech — Last updated: 2026-08-14
+© QmakerTech — Last updated: 2026-08-21

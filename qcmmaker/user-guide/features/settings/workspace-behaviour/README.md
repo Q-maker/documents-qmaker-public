@@ -1,43 +1,47 @@
-# Workspace Behavior Settings
+# App Customization Settings
 
-Workspace behavior settings define how the Home workspace presents quiz files and which quick actions are visible in the Home action bar.
+App customization brings together the choices that change how QcmMaker looks and how the Home workspace presents and opens your quizzes. These preferences affect the app interface; they do not rewrite the contents of your `.qcm` files.
 
 ## How to access
 
-Home → Navigation drawer → **Preferences** → **Workspace** → **Behavior & available options**
+Home → Navigation drawer → **Preferences** → **Interface customization**
 
-![Workspace behavior settings](assets/workspace-behaviour-settings.jpg)
+![App customization settings](assets-en/app-customization-settings.png)
+
+The former **Workspace behavior** entry has been replaced by this direct entry on the main Settings screen.
+
+## Appearance
+
+| Setting | What it controls |
+|---------|------------------|
+| Theme mode | Uses the system theme or keeps QcmMaker in Light or Dark mode. |
+| Show quick theme access | Shows a theme shortcut on the main Settings page. |
 
 ## Default content sorting
 
-Default content sorting chooses the order applied to workspace and quiz file lists when QcmMaker refreshes or reopens them.
+Default content sorting chooses the property and order QcmMaker applies to workspace and quiz-file lists. The selector offers Name, Last modified, Question count, Last played, Play count, and Location, combined with Ascending, Descending, or Custom order.
 
-Available sorting choices include:
-
-| Sorting family | Examples |
-|----------------|----------|
-| Name | Name ascending, name descending |
-| Modification | Last modified ascending, last modified descending |
-| Quiz size | Question count ascending, question count descending |
-| Usage | Last played, play count |
-| Location | Local files first, remote files first |
-
-Changing this setting clears the previously persisted sort choice for Home and file lists so the new default can apply.
+Custom order lets you arrange the Home workspace yourself. See [Sort and reorder the workspace](../../workspace-sorting/README.md) for the complete gesture and persistence behavior.
 
 ## Home action bar options
 
 | Setting | What it controls |
 |---------|------------------|
-| Show sort action | Displays the sort shortcut in the Home action bar. |
-| Show search action | Displays the search shortcut in the Home action bar. |
-| Show layout action | Displays the layout/disposition shortcut in the Home action bar. |
+| Show sort action | Displays the sort shortcut on Home. |
+| Show search action | Displays the search shortcut on Home. |
+| Show layout action | Displays the shortcut that cycles between grid and list layouts. |
 
-Disable an action when you want a simpler Home toolbar. The feature itself is not deleted; the shortcut is only hidden from the action bar.
+Hiding one of these actions only removes its Home shortcut. It does not delete quiz files or reset the related preference.
 
-## Dedicated play mode selector
+## Play launch and quiz options
 
-The dedicated play mode selector shows the play mode choice directly on quiz items. When it is disabled, QcmMaker asks for the play mode only after you tap Play.
+**Ask how to play before starting** displays the play-mode choice after you tap Play. When it is disabled, the mode selector remains visible on each quiz card and Play starts with that selected mode.
 
-Enable it if you often alternate between Exam and Challenge mode. Disable it if you prefer a lighter quiz list with fewer visible controls.
+**Quiz options menu style** chooses between a compact floating popup and a dedicated bottom-of-screen dialog. Both styles provide the supported actions for the selected quiz.
 
-© QmakerTech — Last updated: 2026-07-12
+## Reset and help
+
+The Reset action restores the defaults for this page after confirmation. The Help action opens this guide.
+
+© QmakerTech — Last updated: 2026-08-21
+
