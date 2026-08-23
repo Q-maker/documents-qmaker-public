@@ -4,6 +4,8 @@ Utilisez ce type pour restaurer une séquence : étapes d'une procédure, évén
 
 ## Dans l'éditeur
 
+![Exemple de mise en ordre utilisant des images dans l'éditeur en anglais](assets-en/put-in-order-with-media.jpg)
+
 Chaque ligne pleine largeur est un élément. Saisissez-les dans le bon ordre de référence et utilisez les poignées pour le corriger avant l'enregistrement.
 
 Le panneau général indique explicitement qu'aucune option supplémentaire n'est disponible. Les options de ligne peuvent ajouter une image ou un son compatible à un élément.

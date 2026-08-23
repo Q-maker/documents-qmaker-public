@@ -4,6 +4,8 @@ Utilisez ce type lorsque le participant doit compléter les parties manquantes d
 
 ## Dans l'éditeur
 
+![Exemple de texte à deux trous dans l'éditeur en anglais](assets-en/fill-in-the-blanks.jpg)
+
 Chaque réponse représente la valeur attendue d'un trou. Le texte environnant doit permettre de comprendre où placer chaque valeur.
 
 Le panneau général expose la sensibilité à la casse. Une ligne peut aussi définir son mode d'évaluation et un indice. Une image ou un son peut être ajouté lorsqu'un trou nécessite son propre support.

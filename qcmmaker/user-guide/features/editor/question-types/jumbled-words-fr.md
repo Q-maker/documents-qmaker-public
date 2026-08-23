@@ -2,7 +2,15 @@
 
 Utilisez ce type lorsque le participant doit reconstruire une phrase de référence à partir de mots ou de fragments significatifs.
 
+## Comment y accéder
+
+Ouvrez ou créez un quiz, choisissez **Modifier les questions**, touchez l'icône du type actuel au-dessus de la carte des réponses, puis sélectionnez **Mots mélangés / Jumbled words**.
+
+![Jumbled words entouré dans le sélecteur de type anglais](assets-en/jumbled-words-type-selector.jpg)
+
 ## Dans l'éditeur
+
+![Phrase de référence complète dans l'éditeur Jumbled words en anglais](assets-en/jumbled-words.jpg)
 
 Saisissez les mots ou fragments dans le bon ordre de référence. Pendant le jeu, QcmMaker les présente pour réordonnancement.
 

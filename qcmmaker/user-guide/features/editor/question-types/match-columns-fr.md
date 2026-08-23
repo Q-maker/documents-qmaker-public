@@ -23,6 +23,10 @@ Contrairement aux autres types, l'association n'est pas une liste de réponses p
 
 Les colonnes ne sont pas deux listes indépendantes. La ligne enregistrée reste la référence de correction, même si une ou deux colonnes sont ensuite mélangées pendant le jeu.
 
+Une image ou un son peut aussi être associé à chaque cellule. Il est ainsi possible de relier un son, une image, un mot ou toute combinaison prise en charge, tout en conservant chaque ligne comme une paire.
+
+![Exemple d'association de sons et d'images dans l'éditeur en anglais](assets-en/match-columns-with-media.jpg)
+
 ## Options de la question
 
 ![Options de mélange des colonnes](../assets/options-sheet-match-column.png)

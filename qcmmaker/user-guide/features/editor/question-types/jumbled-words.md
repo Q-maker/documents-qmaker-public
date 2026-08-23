@@ -2,7 +2,15 @@
 
 Use Jumbled words when the learner must reconstruct one reference sentence from words or meaningful fragments.
 
+## How to access it
+
+Open or create a quiz, choose **Edit questions**, tap the current question-type icon above the answer card, then select **Jumbled words**.
+
+![Jumbled words in the question-type selector](assets-en/jumbled-words-type-selector.jpg)
+
 ## In the editor
+
+![Complete reference sentence in the Jumbled words editor](assets-en/jumbled-words.jpg)
 
 Enter the words or fragments in the correct reference order. During play, QcmMaker presents them for rearrangement.
 

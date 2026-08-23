@@ -4,6 +4,8 @@ Use Put in order when the learner must restore a sequence: procedure steps, chro
 
 ## In the editor
 
+![Put-in-order question using pictures in the English editor](assets-en/put-in-order-with-media.jpg)
+
 Each full-width row is one item. Enter the items in the correct reference order. Use the left handles to adjust that order before saving.
 
 The question-level three-dot sheet explicitly reports that this type has no additional options. Row options can attach supported picture or audio media to an item.

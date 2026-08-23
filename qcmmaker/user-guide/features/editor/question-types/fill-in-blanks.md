@@ -4,6 +4,8 @@ Use Fill in the blanks when the learner must complete missing parts of a sentenc
 
 ## In the editor
 
+![Fill-in-the-blanks question with two ordered answers in the English editor](assets-en/fill-in-the-blanks.jpg)
+
 Each answer entry represents the expected value of a blank. Keep the surrounding question text clear enough to show where every value belongs.
 
 The question-level sheet exposes case sensitivity. A row can also define its text evaluation and an optional clue. Picture and audio actions are available when a blank needs its own supporting media.

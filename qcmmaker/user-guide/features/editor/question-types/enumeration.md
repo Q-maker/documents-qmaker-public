@@ -4,6 +4,8 @@ Use Enumeration when the learner must provide several separate items rather than
 
 ## In the editor
 
+![Enumeration question with three expected items in the English editor](assets-en/enumeration.jpg)
+
 Each full-width row is one expected item. Enter the items independently so QcmMaker can evaluate them separately according to the chosen enumeration variant.
 
 The question-level sheet shares the text-answer family: case sensitivity and input assistance are available. Each row can use equality, contains, or pattern evaluation. Proposition pictures and audio are not offered.

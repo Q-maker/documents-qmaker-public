@@ -4,6 +4,8 @@ Use Type answer when remembering the answer matters more than recognizing it in 
 
 ## In the editor
 
+![Typed-answer question with two accepted answers in the English editor](assets-en/type-answer.jpg)
+
 Each full-width row is an accepted text answer. Add spelling or wording variants only when each variant should receive credit.
 
 The option menu for a row defines how QcmMaker evaluates typed text:

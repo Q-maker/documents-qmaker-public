@@ -23,6 +23,10 @@ Unlike the other question types, Match columns is not displayed as one full-widt
 
 Do not think of the columns as two unrelated lists. The authored row is the correction reference even if the player later shuffles one or both columns.
 
+Pictures and audio can also be attached to individual cells. This makes it possible to match a sound, picture, word, or any supported combination while keeping each row as one pair.
+
+![Match columns question combining audio and pictures](assets-en/match-columns-with-media.jpg)
+
 ## Question options
 
 ![Match-column randomization options](../assets/options-sheet-match-column.png)

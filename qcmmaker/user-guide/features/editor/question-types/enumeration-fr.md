@@ -4,6 +4,8 @@ Utilisez l'énumération lorsque le participant doit fournir plusieurs élément
 
 ## Dans l'éditeur
 
+![Exemple d'une énumération de trois éléments dans l'éditeur en anglais](assets-en/enumeration.jpg)
+
 Chaque ligne pleine largeur est un élément attendu. Saisissez-les séparément afin que QcmMaker puisse les évaluer selon la variante d'énumération choisie.
 
 Le panneau général partage la famille des réponses textuelles : casse et aide à la saisie. Chaque ligne peut employer égalité, contenu ou motif. Les médias de proposition ne sont pas proposés.

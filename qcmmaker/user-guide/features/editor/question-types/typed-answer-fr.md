@@ -4,6 +4,8 @@ Utilisez ce type lorsque se rappeler la réponse compte davantage que la reconna
 
 ## Dans l'éditeur
 
+![Exemple de réponse à saisir avec deux réponses acceptées dans l'éditeur en anglais](assets-en/type-answer.jpg)
+
 Chaque ligne pleine largeur est un texte accepté. Ajoutez des variantes d'orthographe ou de formulation uniquement si chacune doit être considérée comme correcte.
 
 Le menu d'une ligne définit la comparaison :
