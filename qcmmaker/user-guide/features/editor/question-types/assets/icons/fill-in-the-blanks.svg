@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated from ic_vector_qcm_type_fill_in_banks.xml; canonical Android selector geometry. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" role="img">
+  <g opacity="0.7">
+    <path d="M2,16H10V14H2M12,14V16H22V14M14,6H2V8H14M14,10H2V12H14V10Z" fill="#343434" />
+  </g>
+</svg>
