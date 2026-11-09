@@ -44,6 +44,8 @@ Tap **Add a comment**, or the pencil on an existing comment. A correction commen
 
 Use it to explain why an answer is correct, clarify a common mistake, or point learners toward what to review. Tap **Apply** to keep the dialog changes, then save the quiz from the main editor.
 
+The comment dialog also supports **text formatting**: select words inside its text field and choose **Format** to use bold, italic, underline, colors, or highlights. These tools are also available directly in answer-proposal text fields. See [style answer proposals and correction comments](text-style/README.md) for the illustrated steps.
+
 **Previous:** [Question and answer options](answer-options.md)
 
 **Next:** [Organize, validate, and save](organize-and-save.md)

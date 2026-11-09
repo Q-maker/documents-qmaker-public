@@ -40,6 +40,8 @@ Touchez **Add a comment / Ajouter un commentaire** ou le crayon. Le commentaire 
 
 Utilisez-le pour expliquer la bonne réponse, clarifier une erreur fréquente ou indiquer ce qu'il faut réviser. Touchez **Apply / Appliquer**, puis enregistrez le quiz depuis l'éditeur principal.
 
+Le dialogue de commentaire permet aussi de **mettre le texte en forme** : sélectionnez des mots dans son champ textuel et choisissez **Format** pour utiliser le gras, l'italique, le soulignement, les couleurs ou le surlignage. Ces outils sont également disponibles directement dans les champs des propositions de réponse. Consultez [la mise en forme des propositions et des commentaires](text-style/README-fr.md) pour les étapes illustrées.
+
 **Précédent :** [Options de la question et des réponses](answer-options-fr.md)
 
 **Suivant :** [Organiser, valider et enregistrer](organize-and-save-fr.md)
