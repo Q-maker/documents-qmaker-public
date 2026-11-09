@@ -35,7 +35,11 @@ access.
   - [Creating and editing a quiz](features/create-quiz/README.md)
     - [Create the `.qcm` file](features/create-quiz/create-quiz.md)
     - [Edit quiz information](features/create-quiz/edit-information.md)
+    - [Create a custom scoring policy](features/create-quiz/scoring-policy/README.md)
+    - [Add background music](features/create-quiz/background-music/README.md)
   - [Editing questions](features/editor/README.md)
+    - [Style quiz text](features/editor/text-style/README.md)
+    - [Search questions, answers, and comments](features/editor/search/README.md)
     - [Choose a question type](features/editor/question-types/README.md)
     - [Question and answer options](features/editor/answer-options.md)
     - [Pictures, audio, and correction comments](features/editor/media-and-comments.md)
@@ -62,4 +66,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-11-08
+© QmakerTech — Last updated: 2026-11-09

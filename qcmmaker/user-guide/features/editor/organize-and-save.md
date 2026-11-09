@@ -32,6 +32,19 @@ Other structured types reject incomplete answer sets: Match columns needs comple
 | Insert | Duplicates, inserts before/after, pastes, imports, or performs related insertion actions. |
 | List | Opens the question drawer. |
 
+## Duplicate a question
+
+1. Open the question you want to reuse.
+2. Open the **Insert** action in the top toolbar and choose **Duplicate page**.
+3. Review the copied wording, correct answers, media, and comment before changing them for the new question.
+4. Save the quiz after editing.
+
+Duplication can require access to the premium features used inside the source question, as well as the duplication feature itself. Read any access warning before continuing.
+
+## Move an answer
+
+Drag the handle beside an answer row to its new position. For **Put in order**, this changes the correct reference sequence: verify the new order before saving. To move a whole question instead, use the question drawer below.
+
 ## Navigate and reorder with the drawer
 
 ![Question drawer](./assets/question-drawer.png)

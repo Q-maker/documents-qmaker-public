@@ -20,6 +20,14 @@ Ouvrez les options à gauche de la ligne, puis choisissez le sous-menu image ou 
 
 Dans une association de colonnes, chaque cellule possède son propre média, même si deux cellules forment une seule paire.
 
+## Transformer du texte en audio
+
+Ouvrez le menu audio de la question, d'une réponse compatible ou d'un commentaire, puis choisissez la synthèse vocale. Saisissez le texte à prononcer, vérifiez les réglages de voix ou de langue disponibles et écoutez le résultat avant de le joindre. Validez le dialogue audio, puis enregistrez le quiz. Cela produit une ressource audio sans remplacer la question ou la réponse écrite.
+
+## Modifier la disposition d'une image
+
+Joignez d'abord une image, puis rouvrez ses actions et choisissez la disposition lorsqu'elle est disponible. Sélectionnez le placement ou l'affichage proposé pour cette image, validez et prévisualisez la question pour contrôler la place de l'image par rapport au texte. Les choix dépendent de l'emplacement de l'image et du type de question. Le recadrage modifie la zone visible de l'image ; la disposition change sa présentation.
+
 ## Ajouter une explication de correction
 
 ![Éditeur du commentaire de correction](./assets/comment-editor.png)

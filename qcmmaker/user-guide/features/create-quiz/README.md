@@ -8,6 +8,9 @@ A QcmMaker quiz is a portable `.qcm` file. Creating the file is only the first s
 |---|---|
 | Create a new quiz file | [Create the quiz](create-quiz.md) |
 | Add a title, cover, topic, description, scoring rules, or session settings | [Edit quiz information](edit-information.md) |
+| Define points, penalties, and unanswered-question rules | [Custom scoring policy](scoring-policy/README.md) |
+| Add a soundtrack for the whole quiz | [Background music](background-music/README.md) |
+| Emphasize words with formatting | [Style quiz text](../editor/text-style/README.md) |
 | Create or modify questions and answers | [Edit questions](../editor/README.md) |
 | Choose the best question format | [Question type guide](../editor/question-types/README.md) |
 | Add pictures, audio, or correction explanations | [Media and correction comments](../editor/media-and-comments.md) |

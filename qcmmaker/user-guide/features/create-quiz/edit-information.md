@@ -45,6 +45,9 @@ Not every setting changes every play mode. For example, a timing value matters o
 
 ## Continue authoring
 
+- [Create a custom scoring policy](scoring-policy/README.md) to adjust points and penalties.
+- [Add background music](background-music/README.md) for the whole quiz.
+- [Style quiz text](../editor/text-style/README.md) in supported information fields.
 - Tap **EDIT QUESTIONS** to [create or modify questions](../editor/README.md).
 - Tap **PREVIEW** to see the learner-facing quiz information.
 - Use the play action to test the current configuration.

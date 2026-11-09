@@ -32,6 +32,19 @@ Les autres types structurés refusent aussi les ensembles incomplets : une assoc
 | Insérer | Duplique, insère avant/après, colle ou importe des questions. |
 | Liste | Ouvre le tiroir des questions. |
 
+## Dupliquer une question
+
+1. Ouvrez la question à réutiliser.
+2. Ouvrez l'action **Insérer** dans la barre supérieure et choisissez **Dupliquer la page**.
+3. Vérifiez l'énoncé copié, les bonnes réponses, les médias et le commentaire avant de les adapter à la nouvelle question.
+4. Enregistrez le quiz après modification.
+
+La duplication peut demander l'accès aux fonctionnalités premium utilisées dans la question d'origine, en plus de la duplication elle-même. Lisez le message d'accès éventuel avant de poursuivre.
+
+## Déplacer une réponse
+
+Faites glisser la poignée d'une ligne de réponse vers sa nouvelle position. Pour une question de **Mise en ordre**, cela change la séquence de référence correcte : vérifiez-la avant d'enregistrer. Pour déplacer une question entière, utilisez le tiroir ci-dessous.
+
 ## Naviguer et réordonner avec le tiroir
 
 ![Tiroir des questions](./assets/question-drawer.png)

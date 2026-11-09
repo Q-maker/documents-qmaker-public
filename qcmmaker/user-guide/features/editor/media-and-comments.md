@@ -24,6 +24,14 @@ Open the options area at the left of the answer row, then choose its picture or 
 
 In Match columns, each cell owns its own media even though the two cells form one pair.
 
+## Turn text into audio
+
+Open the audio menu for the question, a compatible answer, or a comment and choose the text-to-speech action. Enter the words to speak, check the available voice or language settings, and listen to the result before attaching it. Confirm the audio dialog, then save the quiz. This produces an audio resource; it does not replace the written question or answer.
+
+## Change a picture's layout
+
+Attach a picture first, then reopen that picture's actions and choose the layout action when available. Select the placement or display option offered for that image, confirm it, and preview the question to check how the picture fits beside the text. Available choices depend on the image's location and question type. Cropping changes the visible image area; layout changes how it is presented.
+
 ## Add a correction explanation
 
 ![Correction comment editor](./assets/comment-editor.png)

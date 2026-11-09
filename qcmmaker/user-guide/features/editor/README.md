@@ -52,8 +52,14 @@ An empty selection page starts with one answer row. Fill it, use **Add an answer
 
 The meaning of a row changes with the type: it can be a choice, an accepted text, an expected item, one side of a pair, or one item in a reference order. Follow the instruction above the card rather than applying selection rules to every type.
 
+## Add more questions and answers
+
+Use **Next / Add** at the end of the quiz to create another question, and **Add an answer** to extend the current answer list. If the app displays an authoring limit, follow the access options offered for unlimited questions and answers. Unlocking that capability removes the authoring limit; each question still has to satisfy the validity rules of its type.
+
 ## Go directly to a task
 
+- [Style text in questions, answers, comments, and quiz information](text-style/README.md)
+- [Find a question, answer, or comment in the editor](search/README.md)
 - [Understand every question type](question-types/README.md)
 - [Use type-specific question and answer options](answer-options.md)
 - [Add pictures, audio, and correction comments](media-and-comments.md)

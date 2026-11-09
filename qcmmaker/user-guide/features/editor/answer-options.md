@@ -42,6 +42,12 @@ The two sides can be shuffled independently. The stored pairs remain the correct
 
 Put in order and Jumbled words use the order authored in the answer section as their reference, so this sheet does not expose extra settings.
 
+## Case sensitivity and input help
+
+In the question-level options, enable **Case sensitivity** when uppercase and lowercase must count as different in typed answers. Leave it disabled when, for example, `Paris` and `paris` should be accepted as equivalent. Test with the same question type the learner will use.
+
+Use **Input help** to choose the assistance offered while entering an answer, where supported. Check the result in the player: this setting changes the answering experience, not the reference answer stored in the editor. Save the quiz after adjusting either option.
+
 ## Options for one answer row
 
 ![Representative answer-row options](./assets/proposition-row-options.png)
@@ -56,6 +62,10 @@ Tap the options area at the left of an answer. The visible menu depends on both 
 | Jumbled words | Keep word fragments textual; proposition media may be rejected during validation |
 
 An existing image adds view, crop, or remove actions. Existing audio adds listen or remove actions. For a blank with a clue, the direct add action becomes edit and delete choices.
+
+## Add or edit an answer clue
+
+For **Fill in the blanks**, open the target answer row's options and choose the clue action. Enter a hint that helps the learner find the missing word without giving it away, then confirm and save. Reopen the same menu to edit or remove a clue. A clue guides the learner; the accepted answer stays in the answer field.
 
 **Previous:** [Edit questions](README.md)
 

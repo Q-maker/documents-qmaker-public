@@ -52,8 +52,14 @@ Une sélection vide commence avec une ligne. Remplissez-la, utilisez **Add an an
 
 Une ligne n'a pas la même signification pour tous les types : elle peut représenter un choix, un texte accepté, un élément attendu, une cellule d'une paire ou un élément ordonné. Suivez toujours la consigne du type actif.
 
+## Ajouter davantage de questions et de réponses
+
+Utilisez **Suivant / Ajouter** à la fin du quiz pour créer une question, et **Ajouter une réponse** pour compléter la liste de réponses. Si une limite de création apparaît, suivez les options d'accès proposées pour les questions et réponses illimitées. Ce déblocage retire la limite de création ; chaque question doit toujours respecter les règles de validité de son type.
+
 ## Accéder directement à une tâche
 
+- [Mettre en forme les questions, réponses, commentaires et informations du quiz](text-style/README-fr.md)
+- [Retrouver une question, une réponse ou un commentaire](search/README-fr.md)
 - [Comprendre les types de questions](question-types/README-fr.md)
 - [Utiliser les options propres aux types et aux réponses](answer-options-fr.md)
 - [Ajouter des images, des sons et des commentaires](media-and-comments-fr.md)

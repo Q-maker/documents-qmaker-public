@@ -38,6 +38,12 @@ Les deux côtés peuvent être mélangés séparément. Les paires enregistrées
 
 ![Message indiquant l'absence d'options](./assets/options-sheet-no-options.png)
 
+## Casse et aide à la saisie
+
+Dans les options de la question, activez la **sensibilité à la casse** si les majuscules et les minuscules doivent être distinguées dans les réponses saisies. Laissez-la désactivée si, par exemple, `Paris` et `paris` doivent être acceptés comme équivalents. Faites un essai avec le type de question destiné au participant.
+
+L'**aide à la saisie** permet de choisir l'assistance proposée pendant la réponse lorsqu'elle est compatible. Vérifiez son effet dans le lecteur : elle modifie l'expérience de réponse, pas la réponse de référence enregistrée dans l'éditeur. Enregistrez le quiz après modification.
+
 ## Options d'une ligne de réponse
 
 ![Menu représentatif d'une réponse](./assets/proposition-row-options.png)
@@ -52,6 +58,10 @@ Touchez la zone d'options à gauche d'une réponse. Le menu dépend du type et d
 | Mots mélangés | Conservez des fragments textuels ; les médias peuvent être refusés à la validation |
 
 Une image existante ajoute l'affichage, le recadrage et la suppression. Un son existant ajoute l'écoute et la suppression. Un indice existant peut être modifié ou supprimé.
+
+## Ajouter ou modifier un indice
+
+Pour un **Texte à trous**, ouvrez les options de la réponse concernée et choisissez l'action d'indice. Saisissez une indication qui aide à retrouver le mot manquant sans le révéler, puis validez et enregistrez. Rouvrez ce menu pour modifier ou retirer l'indice. Celui-ci guide le participant ; la réponse acceptée reste dans le champ de réponse.
 
 **Précédent :** [Modifier les questions](README-fr.md)
 

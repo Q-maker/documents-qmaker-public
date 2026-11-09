@@ -1,5 +1,7 @@
 # Modifier les informations du quiz
 
+Pour aller plus loin : [créez un barème personnalisé](scoring-policy/README-fr.md), [ajoutez un fond sonore](background-music/README-fr.md) ou [mettez en forme les champs textuels compatibles](../editor/text-style/README-fr.md).
+
 > Les captures montrent le quiz Demo avec l'interface en anglais.
 
 **Objectif :** expliquer le contenu du quiz et définir le comportement d'une session de jeu.
