@@ -16,6 +16,9 @@ This guide explains not only where to tap, but also what each important concept 
 workspace folders, `.qcm` files, play modes, corrections, sharing, imports, and premium
 access.
 
+> Read and share this guide on the [QcmMaker website](https://www.qcmmaker.com/user-guide/qcmmaker/).
+> To share a specific page, open it on the website and copy its address.
+
 > For a full product overview in a single read, see [overview.md](overview.md).
 
 ## Table of Contents
@@ -59,4 +62,4 @@ access.
 
 ---
 
-© QmakerTech — Last updated: 2026-08-21
+© QmakerTech — Last updated: 2026-11-08

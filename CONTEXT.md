@@ -5,7 +5,8 @@ Public-facing documentation for QmakerTech products.
 > **WARNING — Live raw GitHub URLs in production:**
 > Several directories in this repository are served directly via raw GitHub URLs
 > used by production Android apps. **Do NOT move or rename any of those directories.**
-> Only `qcmmaker/user-guide/` (not yet in production) may be relocated.
+> `qcmmaker/user-guide/` is also live through `https://www.qcmmaker.com/user-guide/qcmmaker/`.
+> Preserve its published paths as well; renames require a compatibility plan.
 
 ---
 
@@ -23,7 +24,7 @@ Public-facing documentation for QmakerTech products.
 | [`dedal/`](./dedal/) | — | Keep | Marketing / presentation content |
 | [`documents/`](./documents/) | — | Keep | Legal documents |
 | [`resources/`](./resources/) | Keep | Media and shared assets |
-| [`qcmmaker/`](./qcmmaker/CONTEXT.md) | QcmMaker | New canonical dir | `user-guide/` lives here |
+| [`qcmmaker/`](./qcmmaker/CONTEXT.md) | QcmMaker | Canonical dir / guide LIVE | `user-guide/` is published on qcmmaker.com |
 | [`qcmkeystore/`](./qcmkeystore/CONTEXT.md) | QcmKeystore | Placeholder | — |
 | [`qcmtopdf/`](./qcmtopdf/CONTEXT.md) | QcmToPdf | Placeholder | — |
 | [`qcmcopysheetbucket/`](./qcmcopysheetbucket/CONTEXT.md) | CopySheetBucket | Placeholder | — |
@@ -35,6 +36,16 @@ Public-facing documentation for QmakerTech products.
 - New user-facing documentation for **QcmMaker** → `qcmmaker/`
 - Existing live content under `documentations/`, `faq/`, `tips/` → **MUST stay in place**
 - New public docs for other products → create `<product>/` directory here
+
+## Preferred public guide links
+
+Use `https://www.qcmmaker.com/user-guide/<product>/<page>` for new shared user-guide links,
+instead of `/markdown/?source=...` URLs exposing GitHub. The QcmMaker guide home is
+`https://www.qcmmaker.com/user-guide/qcmmaker/`.
+Paths map to existing `<product>/user-guide/<page>.md` files; omit `.md` in shared URLs.
+Keep relative `.md` links and relative media paths inside guide source files.
+Existing raw URLs and legacy viewer links remain compatible; this rule does not relocate
+legacy in-app content. See the [QcmMaker context](qcmmaker/CONTEXT.md) for examples.
 
 ## Public Legal Documents Standard
 
